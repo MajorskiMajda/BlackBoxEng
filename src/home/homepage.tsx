@@ -1,5 +1,5 @@
 "use client"
-import './global.css'
+import '../app/global.css'
 import MainPage from "./components/Main"
 import Nav from "./components/NavBar"
 import Footer from "./components/Footer"
@@ -11,6 +11,7 @@ import Separator from './components/Separator'
 import Sec from './components/SecondMain'
 import CustomerReviews from "./components/CustomerReviews"
 import HorizontalScrollSection from './components/Features';
+
 
 const marketingCardContents = [
     {
