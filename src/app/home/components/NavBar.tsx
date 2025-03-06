@@ -55,7 +55,7 @@ export default function Nav() {
       {/* Logo Section */}
       <div className="flex items-center space-x-2">
         <Image
-          src="/kursor-logo-light.png"
+          src="/logo.svg"
           alt="Kursor Logo"
           width={150}
           height={50}

@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Column 1: Logo and About */}
         <div>
-          <Image src="/kursor-logo-dark.png" alt="Kursor Logo" width={180} height={80} />
+          <Image src="/logo.svg" alt="Kursor Logo" width={180} height={80} />
           <p className="mt-4 text-gray-400">
             Providing the best services to help you achieve your goals. Join us today!
           </p>
