@@ -6,12 +6,6 @@ const nextConfig: NextConfig = {
     unoptimized: true,
     domains: ["upload.wikimedia.org"],
   },
-  basePath: "/black-box-media", 
-  assetPrefix: "/black-box-media/",
-  webpack(config) {
-    config.resolve.alias["@"] = path.join(__dirname, "src");
-    return config;
-  },
 };
 
 export default nextConfig;
