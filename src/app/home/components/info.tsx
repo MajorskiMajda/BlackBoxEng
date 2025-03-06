@@ -1,5 +1,5 @@
 import React from "react";
-import Prices from '../../home/components/Features'
+import Prices from './Features'
 
 interface Info {
   cardContents: { title: string; content: string; price: number }[];  // Expect cardContents as a prop
@@ -10,17 +10,17 @@ const Info: React.FC<Info> = ({ cardContents }) => {
     <section className="pb-20 test2 pt-10 px-6 md:px-8 lg:px-20 text-white">
 
       <div className="max-w-7xl mx-auto pb-8  shadow-lg rounded-2xl ">
-      <h2 className="text-5xl font-bold  mb-6">How we do</h2>
+        <h2 className="text-5xl font-bold  mb-6">How we do</h2>
         <p className="text-2xl mb-6">
           SEO (Search Engine Optimization) is the process of optimizing your website
           to improve its visibility in search engine results. By enhancing your
           content, structure, and backlinks, you can attract more organic traffic.
         </p>
         <Prices
-                heading="Choose Your Plan"
-                sectionType="prices"
-                cardContents={cardContents}
-            />
+          heading="Choose Your Plan"
+          sectionType="prices"
+          cardContents={cardContents}
+        />
 
         <h2 className="text-5xl font-bold  mb-6">What We Do</h2>
         <ul className="list-disc pl-5 text-2xl marker:text-purple-500 pb-20 space-y-3">

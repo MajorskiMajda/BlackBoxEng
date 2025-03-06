@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import { gsap } from 'gsap';
 import { StaticImport } from 'next/dist/shared/lib/get-img-props';
 import Image from 'next/image';
-import { MotionDiv } from '../../app/ui/motion';
+import { MotionDiv } from '../../ui/motion';
 
 export default function MainPage(props: {
 

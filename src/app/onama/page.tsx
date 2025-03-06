@@ -1,8 +1,8 @@
 'use client';
 
 // import Main from '../../home/components/MainView'
-import Nav from '../../home/components/NavBar'
-import Footer from '../../home/components/Footer'
+import Nav from '../home/components/NavBar'
+import Footer from '../home/components/Footer'
 
 
 export default function MainPage() {
@@ -92,7 +92,7 @@ export default function MainPage() {
                         </div>
                     </div>
                 </section>
-                
+
             </div>
 
 

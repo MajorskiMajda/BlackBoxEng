@@ -1,10 +1,10 @@
 'use client';
 
-import Main from '../../home/components/Main'
-import Nav from '../../home/components/NavBar'
-import Footer from '../../home/components/Footer'
-import Info from '../../home/components/info'
-import Contact from '../../home/components/ContactView'
+import Main from '../home/components/Main'
+import Nav from '../home/components/NavBar'
+import Footer from '../home/components/Footer'
+import Info from '../home/components/info'
+import Contact from '../home/components/ContactView'
 
 
 export default function MainPage() {
@@ -43,7 +43,7 @@ export default function MainPage() {
                 text="Social Media Management"
                 className="lg:order-first md:order-first"
             />
-            <Info cardContents={cardContents}/>
+            <Info cardContents={cardContents} />
             <Contact variant="services" />
             <Footer />
         </div>
