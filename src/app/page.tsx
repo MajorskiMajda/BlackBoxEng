@@ -1,5 +1,5 @@
 import HomePage from '../home/homepage'
-import "./globals.css";
+import "./styles/global.css";
 
 export default function Home() {
   return (
