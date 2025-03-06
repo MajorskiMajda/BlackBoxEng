@@ -1,5 +1,4 @@
 "use client"
-import '../app/global.css'
 import MainPage from "./components/Main"
 import Nav from "./components/NavBar"
 import Footer from "./components/Footer"
