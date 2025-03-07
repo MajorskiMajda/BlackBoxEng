@@ -93,16 +93,16 @@ export default function Nav() {
                 transition={{ duration: 0.3 }}
                 className="absolute navbg top-10 border-1 border-[#da26ff] text-white left-0 shadow-lg rounded-lg p-2 w-48"
               >
-                <Link href="/seo" onClick={toggleMenu} className="block px-4 py-2 hover:text-[#da26ff]">
+                <Link href="/seo-optimizacija" onClick={toggleMenu} className="block px-4 py-2 hover:text-[#da26ff]">
                   Seo Optimizacija
                 </Link>
-                <Link href="/googleads" onClick={toggleMenu} className="block px-4 py-2 hover:text-[#da26ff]">
+                <Link href="/google-reklame" onClick={toggleMenu} className="block px-4 py-2 hover:text-[#da26ff]">
                   Google Ads
                 </Link>
-                <Link href="/metaads" onClick={toggleMenu} className="block px-4 py-2 hover:text-[#da26ff]">
+                <Link href="/meta-reklame" onClick={toggleMenu} className="block px-4 py-2 hover:text-[#da26ff]">
                   Meta Ads
                 </Link>
-                <Link href="/emailmarketing" onClick={toggleMenu} className="block px-4 py-2 hover:text-[#da26ff]">
+                <Link href="/email-marketing" onClick={toggleMenu} className="block px-4 py-2 hover:text-[#da26ff]">
                   Email Marketing
                 </Link>
                 <Link href="/smm" onClick={toggleMenu} className="block px-4 py-2 hover:text-[#da26ff]">
@@ -111,10 +111,10 @@ export default function Nav() {
                 <Link href="/reels" onClick={toggleMenu} className="block px-4 py-2 hover:text-[#da26ff]">
                   Reels
                 </Link>
-                <Link href="/sajtovi" onClick={toggleMenu} className="block px-4 py-2 hover:text-[#da26ff]">
+                <Link href="/izrada-sajtova" onClick={toggleMenu} className="block px-4 py-2 hover:text-[#da26ff]">
                   Websites
                 </Link>
-                <Link href="/grafickidizajn" onClick={toggleMenu} className="block px-4 py-2 hover:text-[#da26ff]">
+                <Link href="/graficki-dizajn" onClick={toggleMenu} className="block px-4 py-2 hover:text-[#da26ff]">
                   Graficki Dizajn
                 </Link>
               </motion.div>
@@ -149,16 +149,16 @@ export default function Nav() {
               <div className="mt-2 border-1 border-[#da26ff] shadow-md rounded-lg p-2">
                 Nase Usluge:
                 <hr className="opacity-20" />
-                <Link href="/seo" onClick={() => { toggleMenu(); setIsDropdownOpen(false); }} className="block px-4 py-2 hover:text-[#da26ff]">
+                <Link href="/seo-optimizacija" onClick={() => { toggleMenu(); setIsDropdownOpen(false); }} className="block px-4 py-2 hover:text-[#da26ff]">
                   Seo Optimizacija
                 </Link>
-                <Link href="/googleads" onClick={() => { toggleMenu(); setIsDropdownOpen(false); }} className="block px-4 py-2 hover:text-[#da26ff]">
+                <Link href="/google-reklame" onClick={() => { toggleMenu(); setIsDropdownOpen(false); }} className="block px-4 py-2 hover:text-[#da26ff]">
                   Google Ads
                 </Link>
-                <Link href="/metaads" onClick={() => { toggleMenu(); setIsDropdownOpen(false); }} className="block px-4 py-2 hover:text-[#da26ff]">
+                <Link href="/meta-reklame" onClick={() => { toggleMenu(); setIsDropdownOpen(false); }} className="block px-4 py-2 hover:text-[#da26ff]">
                   Meta Ads
                 </Link>
-                <Link href="/emailmarketing" onClick={() => { toggleMenu(); setIsDropdownOpen(false); }} className="block px-4 py-2 hover:text-[#da26ff]">
+                <Link href="/email-marketing" onClick={() => { toggleMenu(); setIsDropdownOpen(false); }} className="block px-4 py-2 hover:text-[#da26ff]">
                   Email Marketing
                 </Link>
                 <Link href="/smm" onClick={() => { toggleMenu(); setIsDropdownOpen(false); }} className="block px-4 py-2 hover:text-[#da26ff]">
@@ -167,10 +167,10 @@ export default function Nav() {
                 <Link href="/reels" onClick={() => { toggleMenu(); setIsDropdownOpen(false); }} className="block px-4 py-2 hover:text-[#da26ff]">
                   Reels
                 </Link>
-                <Link href="/sajtovi" onClick={() => { toggleMenu(); setIsDropdownOpen(false); }} className="block px-4 py-2 hover:text-[#da26ff]">
+                <Link href="/izrada-sajtova" onClick={() => { toggleMenu(); setIsDropdownOpen(false); }} className="block px-4 py-2 hover:text-[#da26ff]">
                   Websites
                 </Link>
-                <Link href="/grafickidizajn" onClick={() => { toggleMenu(); setIsDropdownOpen(false); }} className="block px-4 py-2 hover:text-[#da26ff]">
+                <Link href="/graficki-dizajn" onClick={() => { toggleMenu(); setIsDropdownOpen(false); }} className="block px-4 py-2 hover:text-[#da26ff]">
                   Graficki Dizajn
                 </Link>
               </div>

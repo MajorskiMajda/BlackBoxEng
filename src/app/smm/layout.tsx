@@ -2,56 +2,114 @@ import { Metadata } from "next";
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: "Upravljanje Društvenim Mrežama (SMM) - Kursor",
-  description: "Profesionalno upravljanje društvenim mrežama za vaš biznis. Povećajte prisustvo i angažman na Facebook, Instagram, LinkedIn i drugim platformama uz Kursor platformu.",
-  metadataBase: new URL("https://www.vasastranicatestiranje.com"),
+  title: "Menadžment Društvenih Mreža | Profesionalno Upravljanje Facebook, Instagram i LinkedIn - Black Box Media",
+  description: "Povećajte angažman i vidljivost vašeg brenda uz naše usluge menadžmenta društvenih mreža. Specijalizovani smo za strategije, kreiranje sadržaja i analitiku za Facebook, Instagram, LinkedIn i TikTok. Besplatna konsultacija!",
+  metadataBase: new URL("https://www.black-box-media.com"),
   openGraph: {
-    title: "Upravljanje Društvenim Mrežama (SMM) - Kursor",
-    description: "Profesionalno upravljanje društvenim mrežama za vaš biznis. Povećajte prisustvo i angažman na Facebook, Instagram, LinkedIn i drugim platformama uz Kursor platformu.",
-    images: "URL to an image representing SMM services", // Replace with the actual image URL
-    url: "https://www.vasastranicatestiranje.com/smm",
+    title: "Menadžment Društvenih Mreža | Profesionalno Upravljanje Facebook, Instagram i LinkedIn - Black Box Media",
+    description: "Povećajte angažman i vidljivost vašeg brenda uz naše usluge menadžmenta društvenih mreža. Specijalizovani smo za strategije, kreiranje sadržaja i analitiku za Facebook, Instagram, LinkedIn i TikTok. Besplatna konsultacija!",
+    images: [
+      {
+        url: "https://www.black-box-media.com/smm.svg", // Replace with the actual image URL
+        alt: "Menadžment Društvenih Mreža - Black Box Media",
+      },
+    ],
+    url: "https://www.black-box-media.com/smm",
     type: "website",
   },
-  keywords: "upravljanje društvenim mrežama, SMM, marketing na društvenim mrežama, Facebook marketing, Instagram marketing, LinkedIn marketing, Kursor, Srbija, Hrvatska, Bosna i Hercegovina, Balkanci",
-  authors: [{ name: "Kursor" }],
+  keywords: [
+    "menadžment društvenih mreža",
+    "upravljanje društvenim mrežama",
+    "smm usluge",
+    "facebook marketing",
+    "instagram marketing",
+    "linkedin marketing",
+    "tiktok marketing",
+    "social media marketing",
+    "strategija društvenih mreža",
+    "povećanje angažmana",
+    "povećanje pratilaca",
+    "kreiranje sadržaja",
+    "analitika društvenih mreža",
+    "brendiranje na društvenim mrežama",
+    "oglašavanje na društvenim mrežama",
+    "content marketing",
+    "influencer marketing",
+    "digitalni marketing",
+    "Black Box Media",
+    "Srbija",
+    "Hrvatska",
+    "Bosna i Hercegovina",
+    "Balkan SMM usluge",
+    "upravljanje instagram profilom",
+    "upravljanje facebook stranicom",
+    "upravljanje linkedin profilom",
+    "tiktok strategije",
+    "rast brenda na društvenim mrežama",
+    "smm za male biznise",
+    "smm za e-commerce",
+    "smm za startupe",
+    "smm za usluge",
+    "smm za proizvode",
+    "smm kampanje",
+    "smm analitika i izveštaji",
+  ],
+  authors: [{ name: "Black Box Media", url: "https://www.black-box-media.com" }],
   robots: "index, follow",
+  alternates: {
+    canonical: "https://www.black-box-media.com/smm", // Add canonical URL for SEO
+  },
 };
 
-// Structured data for SMM services
+// Structured data for Social Media Management services
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": "Upravljanje Društvenim Mrežama (SMM)",
-  "description": "Profesionalno upravljanje društvenim mrežama za vaš biznis. Povećajte prisustvo i angažman na Facebook, Instagram, LinkedIn i drugim platformama uz Kursor platformu.",
+  "name": "Menadžment Društvenih Mreža",
+  "description": "Povećajte angažman i vidljivost vašeg brenda uz naše usluge menadžmenta društvenih mreža. Specijalizovani smo za strategije, kreiranje sadržaja i analitiku za Facebook, Instagram, LinkedIn i TikTok.",
   "provider": {
     "@type": "Organization",
-    "name": "Kursor",
-    "logo": "https://www.vasastranicatestiranje.com/logo.png" // Replace with your logo URL
+    "name": "Black Box Media",
+    "logo": "https://www.black-box-media.com/logo.svg", // Replace with your logo URL
+    "url": "https://www.black-box-media.com",
   },
   "areaServed": {
     "@type": "Country",
-    "name": ["Srbija", "Hrvatska", "Bosna i Hercegovina"]
+    "name": ["Srbija", "Hrvatska", "Bosna i Hercegovina"],
   },
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Paketi Usluga za SMM",
+    "name": "Paketi Usluga za Menadžment Društvenih Mreža",
     "itemListElement": [
       {
         "@type": "Offer",
-        "name": "Osnovni Paket",
-        "description": "Upravljanje jednom društvenom mrežom sa osnovnim strategijama.",
-        "price": "199",
-        "priceCurrency": "EUR"
+        "name": "Osnovni SMM Paket",
+        "description": "Upravljanje jednom društvenom mrežom sa osnovnim strategijama, kreiranjem sadržaja i objavama.",
+        "price": "200",
+        "priceCurrency": "EUR",
       },
       {
         "@type": "Offer",
-        "name": "Premium Paket",
-        "description": "Upravljanje više društvenih mreža sa naprednim strategijama i analitikom.",
-        "price": "499",
-        "priceCurrency": "EUR"
-      }
-    ]
-  }
+        "name": "Napredni SMM Paket",
+        "description": "Upravljanje više društvenih mreža sa naprednim strategijama, analitikom i kampanjama.",
+        "price": "300",
+        "priceCurrency": "EUR",
+      },
+      {
+        "@type": "Offer",
+        "name": "Premium SMM Paket",
+        "description": "Kompletno upravljanje svim društvenim mrežama sa strategijom, influencer marketingom i detaljnom analitikom.",
+        "price": "500",
+        "priceCurrency": "EUR",
+      },
+    ],
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "40",
+    "bestRating": "5",
+  },
 };
 
 export default function SMMLayout({ children }: { children: React.ReactNode }) {

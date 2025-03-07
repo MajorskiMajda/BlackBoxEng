@@ -17,25 +17,25 @@ const marketingCardContents = [
         title: "Card 1",
         content: "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
         iconSrc: "/google.svg",
-        buttonLink: "/seo"
+        buttonLink: "/seo-optimizacija"
     },
     {
         title: "Card 2",
         content: "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
         iconSrc: "/googleads.svg",
-        buttonLink: "/googleads"
+        buttonLink: "/google-reklame"
     },
     {
         title: "Card 3",
         content: "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
         iconSrc: "/meta.svg",
-        buttonLink: "/metaads"
+        buttonLink: "/meta-reklame"
     },
     {
         title: "Card 4",
         content: "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
         iconSrc: "/gmail.svg",
-        buttonLink: "/emailmarketing"
+        buttonLink: "/email-marketing"
     }
 ];
 
@@ -56,13 +56,13 @@ const brandingCardContents = [
         title: "Card 3",
         content: "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
         iconSrc: "/domain.svg",
-        buttonLink: "/sajtovi"
+        buttonLink: "/izrada-sajtova"
     },
     {
         title: "Card 4",
         content: "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
         iconSrc: "/pen-tool.svg",
-        buttonLink: "/grafickidizajn"
+        buttonLink: "/graficki-dizajn"
     }
 ];
 

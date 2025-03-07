@@ -10,39 +10,168 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Kursor - Digital Marketing Agencija",
-  description: "Kursor je vodeća digital marketing agencija koja pruža usluge SEO, PPC, društvenih mreža, email marketinga i još mnogo toga. Povećajte svoj online prisutnost sa nama!",
-  metadataBase: new URL("https://www.vasastranicatestiranje.com"),
+  title: "Black Box Media | Vodeća Digital Marketing Agencija za Srbiju, Hrvatsku i Bosnu",
+  description: "Black Box Media je vodeća digital marketing agencija koja nudi usluge SEO, PPC, Reels reklama, UGC reklama, menadzment društvenih mreža, email marketinga, izrade web sajtova i još mnogo toga. Povećajte svoj online prisustvo i prodaju sa nama!",
+  metadataBase: new URL("https://www.black-box-media.com"),
   openGraph: {
-    title: "Kursor - Digital Marketing Agencija",
-    description: "Kursor je vodeća digital marketing agencija koja pruža usluge SEO, PPC, društvenih mreža, email marketinga i još mnogo toga. Povećajte svoj online prisutnost sa nama!",
-    images: "URL to an image representing your agency", // Replace with the actual image URL
-    url: "https://www.vasastranicatestiranje.com",
+    title: "Black Box Media | Vodeća Digital Marketing Agencija za Srbiju, Hrvatsku i Bosnu",
+    description: "Black Box Media je vodeća digital marketing agencija koja nudi usluge SEO, PPC, Reels reklama, menadzment društvenih mreža, email marketinga, izrade web sajtova i još mnogo toga. Povećajte svoj online prisustvo i prodaju sa nama!",
+    images: [
+      {
+        url: "https://www.black-box-media.com/logo.svg", 
+        alt: "Black Box Media - Digital Marketing Agencija",
+      },
+    ],
+    url: "https://www.black-box-media.com",
     type: "website",
   },
-  keywords: "digital marketing agencija, SEO, PPC, društvene mreže, email marketing, Kursor, Srbija, Hrvatska, Bosna i Hercegovina, Balkanci",
-  authors: [{ name: "Kursor" }],
+  keywords: [
+    "digital marketing agencija",
+    "SEO usluge",
+    "PPC oglašavanje",
+    "upravljanje društvenim mrežama",
+    "email marketing",
+    "izrada web sajtova",
+    "Black Box Media",
+    "Srbija",
+    "Hrvatska",
+    "Bosna i Hercegovina",
+    "Balkan digitalni marketing",
+    "online oglašavanje",
+    "povećanje prodaje",
+    "povećanje angažmana",
+    "brendiranje",
+    "web development",
+    "e-commerce rešenja",
+    "optimizacija sajta",
+    "google ads",
+    "facebook ads",
+    "instagram reklame",
+    "reels reklame",
+    "ugc reklame",
+    "video produkcija",
+    "digitalna transformacija",
+    "marketing strategija",
+    "analitika i izveštaji",
+    "lokalni SEO",
+    "tehnička SEO optimizacija",
+    "on-page SEO",
+    "off-page SEO",
+    "link building",
+    "content marketing",
+    "influencer marketing",
+    "social media marketing",
+    "facebook marketing",
+    "instagram marketing",
+    "linkedin marketing",
+    "tiktok marketing",
+    "twitter marketing",
+    "email kampanje",
+    "automatske email sekvence",
+    "segmentacija baze podataka",
+    "kreiranje email sadržaja",
+    "newsletter dizajn",
+    "web dizajn",
+    "responsive web dizajn",
+    "custom web sajtovi",
+    "redizajn web sajtova",
+    "web aplikacije",
+    "online prodavnica",
+    "wordpress sajtovi",
+    "shopify sajtovi",
+    "brzina učitavanja sajta",
+    "sigurnost web sajtova",
+    "API integracije",
+    "CMS rešenja",
+    "digitalna agencija Beograd",
+    "digitalna agencija Zagreb",
+    "digitalna agencija Sarajevo",
+    "marketing agencija Srbija",
+    "marketing agencija Hrvatska",
+    "marketing agencija Bosna",
+    "oglašavanje na društvenim mrežama",
+    "oglašavanje za male biznise",
+    "oglašavanje za startupe",
+    "oglašavanje za e-commerce",
+    "oglašavanje za usluge",
+    "oglašavanje za proizvode",
+    "konverzija putem emaila",
+    "lead nurturing",
+    "dizajn emaila",
+    "email marketing alati",
+    "CRM integracije",
+    "email marketing za B2B",
+    "email marketing za B2C",
+    "optimizacija email kampanja",
+    "A/B testiranje emaila",
+    "email marketing za brendove",
+    "rast baze pretplatnika",
+    "video marketing",
+    "video reklame",
+    "snimanje video reklama",
+    "video editovanje",
+    "video strategija",
+    "video kampanje",
+    "video pričanje",
+    "video sadržaj za brendove",
+    "video produkcija za društvene mreže",
+    "video oglasi za instagram",
+    "video oglasi za facebook",
+    "video oglasi za tiktok",
+    "video oglasi za linkedin",
+    "video oglasi za youtube",
+    "video oglasi za male biznise",
+    "video oglasi za startupe",
+    "video oglasi za e-commerce",
+    "video oglasi za usluge",
+    "video oglasi za proizvode",
+    "video oglasi za brendove",
+    "video oglasi za konverziju",
+    "video oglasi za angažman",
+    "video oglasi za prodaju",
+    "video oglasi za rast brenda",
+    "video oglasi za rast pratilaca",
+    "video oglasi za rast prodaje",
+    "video oglasi za rast angažmana",
+    "video oglasi za rast konverzija",
+    "video oglasi za rast brenda na društvenim mrežama",
+    "video oglasi za rast brenda na instagramu",
+    "video oglasi za rast brenda na facebooku",
+    "video oglasi za rast brenda na tiktoku",
+    "video oglasi za rast brenda na linkedinu",
+    "video oglasi za rast brenda na youtubeu",
+    "video oglasi za rast brenda na društvenim mrežama",
+    "video oglasi za rast brenda na instagramu",
+    "video oglasi za rast brenda na facebooku",
+    "video oglasi za rast brenda na tiktoku",
+    "video oglasi za rast brenda na linkedinu",
+    "video oglasi za rast brenda na youtubeu",
+  ],
+  authors: [{ name: "Black Box Media", url: "https://www.black-box-media.com" }],
   robots: "index, follow",
+  alternates: {
+    canonical: "https://www.black-box-media.com", 
+  },
 };
 
-// Structured data for the agency
+
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Kursor",
-  "description": "Kursor je vodeća digital marketing agencija koja pruža usluge SEO, PPC, društvenih mreža, email marketinga i još mnogo toga. Povećajte svoj online prisutnost sa nama!",
-  "url": "https://www.vasastranicatestiranje.com",
-  "logo": "https://www.vasastranicatestiranje.com/logo.png", // Replace with your logo URL
+  "name": "Black Box Media",
+  "description": "Black Box Media je vodeća digital marketing agencija koja nudi usluge SEO, PPC, Reels reklama, menadzment društvenih mreža, email marketinga, izrade web sajtova i još mnogo toga. Povećajte svoj online prisustvo i prodaju sa nama!",
+  "url": "https://www.black-box-media.com",
+  "logo": "https://www.black-box-media.com/logo.svg",
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+381-123-4567", // Replace with your phone number
+    "telephone": "+381-60-130-5588", 
     "contactType": "customer service",
-    "email": "info@vasastranicatestiranje.com", // Replace with your email
-    "areaServed": ["RS", "HR", "BA"], // Countries you serve
-    "availableLanguage": ["sr", "en"] // Languages supported
+    "email": "info@black-box-media.com", 
+    "areaServed": ["RS", "HR", "BA"], 
+    "availableLanguage": ["sr", "en"] 
   },
   "sameAs": [
-    "https://www.facebook.com/yourpage", // Replace with your social media links
+    "https://www.facebook.com/yourpage",
     "https://www.instagram.com/yourpage",
     "https://www.linkedin.com/company/yourpage"
   ]
@@ -51,23 +180,17 @@ const structuredData = {
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
-    <html lang="sr">
-      <head>
-        <meta name="geo.region" content="RS" />
-        <meta name="geo.region" content="HR" />
-        <meta name="geo.region" content="BA" />
-        <meta name="geo.placename" content="Balkan" />
+    <html lang="en">
+      <body className={montserrat.variable}>
+        {children}
         <Script
           id="structured-data"
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
-      </head>
-      <body className={`${montserrat.variable} antialiased`}>
-        {children}
       </body>
     </html>
   );
