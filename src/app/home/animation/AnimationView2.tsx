@@ -30,7 +30,7 @@ export default function MainPage() {
     useEffect(() => {
         if (svgRef.current) {
             const paths = svgRef.current.querySelectorAll('path');
-            console.log(paths); // Debug: Check if paths are found
+
 
             // Manually configure the order and delay for each path (Blue, Yellow, Green, Red)
             const pathConfigs = [
@@ -42,7 +42,6 @@ export default function MainPage() {
 
             paths.forEach((path, index) => {
                 const length = path.getTotalLength();
-                console.log(length); // Debug: Check if length is calculated correctly
 
                 // Get the manually set configurations for each path
                 const { delay, color } = pathConfigs[index] || { delay: 0, color: "transparent" };
@@ -104,7 +103,6 @@ export default function MainPage() {
 
                 paths.forEach((path, index) => {
                     const length = path.getTotalLength();
-                    console.log(length); // Debug: Check if length is calculated correctly
 
                     // Get the manually set configurations for each path
                     const { delay, color } = pathConfigs[index] || { delay: 0, color: "transparent" };

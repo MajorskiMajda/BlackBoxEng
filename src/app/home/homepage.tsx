@@ -16,25 +16,25 @@ const marketingCardContents = [
     {
         title: "Card 1",
         content: "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
-        iconSrc: "/google.png",
+        iconSrc: "/google.svg",
         buttonLink: "/seo"
     },
     {
         title: "Card 2",
         content: "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
-        iconSrc: "/googleads.png",
+        iconSrc: "/googleads.svg",
         buttonLink: "/googleads"
     },
     {
         title: "Card 3",
         content: "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
-        iconSrc: "/meta.png",
+        iconSrc: "/meta.svg",
         buttonLink: "/metaads"
     },
     {
         title: "Card 4",
         content: "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
-        iconSrc: "/email.png",
+        iconSrc: "/email.svg",
         buttonLink: "/emailmarketing"
     }
 ];
@@ -43,25 +43,25 @@ const brandingCardContents = [
     {
         title: "Card 1",
         content: "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
-        iconSrc: "/instagram.png",
+        iconSrc: "/instagram.svg",
         buttonLink: "/smm"
     },
     {
         title: "Card 2",
         content: "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
-        iconSrc: "/reels.png",
+        iconSrc: "/video.svg",
         buttonLink: "/reels"
     },
     {
         title: "Card 3",
         content: "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
-        iconSrc: "/domain.png",
+        iconSrc: "/domain.svg",
         buttonLink: "/sajtovi"
     },
     {
         title: "Card 4",
         content: "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
-        iconSrc: "/pen-tool.png",
+        iconSrc: "/pen-tool.svg",
         buttonLink: "/grafickidizajn"
     }
 ];
@@ -73,8 +73,8 @@ export default function HomePage() {
             <Nav />
 
             <MainPage
+                priority={true}
                 image="/upp.svg"
-                image2="/arrowup.svg"
                 tex="text-left"
                 className2="test3"
                 hideImageOnMobile={false}
@@ -112,8 +112,8 @@ export default function HomePage() {
             <Anim2 opis='Hello' subH='' text="Naucite" />
 
             <MainPage
+                
                 image="/puzle.svg"
-                image2="/arrowup.svg"
                 tex="text-left"
                 className2="test3"
                 hideImageOnMobile={false}

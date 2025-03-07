@@ -19,7 +19,7 @@ const Footer = () => {
 
         {/* Column 2: Quick Links */}
         <div>
-          <h3 className="text-xl font-semibold text-[#7f17ee]">Linkovi</h3>
+          <h3 className="text-xl font-semibold text-[#da26ff]">Linkovi</h3>
           <ul className="mt-4 space-y-2">
             <li>
               <Link href="/" className="text-gray-400 text-lg hover:text-[#da26ff]">
@@ -41,12 +41,13 @@ const Footer = () => {
 
         {/* Column 3: Social Media Links */}
         <div>
-          <h3 className="text-xl font-semibold  text-[#7f17ee]">Zapratite nas</h3>
+          <h3 className="text-xl font-semibold  text-[#da26ff]">Zapratite nas</h3>
           <div className="mt-4 flex space-x-4">
             <a
               href="https://facebook.com"
               className="text-gray-400 hover:text-[#da26ff]"
               target="_blank"
+              aria-label="Facebook"
               rel="noopener noreferrer"
             >
               <FontAwesomeIcon icon={faFacebookF} className="text-2xl" />
@@ -56,6 +57,7 @@ const Footer = () => {
               className="text-gray-400 hover:text-[#da26ff]"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Twitter"
             >
               <FontAwesomeIcon icon={faTwitter} className="text-2xl" />
             </a>
@@ -64,6 +66,7 @@ const Footer = () => {
               className="text-gray-400 hover:text-[#da26ff]"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="LinkedIn"
             >
               <FontAwesomeIcon icon={faLinkedinIn} className="text-2xl" />
             </a>
@@ -72,6 +75,7 @@ const Footer = () => {
               className="text-gray-400 hover:text-[#da26ff]"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Instagram"
             >
               <FontAwesomeIcon icon={faInstagram} className="text-2xl" />
             </a>

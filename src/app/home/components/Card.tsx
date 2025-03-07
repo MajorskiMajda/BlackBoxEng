@@ -69,6 +69,7 @@ const Card: React.FC<CardProps> = ({
                         <div className=" w-full">
                             <Link href={buttonLink}>
                                 <button
+                                    aria-label="Go to link"
                                     className="px-6 w-full py-2 font-bold cursor-pointer rounded-md btn-col text-black 
                                 transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-[#9f1cf4]/50"
                                 >

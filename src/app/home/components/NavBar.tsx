@@ -55,6 +55,7 @@ export default function Nav() {
       {/* Logo Section */}
       <div className="flex items-center space-x-2">
         <Image
+          priority
           src="/logo.svg"
           alt="Kursor Logo"
           width={150}
@@ -64,7 +65,7 @@ export default function Nav() {
       </div>
 
       {/* Hamburger Icon for Mobile */}
-      <button onClick={toggleMenu} className="md:hidden text-white focus:outline-none">
+      <button aria-label="drop down nav" onClick={toggleMenu} className="md:hidden text-white focus:outline-none">
         <Bars3Icon className="h-10 w-10" />
       </button>
 
@@ -77,6 +78,7 @@ export default function Nav() {
         {/* Dropdown Menu */}
         <div className="relative" ref={dropdownRef}>
           <button
+            aria-label="drop down nav"
             onClick={toggleDropdown}
             className="text-white text-lg flex items-center hover:text-[#da26ff]"
           >

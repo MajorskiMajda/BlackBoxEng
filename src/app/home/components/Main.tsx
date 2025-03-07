@@ -6,7 +6,6 @@ import { StaticImport } from 'next/dist/shared/lib/get-img-props';
 
 export default function MainPage(props: {
     image: string | StaticImport;
-    image2?: string | StaticImport;
     text: string;
     tex: string;
     subH: ReactNode | string;
@@ -18,6 +17,8 @@ export default function MainPage(props: {
     className2?: string;
     hideImageOnMobile?: boolean;
     textSizeClass?: string;
+    priority?: boolean;
+    
 }) {
 
     return (
@@ -36,6 +37,8 @@ export default function MainPage(props: {
                     height={900}
                     objectFit="contain"
                     alt="Image"
+                    priority={props.priority}
+
                 />
             </div>
 

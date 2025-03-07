@@ -30,8 +30,8 @@ export default function MainPage() {
         <div className="">
             <Nav />
             <Main
+                priority={true}
                 image="/graphic.svg"
-                image2="/arrowup.svg"
                 gap="gap-0"
                 imgsize={550}
                 tex="text-left"

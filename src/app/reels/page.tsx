@@ -29,9 +29,9 @@ export default function MainPage() {
     return (
         <div className="">
             <Nav />
-            <Main
+            <Main        
+                priority={true}
                 image="/videoe.svg"
-                image2="/arrowup.svg"
                 gap="gap-0"
                 imgsize={550}
                 tex="text-left"

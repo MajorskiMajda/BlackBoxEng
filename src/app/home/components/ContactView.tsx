@@ -132,7 +132,7 @@ const ContactForm = ({ variant = "home", reverseOrder = false }: ContactFormProp
               ></textarea>
             </div>
 
-            <button type="submit" className="px-4 py-2 text-xl rounded-lg shadow-md btn-col text-neutral-800 font-bold transition">
+            <button aria-label="Send a message" type="submit" className="px-4 py-2 text-xl rounded-lg shadow-md btn-col text-neutral-800 font-bold transition">
               Pošalji
             </button>
           </form>
