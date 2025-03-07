@@ -64,7 +64,7 @@ const reviews = [
 
 export default function CustomerReviews() {
     return (
-        <div className="max-w-full navbg z-2 mx-auto lg:px-16 lg:py-12 p-8 prp text-white" suppressHydrationWarning={true}>
+        <div className="max-w-full bg-black z-2 mx-auto lg:px-16 lg:py-12 p-8 prp text-white" suppressHydrationWarning={true}>
             <div className="text-5xl text-3xl tx3 font-normal text-left">What Our Customers Say</div>
             <Swiper
                 modules={[Pagination, Autoplay]}
@@ -92,7 +92,7 @@ export default function CustomerReviews() {
                 className="p-4 mt-12 min-h-[30vh]" // Adjusted height for responsiveness
             >
                 {reviews.map(({ id, name, image, title, review }) => (
-                    <SwiperSlide key={id} className="lg:mb-20 lg:mt-20">
+                    <SwiperSlide key={id} className="lg:mb-20 ">
                         <div className="bg-[#242424] border border-[#da26ff] shadow-xl p-8 text-white rounded-lg flex flex-col items-start">
                             <div className="flex items-center gap-4 mb-4">
                                 <Image

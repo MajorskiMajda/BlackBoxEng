@@ -48,7 +48,7 @@ export default function Nav() {
 
   return (
     <nav
-      className={`w-full z-50 bg-black mx-auto drop-shadow-xl p-4 pl-16 pr-16 flex justify-between items-center sticky transition-all duration-300 ease-in-out ${
+      className={`w-full z-50 bg-black mx-auto drop-shadow-xl lg:py-7 py-4 lg:px-16 px-6 flex justify-between items-center sticky transition-all duration-300 ease-in-out ${
         scrollDirection === 'down' ? '-top-20 opacity-0' : 'top-0 opacity-100 shadow-md'
       }`}
     >
@@ -59,8 +59,8 @@ export default function Nav() {
           src="/logo.svg"
           alt="Kursor Logo"
           width={150}
-          height={50}
-          className="sm:w-40 md:w-44 lg:w-40 h-auto"
+          height={100}
+          className="sm:w-30 md:w-34 lg:w-50 h-auto"
         />
       </div>
 

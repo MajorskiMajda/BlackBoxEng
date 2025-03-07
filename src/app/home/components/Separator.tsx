@@ -19,7 +19,7 @@ const logos = [
 
 const Separator: React.FC = () => {
   return (
-    <div className="w-full z-2 h-40 navbg flex items-center justify-center">
+    <div className="w-full z-2 h-40 bg-black flex items-center justify-center">
       <Swiper
         modules={[Autoplay]}
         spaceBetween={10}
