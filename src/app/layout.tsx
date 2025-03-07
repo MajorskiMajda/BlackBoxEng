@@ -185,6 +185,20 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+      <Script
+          id="google-analytics"
+          strategy="afterInteractive" // Ensures the script runs after interactive
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-KCZR65J1S3');
+            `,
+          }}
+        />
+      </head>
       <body className={montserrat.variable}>
         {children}
         <Analytics/>
