@@ -3,6 +3,7 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Script from 'next/script';
 import { Analytics } from "@vercel/analytics/react"
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const montserrat = Montserrat({
   variable: "--font-montserrat-sans-serif",
@@ -185,23 +186,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-      <Script
-          id="google-analytics"
-          strategy="afterInteractive" // Ensures the script runs after interactive
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-KCZR65J1S3');
-            `,
-          }}
-        />
-      </head>
       <body className={montserrat.variable}>
         {children}
-        <Analytics/>
+        <Analytics />
+        <GoogleAnalytics gaId="G-KCZR65J1S3" />
         <Script
           id="structured-data"
           type="application/ld+json"
