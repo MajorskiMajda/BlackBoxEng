@@ -34,7 +34,7 @@ const marketingCardContents = [
     {
         title: "Card 4",
         content: "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
-        iconSrc: "/email.svg",
+        iconSrc: "/gmail.svg",
         buttonLink: "/emailmarketing"
     }
 ];

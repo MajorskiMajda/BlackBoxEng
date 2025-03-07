@@ -2,17 +2,17 @@ import { Metadata } from "next";
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: "Produkcija Reelsa - Kursor",
-  description: "Profesionalna produkcija Reels sadržaja za društvene mreže. Kreiramo privlačne i angažovane video sadržaje za vaš brend sa Kursor platformom.",
-  metadataBase: new URL("https://www.vasastranicatestiranje.com"),
+  title: "Reels Reklame",
+  description: "Profesionalna produkcija Reels sadržaja za društvene mreže. Kreiramo privlačne i angažovane video reklame za vaš brend s ciljem povećanje prodaje uz Black Box Meida marketing.",
+  metadataBase: new URL("https://www.black-box-media.com"),
   openGraph: {
-    title: "Produkcija Reelsa - Kursor",
-    description: "Profesionalna produkcija Reels sadržaja za društvene mreže. Kreiramo privlačne i angažovane video sadržaje za vaš brend sa Kursor platformom.",
-    images: "URL to an image representing Reels production services", // Replace with the actual image URL
-    url: "https://www.vasastranicatestiranje.com/produkcija-reelsa",
+    title: "Reels Reklame",
+    description: "Profesionalna produkcija Reels sadržaja za društvene mreže. Kreiramo privlačne i angažovane video reklame za vaš brend s ciljem povećanje prodaje uz Black Box Meida marketing.",
+    images: "https://www.black-box-media.com/reels.svg", // Replace with the actual image URL
+    url: "https://www.black-box-media.com/reels",
     type: "website",
   },
-  keywords: "produkcija reelsa, video produkcija, reels sadržaji, društvene mreže, marketing video, Kursor, Srbija, Hrvatska, Bosna i Hercegovina, Balkanci",
+  keywords:"produkcija reelsa, izrada video reklama, video reklame, brendiranje, reels, UGC, UGC reklame, snimanje UGC reklama, izrada reelsa, izrada reklama, snimanje reklama, reklame za društvene mreže, video produkcija, reels sadržaji, društvene mreže, marketing video, Black Box, Srbija, Hrvatska, Bosna i Hercegovina, Balkanci, kreacija video sadržaja, video editovanje, digitalni marketing, oglasi na društvenim mrežama, video produkcija za brendove, video oglašavanje, kreacija sadržaja za brendove, marketing sa influencerima, kampanje na društvenim mrežama, promocija brenda, video pričanje, video marketing strategija, video oglasi za Instagram, video oglasi za Facebook, oglašavanje za male biznise, video promocija, strategija sadržaja, vizuelni sadržaj, online oglašavanje, kreativni marketing, ciljani video oglasi, visokokvalitetni video oglasi, Balkan digitalni marketing, brend identitet kroz video, video kampanje za brendove",
   authors: [{ name: "Kursor" }],
   robots: "index, follow",
 };
@@ -21,12 +21,12 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": "Produkcija Reelsa",
-  "description": "Profesionalna produkcija Reels sadržaja za društvene mreže. Kreiramo privlačne i angažovane video sadržaje za vaš brend sa Kursor platformom.",
+  "name": "Reels Reklame",
+  "description": "Profesionalna produkcija Reels video sadržaja za društvene mreže. Kreiramo privlačne i angažovane Reels video sadržaje za vaš brend sa Black Box marketing agencijom.",
   "provider": {
     "@type": "Organization",
-    "name": "Kursor",
-    "logo": "https://www.vasastranicatestiranje.com/logo.png" // Replace with your logo URL
+    "name": "Black Box",
+    "logo": "https://www.black-box-media.com/logo.svg" // Replace with your logo URL
   },
   "areaServed": {
     "@type": "Country",
@@ -34,22 +34,29 @@ const structuredData = {
   },
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Paketi Usluga za Produkciju Reelsa",
+    "name": "Paketi Usluga za Produkciju Reels Reklama",
     "itemListElement": [
       {
         "@type": "Offer",
+        "name": "Pojedinačna Reels Reklama",
+        "description": "Kreiraćemo Reels reklamu koja privlači pažnju i donosi povećanu prodaju Vašeg proizvoda ili usluge.",
+        "price": "150",
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
         "name": "Osnovni Paket",
-        "description": "Produkcija jednostavnih Reels sadržaja sa osnovnim montažom.",
-        "price": "199",
+        "description": "Kreiramo sadržaj koji privlači pažnju i donosi rezultate. Naša usluga obuhvata snimanje, editovanje i izrada visokokvalitetnih Reels video reklama.",
+        "price": "300",
         "priceCurrency": "EUR"
       },
       {
         "@type": "Offer",
         "name": "Premium Paket",
-        "description": "Produkcija visokokvalitetnih Reels sadržaja sa naprednom montažom i efektima.",
-        "price": "499",
+        "description": "Kreiramo sadržaj koji privlači pažnju i donosi rezultate. Produkcija visokokvalitetnih Reels sadržaja sa naprednom montažom i efektima.",
+        "price": "600",
         "priceCurrency": "EUR"
-      }
+      },
     ]
   }
 };
