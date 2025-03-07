@@ -3,7 +3,6 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Script from 'next/script';
 import { Analytics } from "@vercel/analytics/react"
-import { GoogleAnalytics } from '@next/third-parties/google'
 
 const montserrat = Montserrat({
   variable: "--font-montserrat-sans-serif",
@@ -20,7 +19,7 @@ export const metadata: Metadata = {
     description: "Black Box Media je vodeća digital marketing agencija koja nudi usluge SEO, PPC, Reels reklama, menadzment društvenih mreža, email marketinga, izrade web sajtova i još mnogo toga. Povećajte svoj online prisustvo i prodaju sa nama!",
     images: [
       {
-        url: "https://www.black-box-media.com/logo.svg", 
+        url: "https://www.black-box-media.com/logo.svg",
         alt: "Black Box Media - Digital Marketing Agencija",
       },
     ],
@@ -152,7 +151,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Black Box Media", url: "https://www.black-box-media.com" }],
   robots: "index, follow",
   alternates: {
-    canonical: "https://www.black-box-media.com", 
+    canonical: "https://www.black-box-media.com",
   },
 };
 
@@ -166,11 +165,11 @@ const structuredData = {
   "logo": "https://www.black-box-media.com/logo.svg",
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+381-60-130-5588", 
+    "telephone": "+381-60-130-5588",
     "contactType": "customer service",
-    "email": "info@black-box-media.com", 
-    "areaServed": ["RS", "HR", "BA"], 
-    "availableLanguage": ["sr", "en"] 
+    "email": "info@black-box-media.com",
+    "areaServed": ["RS", "HR", "BA"],
+    "availableLanguage": ["sr", "en"]
   },
   "sameAs": [
     "https://www.facebook.com/yourpage",
@@ -189,11 +188,28 @@ export default function RootLayout({
       <body className={montserrat.variable}>
         {children}
         <Analytics />
-        <GoogleAnalytics gaId="G-KCZR65J1S3" />
         <Script
           id="structured-data"
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
+        <Script
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=G-KCZR65J1S3`}
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-KCZR65J1S3', {
+        page_path: window.location.pathname,
+      });
+    `,
+          }}
         />
       </body>
     </html>
