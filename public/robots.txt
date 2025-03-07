@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.black-box-media.com
+
+# Sitemaps
+Sitemap: https://www.black-box-media.com/sitemap.xml
