@@ -28,7 +28,8 @@ const Card: React.FC<CardProps> = ({
     lineShow = true,
     buttonLink = "/",
     showButton = true, // Default to show button
-    price = 100 // Default price
+    price = "100"
+    // Default price
 }) => {
     return (
         <div className="relative w-full h-full max-w-[25vw] flex items-center justify-center">

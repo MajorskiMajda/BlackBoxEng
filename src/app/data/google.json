@@ -3,17 +3,17 @@
       {
         "title": "f you",
         "content": "This is the basic plan with essential features.",
-        "price": 99
+        "price": "99"
       },
       {
         "title": "Pro Plan",
         "content": "The pro plan includes premium features.",
-        "price": 199
+         "price": "99"
       },
       {
         "title": "Enterprise Plan",
         "content": "The enterprise plan is for large-scale use.",
-        "price": 299
+       "price": "99"
       }
     ],
     "keyContent": [

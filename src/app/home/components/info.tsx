@@ -12,7 +12,7 @@ interface InfoProps {
   whatWeDoTitle: string;
   whatWeDoDescription: string;
   keyContent: { title: string; content: string;}[]
-  cardContents: { title: string; content: string; price: number }[];
+  cardContents: { title: string; content: string; price: string }[];
   whatWeDoList: string[];
 }
 
