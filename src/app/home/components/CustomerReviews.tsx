@@ -86,9 +86,8 @@ export default function CustomerReviews() {
                     return (
                         <SwiperSlide key={id} className="lg:mb-20">
                             <div
-                                className={`bg-[#242424] border lg:min-h-[18vw]  border-[#da26ff] shadow-xl p-8 text-white rounded-lg flex flex-col items-start transition-height ${
-                                    isExpanded ? 'lg:max-h-[1000px]' : 'lg:max-h-[23vw]'
-                                }`}
+                                className={`bg-[#242424] border lg:min-h-[18vw]  border-[#da26ff] shadow-xl p-8 text-white rounded-lg flex flex-col items-start transition-height ${isExpanded ? 'lg:max-h-[1000px]' : 'lg:max-h-[23vw]'
+                                    }`}
                                 style={{ overflow: 'hidden' }}
                             >
                                 <div className="flex items-center gap-4 mb-4">
@@ -100,11 +99,11 @@ export default function CustomerReviews() {
                                         className="rounded-full object-cover"
                                     />
                                     <div>
-                                        <h3 className="text-lg font-semibold">{name}</h3>
-                                        <p className="text-gray-400 font-normal text-sm">{title}</p>
+                                        <h3 className="text-lg  font-semibold">{name}</h3>
+                                        <p className="text-neutral-200 font-normal text-sm">{title}</p>
                                     </div>
                                 </div>
-                                <p className="text-gray-200 font-normal mt-2">
+                                <p className="text-neutral-400 font-normal mt-2">
                                     {isExpanded ? review : truncatedText}
                                 </p>
                                 {review.length > 100 && (

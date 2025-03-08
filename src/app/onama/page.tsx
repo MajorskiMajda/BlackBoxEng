@@ -11,7 +11,7 @@ export default function MainPage() {
         <div className="">
             <Nav />
             {/* <Main image={"/bulb.svg"} image2={"/arrowup.svg"} tex="text-left" className2="test3" hideImageOnMobile={false} textSizeClass="text-5xl" opis='Hello' subH='' showButton2={false} showButton={false} text="Reels" className='lg:order-last md:order-first'></Main> */}
-            <div className="text-white  text-gray-800">
+            <div className="text-white  text-neutral-300-800">
                 {/* Hero Section */}
                 <section className="bg-purple-600  py-20 text-center px-6">
                     <div className="max-w-8xl mx-auto">
@@ -83,12 +83,12 @@ export default function MainPage() {
                         <div className="w-48 text-center">
                             <div className="w-24 h-24 bg-gray-300 rounded-full mx-auto mb-3"></div>
                             <h3 className="text-xl font-semibold">John Doe</h3>
-                            <p className="text-gray-600">SEO Expert</p>
+                            <p className="text-neutral-300-600">SEO Expert</p>
                         </div>
                         <div className="w-48 text-center">
                             <div className="w-24 h-24 bg-gray-300 rounded-full mx-auto mb-3"></div>
                             <h3 className="text-xl font-semibold">Jane Smith</h3>
-                            <p className="text-gray-600">Marketing Strategist</p>
+                            <p className="text-neutral-300-600">Marketing Strategist</p>
                         </div>
                     </div>
                 </section>

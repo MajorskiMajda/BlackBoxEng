@@ -18,7 +18,7 @@ export default function MainPage(props: {
     hideImageOnMobile?: boolean;
     textSizeClass?: string;
     priority?: boolean;
-    
+
 }) {
 
     return (
@@ -50,13 +50,13 @@ export default function MainPage(props: {
                         {props.text}
                     </div>
                     <div
-                        className={`font-light  text-gray-400 mb-4 lg:text-6xl text-4xl md:text-5xl lg:text-left text-center`}
+                        className={`font-light  text-neutral-300 mb-4 lg:text-6xl text-4xl md:text-5xl lg:text-left text-center`}
                         style={{ color: props.subHColor || 'inherit' }}
                     >
                         {props.subH}
                     </div>
                     {/* Description Section */}
-                    <div className={`font-light text-gray-400 lg:text-3xl text-lg`}>
+                    <div className={`font-light text-neutral-300 lg:text-3xl text-lg`}>
                         {props.opis}
                     </div>
                 </div>

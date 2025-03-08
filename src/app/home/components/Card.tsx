@@ -52,11 +52,11 @@ const Card: React.FC<CardProps> = ({
                         </div>
                         <div className="flex flex-col items-left space-x-2">
                             <h3 className="font-light flex gap-2 items-center pb-3">
-                                <span className="text-md text-gray-300">Od</span>
+                                <span className="text-md text-neutral-300">Od</span>
                                 <span className='text-3xl'>{price} </span>
-                                <span className="text-md text-gray-300">€</span>
+                                <span className="text-md text-neutral-300">€</span>
                             </h3>
-                            <p className="text-xl font-light">{content}</p>
+                            <p className="text-xl text-neutral-400  font-light">{content}</p>
                         </div>
                     </div>
 

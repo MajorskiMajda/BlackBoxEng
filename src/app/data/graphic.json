@@ -1,0 +1,49 @@
+{
+    "cardContents": [
+      {
+        "title": "f you",
+        "content": "This is the basic plan with essential features.",
+        "price": 99
+      },
+      {
+        "title": "Pro Plan",
+        "content": "The pro plan includes premium features.",
+        "price": 199
+      },
+      {
+        "title": "Enterprise Plan",
+        "content": "The enterprise plan is for large-scale use.",
+        "price": 299
+      }
+    ],
+    "keyContent": [
+      {
+        "title": "Basic Plan",
+        "content": "Great for small websites."
+      },
+      {
+        "title": "Pro Plan",
+        "content": "Advanced features for growing businesses."
+      },
+      {
+        "title": "Enterprise Plan",
+        "content": "All-inclusive solution for large enterprises."
+      }
+    ],
+    "whatWeDoList": [
+      "Keyword research & strategy to target the right audience",
+      "On-page optimization for better search engine indexing",
+      "Technical SEO to improve site speed and user experience",
+      "Quality link-building strategies for higher domain authority",
+      "Content marketing to engage and convert visitors"
+    ],
+    "howWeDo": {
+      "title": "How We Help Your Business aaaaaa",
+      "description": "SEO is critical for improving your visibility and driving organic traffic."
+    },
+    "whatWeDo": {
+      "title": "Our Approach",
+      "description": "We implement proven strategies to boost your site's rankings and performance."
+    }
+  }
+  

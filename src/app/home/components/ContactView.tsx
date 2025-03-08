@@ -59,7 +59,7 @@ const ContactForm = ({ variant = "home", reverseOrder = false }: ContactFormProp
           <div className="flex flex-col h-full">
             <div className={`flex-1 ${variant === "services" ? "hidden" : " "}`}>
               <div className="text-5xl pb-8 font-normal">Kontaktirajte nas</div>
-              <div className={`text-3xl text-gray-400 w-3/3 ${variant === "services" ? "hidden" : " "} font-light`}>
+              <div className={`text-3xl text-neutral-400 w-3/3 ${variant === "services" ? "hidden" : " "} font-light`}>
                 Ukoliko imate bilo kakva pitanja. Zakažite besplatne konsultacije i dozvolite da
                 napravimo savršen plan za vaše digitalno osvajanje.
               </div>
@@ -89,10 +89,10 @@ const ContactForm = ({ variant = "home", reverseOrder = false }: ContactFormProp
           className={`w-full ${variant === "home" ? "lg:pl-24" : "order-first"} content-center lg:w-full`}
         >
           <div className={`${variant === "services" ? "" : "hidden"}`}>
-            <h2 className="lg:text-5xl text-3xl font-bold text-center lg:text-left">
+            <h2 className="lg:text-5xl text-3xl font-normal text-center lg:text-left">
               Pošljite nam poruku
             </h2>
-            <p className="mt-4 lg:text-xl text-gray-400 text-lg text-center lg:text-left">
+            <p className="mt-4 lg:text-xl text-neutral-400 text-lg text-center lg:text-left">
               Imate pitanja? Napišite nam na email ili pozovite na telefon.
             </p>
           </div>
@@ -113,7 +113,7 @@ const ContactForm = ({ variant = "home", reverseOrder = false }: ContactFormProp
             </div>
 
             <div className="mb-4">
-              <label htmlFor="lastN" className="block text-xl font-normal text-gray-300">
+              <label htmlFor="lastN" className="block text-xl font-normal text-neutral-300-300">
                 Prezime
               </label>
               <input
@@ -128,7 +128,7 @@ const ContactForm = ({ variant = "home", reverseOrder = false }: ContactFormProp
             </div>
 
             <div className="mb-4">
-              <label htmlFor="email" className="block text-xl font-normal text-gray-300">
+              <label htmlFor="email" className="block text-xl font-normal text-neutral-300-300">
                 Email
               </label>
               <input
@@ -143,7 +143,7 @@ const ContactForm = ({ variant = "home", reverseOrder = false }: ContactFormProp
             </div>
 
             <div className="mb-4">
-              <label htmlFor="message" className="block text-xl font-normal text-gray-300">
+              <label htmlFor="message" className="block text-xl font-normal text-neutral-300-300">
                 Vaša poruka
               </label>
               <textarea

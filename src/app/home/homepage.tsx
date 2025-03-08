@@ -10,64 +10,15 @@ import Separator from './components/Separator'
 import Sec from './components/SecondMain'
 import CustomerReviews from "./components/CustomerReviews"
 import HorizontalScrollSection from './components/Features';
-
-
-const marketingCardContents = [
-    {
-        title: "Card 1",
-        content: "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
-        iconSrc: "/google.svg",
-        buttonLink: "/seo-optimizacija"
-    },
-    {
-        title: "Card 2",
-        content: "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
-        iconSrc: "/googleads.svg",
-        buttonLink: "/google-reklame"
-    },
-    {
-        title: "Card 3",
-        content: "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
-        iconSrc: "/meta.svg",
-        buttonLink: "/meta-reklame"
-    },
-    {
-        title: "Card 4",
-        content: "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
-        iconSrc: "/gmail.svg",
-        buttonLink: "/email-marketing"
-    }
-];
-
-const brandingCardContents = [
-    {
-        title: "Card 1",
-        content: "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
-        iconSrc: "/instagram.svg",
-        buttonLink: "/smm"
-    },
-    {
-        title: "Card 2",
-        content: "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
-        iconSrc: "/video.svg",
-        buttonLink: "/reels"
-    },
-    {
-        title: "Card 3",
-        content: "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
-        iconSrc: "/domain.svg",
-        buttonLink: "/izrada-sajtova"
-    },
-    {
-        title: "Card 4",
-        content: "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
-        iconSrc: "/pen-tool.svg",
-        buttonLink: "/graficki-dizajn"
-    }
-];
-
+import contentData from '../data/home.json'
+import mainPage1Data from '../data/homemain1.json'
+import mainPage2Data from '../data/homemain2.json'
+import animPage1Data from '../data/homeanim1.json'
+import animPage2Data from '../data/homeanim2.json'
 
 export default function HomePage() {
+    const { marketingCardContents, brandingCardContents } = contentData;
+
     return (
         <div>
             <Nav />
@@ -79,9 +30,9 @@ export default function HomePage() {
                 className2="test3"
                 hideImageOnMobile={false}
                 textSizeClass="text-5xl"
-                opis="Hello"
-                subH=""
-                text="Brendirajte se povecajte prodaju"
+                opis={mainPage1Data.opis}
+                subH={mainPage1Data.subH}
+                text={mainPage1Data.title}
                 className="lg:order-last md:order-first"
             />
 
@@ -105,24 +56,29 @@ export default function HomePage() {
 
   
 
-            <Anim opis='Hello' subH='' text="Naucitefff" />
+            <Anim
+                opis={animPage1Data.opis}
+                subH={animPage1Data.subH}
+                text={animPage1Data.title}
+            />
 
             <CustomerReviews />
 
-            <Anim2 opis='Hello' subH='' text="Naucite" />
+            <Anim2 opis={animPage2Data.opis}
+                subH={animPage2Data.subH}
+                text={animPage2Data.title} />
             
             <Separator />
 
             <MainPage
-                
                 image="/puzle.svg"
                 tex="text-left"
                 className2="test3"
                 hideImageOnMobile={false}
                 textSizeClass="lg:text-5xl text-3xl"
-                opis="Hello"
-                subH=""
-                text="Brendirajte se povecajte prodaju"
+                opis={mainPage2Data.opis}
+                subH={mainPage2Data.subH}
+                text={mainPage2Data.title}
                 className="lg:order-last md:order-first"
             />
 

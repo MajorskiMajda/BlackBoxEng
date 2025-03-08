@@ -72,7 +72,7 @@ export default function MainPage(props: {
                         {features.map((feature, index) => (
                             <MotionDiv
                                 key={index}
-                                className="flex items-center gap-4 mb-4"
+                                className="flex items-center text-neutral-300 gap-4 mb-4"
                                 initial={{ opacity: 0, x: -75 }}
                                 whileInView={{ opacity: 1, x: 0 }}
                                 viewport={{ once: true, amount: 0.5 }}
@@ -85,7 +85,7 @@ export default function MainPage(props: {
                                     height={40}
                                     className="rounded-md"
                                 />
-                                <p className="text-3xl font-extralight ">{feature}</p>
+                                <p className="text-3xl font-light ">{feature}</p>
                             </MotionDiv>
                         ))}
                     </div>

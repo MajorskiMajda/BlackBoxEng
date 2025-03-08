@@ -1,6 +1,6 @@
 "use client";
 import { useState } from 'react';
-import { PlusCircleIcon , MinusCircleIcon } from '@heroicons/react/20/solid';
+import { PlusCircleIcon, MinusCircleIcon } from '@heroicons/react/20/solid';
 import { motion } from 'framer-motion';  // Importing from framer-motion
 
 
@@ -61,7 +61,7 @@ export default function Questions() {
                             <h2 className="text-xl md:text-2xl font-normal">{faq.question}</h2>
                             <div className="flex items-center  gap-2">
                                 {openIndexes.includes(index) ? (
-                                    <MinusCircleIcon className="h-6 w-6 text-gray-300" />
+                                    <MinusCircleIcon className="h-6 w-6 text-neutral-300-300" />
                                 ) : (
                                     <PlusCircleIcon className="h-6 w-6 text-[#da26ff]" />
                                 )}

@@ -19,7 +19,7 @@ export default function Nav() {
   const handleScroll = () => {
     const currentScrollY = window.scrollY;
     const scrollDiff = Math.abs(currentScrollY - lastScrollY.current); // Detects small movements
-  
+
     if (currentScrollY < 35 || (currentScrollY < lastScrollY.current && scrollDiff > 5)) {
       // Show navbar when near the top or when scrolling up
       setScrollDirection('up');
@@ -28,10 +28,10 @@ export default function Nav() {
       setScrollDirection('down');
       setIsOpen(false);
     }
-  
+
     lastScrollY.current = currentScrollY;
   };
-  
+
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
@@ -139,43 +139,43 @@ export default function Nav() {
       </div>
 
       {/* Mobile Menu */}
-<AnimatePresence>
-  {isOpen && (
-    <motion.div
-      initial={{ opacity: 0, y: -20 }}
-      animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, y: -20 }}
-      transition={{ duration: 0.3 }}
-      className="absolute top-16 left-0 w-full bg-black text-gray-400 p-4 flex flex-col space-y-4 md:hidden"
-    >
-      {[
-        { href: "/", text: "Pocetna" },
-        { href: "/seo-optimizacija", text: "Seo Optimizacija" },
-        { href: "/google-reklame", text: "Google Ads" },
-        { href: "/meta-reklame", text: "Meta Ads" },
-        { href: "/email-marketing", text: "Email Marketing" },
-        { href: "/smm", text: "Instagram" },
-        { href: "/reels", text: "Reels" },
-        { href: "/izrada-sajtova", text: "Websites" },
-        { href: "/graficki-dizajn", text: "Graficki Dizajn" },
-        { href: "#contactSection", text: "Kontaktirajte nas" },
-        { href: "/onama", text: "O nama" },
-      ].map((link, index) => (
-        <motion.div
-          key={link.href}
-          initial={{ y: -20, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          exit={{ y: -20, opacity: 0 }}
-          transition={{ duration: 0.3, delay: index * 0.1 }}
-        >
-          <Link href={link.href} onClick={() => { toggleMenu(); setIsDropdownOpen(false); }} className="text-gray-300 text-xl hover:text-[#da26ff]">
-            {link.text}
-          </Link>
-        </motion.div>
-      ))}
-    </motion.div>
-  )}
-</AnimatePresence>
+      <AnimatePresence>
+        {isOpen && (
+          <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            transition={{ duration: 0.3 }}
+            className="absolute top-16 left-0 w-full bg-black text-neutral-300 p-4 flex flex-col space-y-4 md:hidden"
+          >
+            {[
+              { href: "/", text: "Pocetna" },
+              { href: "/seo-optimizacija", text: "Seo Optimizacija" },
+              { href: "/google-reklame", text: "Google Ads" },
+              { href: "/meta-reklame", text: "Meta Ads" },
+              { href: "/email-marketing", text: "Email Marketing" },
+              { href: "/smm", text: "Instagram" },
+              { href: "/reels", text: "Reels" },
+              { href: "/izrada-sajtova", text: "Websites" },
+              { href: "/graficki-dizajn", text: "Graficki Dizajn" },
+              { href: "#contactSection", text: "Kontaktirajte nas" },
+              { href: "/onama", text: "O nama" },
+            ].map((link, index) => (
+              <motion.div
+                key={link.href}
+                initial={{ y: -20, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                exit={{ y: -20, opacity: 0 }}
+                transition={{ duration: 0.3, delay: index * 0.1 }}
+              >
+                <Link href={link.href} onClick={() => { toggleMenu(); setIsDropdownOpen(false); }} className="text-neutral-300-300 text-xl hover:text-[#da26ff]">
+                  {link.text}
+                </Link>
+              </motion.div>
+            ))}
+          </motion.div>
+        )}
+      </AnimatePresence>
 
     </nav>
   );

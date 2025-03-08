@@ -5,32 +5,13 @@ import Nav from '../home/components/NavBar'
 import Footer from '../home/components/Footer'
 import Info from '../home/components/info'
 import Contact from '../home/components/ContactView'
-
-
-
-
+import contentData from '../data/smm.json';
 
 export default function MainPage() {
 
 
-    // Define cardContents for pricing data
-    const cardContents = [
-        {
-            title: "Basic Plan",
-            content: "This is the basic plan with essential features.",
-            price: 99, // Price field for pricing
-        },
-        {
-            title: "Pro Plan",
-            content: "The pro plan includes premium features.",
-            price: 199, // Price field for pricing
-        },
-        {
-            title: "Enterprise Plan",
-            content: "The enterprise plan is for large-scale use.",
-            price: 299, // Price field for pricing
-        },
-    ];
+    const { cardContents, keyContent, whatWeDoList, howWeDo, whatWeDo } = contentData;
+
 
     return (
 
@@ -50,7 +31,15 @@ export default function MainPage() {
                 text="Social Media Management"
                 className="lg:order-first md:order-first"
             />
-            <Info cardContents={cardContents} />
+             <Info
+                cardContents={cardContents}
+                howWeDoTitle={howWeDo.title}
+                howWeDoDescription={howWeDo.description}
+                whatWeDoTitle={whatWeDo.title}
+                whatWeDoDescription={whatWeDo.description}
+                keyContent={keyContent}
+                whatWeDoList={whatWeDoList}
+            />
             <Contact variant="services" />
             <Footer />
         </div>
