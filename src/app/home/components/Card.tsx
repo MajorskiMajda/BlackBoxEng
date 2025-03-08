@@ -32,7 +32,7 @@ const Card: React.FC<CardProps> = ({
     // Default price
 }) => {
     return (
-        <div className="relative w-full h-full max-w-[25vw] flex items-center justify-center">
+        <div className="relative w-full h-full lg:max-w-[25vw] flex items-center justify-center">
             {/* Card */}
             <div className={`p-1 text-white bg-[#242424] shadow-md rounded-xl w-full h-fit ${customClass}`}>
                 <div className={`shadow-lg min-h-[29vw] border border-white h-fit p-8 rounded-lg flex flex-col justify-between ${customClass2}`}>
