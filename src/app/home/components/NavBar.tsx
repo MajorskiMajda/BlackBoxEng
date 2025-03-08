@@ -17,14 +17,21 @@ export default function Nav() {
   const toggleDropdown = () => setIsDropdownOpen((prevState) => !prevState);
 
   const handleScroll = () => {
-    if (window.scrollY > lastScrollY.current) {
+    const currentScrollY = window.scrollY;
+    const scrollDiff = Math.abs(currentScrollY - lastScrollY.current); // Detects small movements
+  
+    if (currentScrollY < 35 || (currentScrollY < lastScrollY.current && scrollDiff > 5)) {
+      // Show navbar when near the top or when scrolling up
+      setScrollDirection('up');
+    } else if (currentScrollY > lastScrollY.current && scrollDiff > 5) {
+      // Hide navbar when scrolling down
       setScrollDirection('down');
       setIsOpen(false);
-    } else {
-      setScrollDirection('up');
     }
-    lastScrollY.current = window.scrollY;
+  
+    lastScrollY.current = currentScrollY;
   };
+  
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
@@ -48,20 +55,21 @@ export default function Nav() {
 
   return (
     <nav
-      className={`w-full z-50 bg-black mx-auto drop-shadow-xl lg:py-7 py-4 lg:px-16 px-6 flex justify-between items-center sticky transition-all duration-300 ease-in-out ${
-        scrollDirection === 'down' ? '-top-20 opacity-0' : 'top-0 opacity-100 shadow-md'
-      }`}
+      className={`w-full z-50 bg-black mx-auto drop-shadow-xl lg:py-7 py-4 lg:px-16 px-6 flex justify-between items-center sticky transition-all duration-300 ease-in-out ${scrollDirection === 'down' ? '-top-20 opacity-0' : 'top-0 opacity-100 shadow-md'
+        }`}
     >
       {/* Logo Section */}
       <div className="flex items-center space-x-2">
-        <Image
-          priority
-          src="/logo.svg"
-          alt="Kursor Logo"
-          width={150}
-          height={100}
-          className="sm:w-30 md:w-34 lg:w-50 h-auto"
-        />
+        <Link href="/">
+          <Image
+            priority
+            src="/logo.svg"
+            alt="Kursor Logo"
+            width={150}
+            height={100}
+            className="cursor-pointer sm:w-30 md:w-34 lg:w-50 h-auto"
+          />
+        </Link>
       </div>
 
       {/* Hamburger Icon for Mobile */}
@@ -131,59 +139,44 @@ export default function Nav() {
       </div>
 
       {/* Mobile Menu */}
-      <AnimatePresence>
-        {isOpen && (
-          <motion.div
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-            transition={{ duration: 0.3 }}
-            className="absolute top-16 left-0 w-full bg-black text-white p-4 flex flex-col space-y-4 md:hidden"
-          >
-            <Link href="/" onClick={() => { toggleMenu(); setIsDropdownOpen(false); }} className="text-white text-xl hover:text-[#da26ff]">
-              O nama
-            </Link>
+<AnimatePresence>
+  {isOpen && (
+    <motion.div
+      initial={{ opacity: 0, y: -20 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -20 }}
+      transition={{ duration: 0.3 }}
+      className="absolute top-16 left-0 w-full bg-black text-gray-400 p-4 flex flex-col space-y-4 md:hidden"
+    >
+      {[
+        { href: "/", text: "Pocetna" },
+        { href: "/seo-optimizacija", text: "Seo Optimizacija" },
+        { href: "/google-reklame", text: "Google Ads" },
+        { href: "/meta-reklame", text: "Meta Ads" },
+        { href: "/email-marketing", text: "Email Marketing" },
+        { href: "/smm", text: "Instagram" },
+        { href: "/reels", text: "Reels" },
+        { href: "/izrada-sajtova", text: "Websites" },
+        { href: "/graficki-dizajn", text: "Graficki Dizajn" },
+        { href: "#contactSection", text: "Kontaktirajte nas" },
+        { href: "/onama", text: "O nama" },
+      ].map((link, index) => (
+        <motion.div
+          key={link.href}
+          initial={{ y: -20, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          exit={{ y: -20, opacity: 0 }}
+          transition={{ duration: 0.3, delay: index * 0.1 }}
+        >
+          <Link href={link.href} onClick={() => { toggleMenu(); setIsDropdownOpen(false); }} className="text-gray-300 text-xl hover:text-[#da26ff]">
+            {link.text}
+          </Link>
+        </motion.div>
+      ))}
+    </motion.div>
+  )}
+</AnimatePresence>
 
-            {/* Mobile Dropdown */}
-            <div className="relative">
-              <div className="mt-2 border-1 border-[#da26ff] shadow-md rounded-lg p-2">
-                Nase Usluge:
-                <hr className="opacity-20" />
-                <Link href="/seo-optimizacija" onClick={() => { toggleMenu(); setIsDropdownOpen(false); }} className="block px-4 py-2 hover:text-[#da26ff]">
-                  Seo Optimizacija
-                </Link>
-                <Link href="/google-reklame" onClick={() => { toggleMenu(); setIsDropdownOpen(false); }} className="block px-4 py-2 hover:text-[#da26ff]">
-                  Google Ads
-                </Link>
-                <Link href="/meta-reklame" onClick={() => { toggleMenu(); setIsDropdownOpen(false); }} className="block px-4 py-2 hover:text-[#da26ff]">
-                  Meta Ads
-                </Link>
-                <Link href="/email-marketing" onClick={() => { toggleMenu(); setIsDropdownOpen(false); }} className="block px-4 py-2 hover:text-[#da26ff]">
-                  Email Marketing
-                </Link>
-                <Link href="/smm" onClick={() => { toggleMenu(); setIsDropdownOpen(false); }} className="block px-4 py-2 hover:text-[#da26ff]">
-                  Instagram
-                </Link>
-                <Link href="/reels" onClick={() => { toggleMenu(); setIsDropdownOpen(false); }} className="block px-4 py-2 hover:text-[#da26ff]">
-                  Reels
-                </Link>
-                <Link href="/izrada-sajtova" onClick={() => { toggleMenu(); setIsDropdownOpen(false); }} className="block px-4 py-2 hover:text-[#da26ff]">
-                  Websites
-                </Link>
-                <Link href="/graficki-dizajn" onClick={() => { toggleMenu(); setIsDropdownOpen(false); }} className="block px-4 py-2 hover:text-[#da26ff]">
-                  Graficki Dizajn
-                </Link>
-              </div>
-            </div>
-            <Link href="#contactSection" onClick={() => { toggleMenu(); setIsDropdownOpen(false); }} className="text-xl hover:text-[#da26ff]">
-              Kontaktirajte nas
-            </Link>
-            <Link href="/onama" onClick={() => { toggleMenu(); setIsDropdownOpen(false); }} className="text-white text-lg hover:text-[#da26ff]">
-              O nama
-            </Link>
-          </motion.div>
-        )}
-      </AnimatePresence>
     </nav>
   );
 }

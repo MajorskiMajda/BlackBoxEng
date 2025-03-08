@@ -70,8 +70,8 @@ const Card: React.FC<CardProps> = ({
                             <Link href={buttonLink}>
                                 <button
                                     aria-label="Go to link"
-                                    className="px-6 w-full py-2 font-bold cursor-pointer rounded-md btn-col text-black 
-                                transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-[#9f1cf4]/50"
+                                    className="px-6 w-full py-2 font-semibold cursor-pointer rounded-md btn-col text-black 
+                                transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-[#ff007f]/50"
                                 >
                                     {buttonText}
                                 </button>

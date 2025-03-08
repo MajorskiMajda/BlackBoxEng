@@ -1,6 +1,6 @@
 'use client';
 
-import { ReactNode } from 'react';
+import { ReactNode, useEffect, useState } from 'react';
 import Animation from '../animation/AnimationView'
 export default function MainPage(props: {
     text: string;
@@ -13,6 +13,11 @@ export default function MainPage(props: {
     hideImageOnMobile?: boolean;
     textSizeClass?: string; // New prop for text size customization
 }) {
+
+    const [isClient, setIsClient] = useState(false);
+    useEffect(() => {
+        setIsClient(true);
+    }, []);
 
     return (
         <div className="flex  flex-col-reverse md:flex-row items-center justify-evenly h-fit lg:pl-16 pb-0">
@@ -37,13 +42,15 @@ export default function MainPage(props: {
                     </div>
                 </div>
             </div>
-            <div
-                className={`mt-12  lg:w-2/4 order-last md:w-10/12 sm:w-full flex justify-center md:mt-0 
+            {isClient && (
+                <div
+                    className={`mt-12  lg:w-2/4 order-last md:w-10/12 sm:w-full flex justify-center md:mt-0 
             
                 `}
-            >
-                <Animation />
-            </div>
+                >
+                    <Animation />
+                </div>
+            )}
         </div>
     );
 }

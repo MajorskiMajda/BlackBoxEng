@@ -46,17 +46,17 @@ export default function MainPage(props: {
             <div className="flex flex-col items-center justify-center min-h-fit w-full md:w-6/12">
                 <div className={`w-full md:w-2/4 ${props.tex || 'text-center'} lg:text-left lg:w-4/4`}>
                     {/* Title Section */}
-                    <div className={`font-light lg:mb-4 lg:p-0 pt-4 pb-4 ${props.textSizeClass || 'lg:text-8xl text-6xl md:text-5xl text-3xl text-left'}`}>
+                    <div className={`font-normal lg:mb-4 lg:p-0 pt-4 pb-4 ${props.textSizeClass || 'lg:text-8xl text-6xl md:text-5xl text-3xl text-left'}`}>
                         {props.text}
                     </div>
                     <div
-                        className={`font-normal mb-4 lg:text-6xl text-4xl md:text-5xl lg:text-left text-center`}
+                        className={`font-light  text-gray-400 mb-4 lg:text-6xl text-4xl md:text-5xl lg:text-left text-center`}
                         style={{ color: props.subHColor || 'inherit' }}
                     >
                         {props.subH}
                     </div>
                     {/* Description Section */}
-                    <div className={`font-extralight lg:text-3xl text-lg`}>
+                    <div className={`font-light text-gray-400 lg:text-3xl text-lg`}>
                         {props.opis}
                     </div>
                 </div>

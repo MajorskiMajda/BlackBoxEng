@@ -38,13 +38,13 @@ const HorizontalScrollSection: React.FC<HorizontalScrollSectionProps> = ({ headi
   return (
     <>
       {/* Horizontal Scroll Container */}
-      <div className={`container z-0 w-full h-fit ${sectionType === "prices" ? 'max-w-7xl mx-auto py-20' : 'py-12 pb-20 mx-auto'}`}>
+      <div className={` z-0 w-full h-fit ${sectionType === "prices" ? 'lg:max-w-7xl  mx-auto py-20' : 'py-12 lg:pb-20 pb-0 mx-auto  gg'}`}>
         <section className="panel w-full h-full flex-shrink-0 flex">
           <div className="flex items-center justify-center w-full h-full flex-col">
             <div className={`flex justify-center items-center flex-row gap-0 ${sectionType === "features" ? 'lg:pl-16 lg:pr-16 px-8' : ''} w-full text-left pb-12`}>
               <div className="text-4xl w-fit sm:text-5xl md:text-6xl lg:text-7xl pf font-normal">{heading}</div>
               <div className="w-full lg:block hidden flex justify-center items-center mx-auto">
-                <hr className="w-full border-neutral-600 mr-0" />
+                <hr className="w-full border-neutral-400  mr-0" />
               </div>
             </div>
             <div className={`flex lg:flex-row flex-col ${sectionType === "features" ? 'lg:pl-16 lg:pr-16 px-8 py-10' : ''} text-white items-center justify-between gap-12 overflow-x-auto`}>

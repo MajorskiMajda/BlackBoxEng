@@ -10,17 +10,26 @@
 }
 
 :root {
-  --background:  #141414;
+  --background: #141414;
   --foreground: #ffffff;
 }
+
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Montserrat, san-serif;
   overflow-x: hidden;
 }
+
 h2 {
-  white-space: nowrap; /* Prevents text from wrapping */
+  white-space: nowrap;
+  /* Prevents text from wrapping */
+}
+
+/* Add this to your global CSS or within a <style> tag */
+.transition-height {
+  transition: max-height 0.5s ease-in-out;
+  overflow: hidden;
 }
 
 .pic {
@@ -35,14 +44,14 @@ h2 {
 }
 
 .bg {
-  background-color: #292929
-  ;
+  background-color: #292929;
 }
 
 .test2 {
   background: rgb(19, 19, 19);
   background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(19, 19, 19, 1) 36%, rgba(20, 20, 20, 1) 81%);
 }
+
 .test3 {
   background: rgb(19, 19, 19);
   background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(19, 19, 19, 1) 36%, rgba(20, 20, 20, 1) 81%);
@@ -60,7 +69,7 @@ h2 {
   background-size: 80%;
 }
 
-.swiper-wrapper{
+.swiper-wrapper {
   align-items: center !important;
   justify-items: center !important;
   height: fit-content;
@@ -69,26 +78,39 @@ h2 {
 .navbg {
   background-color: #0c0c0c;
 }
-.xx{
+
+.xx {
   background: rgba(218, 38, 255);
-  background: radial-gradient(circle, rgba(218, 38, 255) 20%, rgba(170, 23, 238, 0.456) 32%, rgba(170, 23, 238, 0.257) 42%, rgba(170, 23, 238, 0.153) 50%, rgba(248,0,255,0) 63%);
+  background: radial-gradient(circle, rgba(218, 38, 255) 20%, rgba(170, 23, 238, 0.456) 32%, rgba(170, 23, 238, 0.257) 42%, rgba(170, 23, 238, 0.153) 50%, rgba(248, 0, 255, 0) 63%);
 }
 
-.btn-col{
-  color: whitesmoke;
-  background: rgb(218,38,255);
-  background: linear-gradient(90deg, rgba(218,38,255,1) 0%, rgba(127,23,238,1) 100%);
+.gg {
+  background-color: #000000;
+opacity: 0.9;
+background-image: radial-gradient(#2f2f2f 0.9500000000000001px, #000000 0.9500000000000001px);
+background-size: 20px 20px;
 }
-.pf{
+
+.btn-col {
+  /* color: whitesmoke;
+  background: rgb(218,38,255);
+  background: linear-gradient(90deg, rgba(218,38,255,1) 0%, rgba(127,23,238,1) 100%); */
+  background: rgb(218, 38, 255);
+  background: linear-gradient(99deg, rgba(218, 38, 255, 1) 0%, rgba(255, 0, 127, 1) 100%);
+  color: white;
+}
+
+.pf {
   color: #da26ff;
 }
 
-.bgg{
-  background-color:   #663570;
+.bgg {
+  background-color: #663570;
 }
-.foot{
-  background: rgb(12,12,12);
-background: linear-gradient(180deg, rgba(12,12,12,1) 0%, rgba(218,38,255,1) 100%);
+
+.foot {
+  background: rgb(12, 12, 12);
+  background: linear-gradient(180deg, rgba(12, 12, 12, 1) 0%, rgba(218, 38, 255, 1) 100%);
 }
 
 .airplane {

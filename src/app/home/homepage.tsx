@@ -103,13 +103,15 @@ export default function HomePage() {
                 cardContents={brandingCardContents}
             />
 
-            <Separator />
+  
 
             <Anim opis='Hello' subH='' text="Naucitefff" />
 
             <CustomerReviews />
 
             <Anim2 opis='Hello' subH='' text="Naucite" />
+            
+            <Separator />
 
             <MainPage
                 
