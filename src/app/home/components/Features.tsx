@@ -66,7 +66,7 @@ const HorizontalScrollSection: React.FC<HorizontalScrollSectionProps> = ({ headi
                     iconSrc={sectionType === "features" ? card.iconSrc : undefined} // Show icon only for features
                     lineShow={sectionType === "features"} // Show line for features section
                     price={card.price} // Pass price only for pricing cards
-                    buttonLink={sectionType === "prices" ? card.buttonLink : undefined} // Button link for pricing
+                    buttonLink={sectionType === "features" ? card.buttonLink : undefined} // Button link for pricing
                   />
                 </motion.div>
               ))}
