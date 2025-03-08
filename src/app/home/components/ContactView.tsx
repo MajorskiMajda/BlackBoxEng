@@ -2,7 +2,7 @@
 import Airplane from "../animation/AirplaneAnim";
 import Image from "next/image";
 import emailjs from "emailjs-com";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 
 interface ContactFormProps {
   variant?: "home" | "services"; // Determines which layout to use
@@ -12,9 +12,49 @@ interface ContactFormProps {
 
 const ContactForm = ({ variant = "home", reverseOrder = false }: ContactFormProps) => {
   const [isLoading, setIsLoading] = useState(false); // Loading state
+  const [errors, setErrors] = useState<{ [key: string]: string }>({}); // Error state for validation
+  const formRef = useRef<HTMLFormElement | null>(null); // Ref to access the form
+
+  // Validate form fields
+  const validateForm = () => {
+    const newErrors: { [key: string]: string } = {};
+
+    // Check if name is empty
+    const form = formRef.current; // Safely get the form reference
+    if (!form) return false; // Return false if the form is not available
+
+    const name = (form.name as unknown as HTMLInputElement).value.trim();
+    if (!name || !/^[A-Za-z\s]+$/.test(name)) {
+      newErrors.name = "Ime je obavezno i mora sadržavati samo slova.";
+    }
+
+    // Check if last name is empty
+    const lastName = (form.lastN as HTMLInputElement).value.trim();
+    if (!lastName || !/^[A-Za-z\s]+$/.test(lastName)) {
+      newErrors.lastN = "Prezime je obavezno i mora sadržavati samo slova.";
+    }
+
+    // Check if email is valid
+    const email = (form.email as HTMLInputElement).value.trim();
+    if (!email || !/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(email)) {
+      newErrors.email = "Molimo unesite validnu email adresu.";
+    }
+
+    // Check if message is empty
+    const message = (form.message as HTMLTextAreaElement).value.trim();
+    if (!message) {
+      newErrors.message = "Poruka je obavezna.";
+    }
+
+    setErrors(newErrors); // Set errors state
+    return Object.keys(newErrors).length === 0; // Return true if no errors
+  };
 
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
+    if (!validateForm()) return; // Stop submission if validation fails
+
     setIsLoading(true); // Set loading state to true
 
     emailjs
@@ -29,6 +69,11 @@ const ContactForm = ({ variant = "home", reverseOrder = false }: ContactFormProp
           console.log(result.text);
           alert("Poruka uspešno poslata!");
           setIsLoading(false); // Reset loading state
+          
+          // Reset form fields after successful submission
+          if (formRef.current) {
+            formRef.current.reset();
+          }
         },
         (error) => {
           console.error(error.text);
@@ -37,6 +82,7 @@ const ContactForm = ({ variant = "home", reverseOrder = false }: ContactFormProp
         }
       );
   };
+
   const [isClient, setIsClient] = useState(false);
   useEffect(() => {
     setIsClient(true);
@@ -96,7 +142,7 @@ const ContactForm = ({ variant = "home", reverseOrder = false }: ContactFormProp
               Imate pitanja? Napišite nam na email ili pozovite na telefon.
             </p>
           </div>
-          <form onSubmit={sendEmail} className="mt-8 flex flex-col gap-4">
+          <form ref={formRef} onSubmit={sendEmail} className="mt-8 flex flex-col gap-4">
             <div className="mb-4">
               <label htmlFor="name" className="block text-xl font-normal text-white">
                 Ime
@@ -110,6 +156,7 @@ const ContactForm = ({ variant = "home", reverseOrder = false }: ContactFormProp
                 required
                 placeholder="Ime"
               />
+              {errors.name && <span className="text-red-500 text-sm">{errors.name}</span>}
             </div>
 
             <div className="mb-4">
@@ -125,6 +172,7 @@ const ContactForm = ({ variant = "home", reverseOrder = false }: ContactFormProp
                 required
                 placeholder="Prezime"
               />
+              {errors.lastN && <span className="text-red-500 text-sm">{errors.lastN}</span>}
             </div>
 
             <div className="mb-4">
@@ -140,6 +188,7 @@ const ContactForm = ({ variant = "home", reverseOrder = false }: ContactFormProp
                 required
                 placeholder="example@example.com"
               />
+              {errors.email && <span className="text-red-500 text-sm">{errors.email}</span>}
             </div>
 
             <div className="mb-4">
@@ -155,6 +204,7 @@ const ContactForm = ({ variant = "home", reverseOrder = false }: ContactFormProp
                 required
                 placeholder="..."
               ></textarea>
+              {errors.message && <span className="text-red-500 text-sm">{errors.message}</span>}
             </div>
 
             <button
