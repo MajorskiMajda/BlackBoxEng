@@ -22,7 +22,7 @@ const reviews = [
         name: 'Jovan G.',
         image: '/m2.jpg',
         title: 'Kreativni direktor',
-        review: 'Super ljudi, super tim za saradnju. Vrlo lak i brz dogovor. Sve preporuke.'
+        review: 'Super ljudi, super tim za saradnju. Vrlo lak i brz dogovor. Sve preporuke. 👍 👍'
     },
     {
         id: 3,
@@ -43,7 +43,7 @@ const reviews = [
         name: 'Aleksandar K.',
         image: '/m3.png',
         title: 'Izvršni direktor',
-        review: 'Osnovao sam svoju knjigovodstvenu agenciju i nisam znao odakle da krenem sa brendiranjem. Čuo sam od prijatelja za BBM agenciju i poslao im mejl, ljudi su bili jako ljubazni i objasnili mi sve. Nakon toga smo započeli saradnju, pomogli su mi u izradi materijala za društvene mreže, logoa i sajta. Hvala puno divnom timu!'
+        review: 'Osnovao sam svoju knjigovodstvenu agenciju i nisam znao odakle da krenem sa brendiranjem. Čuo sam od prijatelja za BBM agenciju i poslao im mejl, ljudi su bili jako ljubazni i objasnili mi sve. Nakon toga smo započeli saradnju, pomogli su mi u izradi materijala za društvene mreže, logoa i sajta. Hvala puno divnom timu! ❤️'
     }
 ];
 
@@ -64,8 +64,8 @@ export default function CustomerReviews() {
     if (!isMounted) return null;
 
     return (
-        <div className="max-w-full bg-black z-2 mx-auto lg:px-16 lg:py-12 p-8 text-white" suppressHydrationWarning={true}>
-            <div className="text-5xl font-normal text-left">What Our Customers Say</div>
+        <div className="max-w-full gg  bg-black z-2 mx-auto lg:px-16 lg:py-12 p-8 text-white" suppressHydrationWarning={true}>
+            <div className="text-5xl font-semibold text-left">Iskustva koja govore umesto nas</div>
             <Swiper
                 modules={[Pagination, Autoplay]}
                 spaceBetween={20}

@@ -1,25 +1,25 @@
 {
     "marketingCardContents": [
       {
-        "title": "Card 1",
+        "title": "Seo Optimizacija",
         "content": "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
         "iconSrc": "/google.svg",
         "buttonLink": "/seo-optimizacija"
       },
       {
-        "title": "Card 2",
+        "title": "Google Reklame",
         "content": "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
         "iconSrc": "/googleads.svg",
         "buttonLink": "/google-reklame"
       },
       {
-        "title": "Card 3",
+        "title": "Meta Reklame",
         "content": "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
         "iconSrc": "/meta.svg",
         "buttonLink": "/meta-reklame"
       },
       {
-        "title": "Card 4",
+        "title": "Email Outreach",
         "content": "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
         "iconSrc": "/gmail.svg",
         "buttonLink": "/email-marketing"
@@ -27,25 +27,25 @@
     ],
     "brandingCardContents": [
       {
-        "title": "Card 1",
+        "title": "Menadzment D. Mreza",
         "content": "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
         "iconSrc": "/instagram.svg",
         "buttonLink": "/smm"
       },
       {
-        "title": "Card 2",
+        "title": "Izrada Reels Reklama",
         "content": "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
         "iconSrc": "/video.svg",
         "buttonLink": "/reels"
       },
       {
-        "title": "Card 3",
+        "title": "Izrada Veb Sajtova",
         "content": "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
         "iconSrc": "/domain.svg",
         "buttonLink": "/izrada-sajtova"
       },
       {
-        "title": "Card 4",
+        "title": "Graficki Dizajn",
         "content": "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
         "iconSrc": "/pen-tool.svg",
         "buttonLink": "/graficki-dizajn"

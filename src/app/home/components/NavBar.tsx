@@ -80,7 +80,7 @@ export default function Nav() {
       {/* Navigation Links - Desktop */}
       <div className="hidden md:flex md:items-center md:space-x-6">
         <Link href="/" className="text-white text-lg hover:text-[#da26ff]">
-          Pocetna
+          Početna
         </Link>
 
         {/* Dropdown Menu */}
@@ -90,7 +90,7 @@ export default function Nav() {
             onClick={toggleDropdown}
             className="text-white text-lg flex items-center hover:text-[#da26ff]"
           >
-            Nase Usluge <ChevronDownIcon className="w-5 h-5 ml-1" />
+            Naše Usluge <ChevronDownIcon className="w-5 h-5 ml-1" />
           </button>
           <AnimatePresence>
             {isDropdownOpen && (
@@ -105,37 +105,37 @@ export default function Nav() {
                   Seo Optimizacija
                 </Link>
                 <Link href="/google-reklame" onClick={toggleMenu} className="block px-4 py-2 hover:text-[#da26ff]">
-                  Google Ads
+                  Google Reklame
                 </Link>
                 <Link href="/meta-reklame" onClick={toggleMenu} className="block px-4 py-2 hover:text-[#da26ff]">
-                  Meta Ads
+                  Meta Reklame
                 </Link>
                 <Link href="/email-marketing" onClick={toggleMenu} className="block px-4 py-2 hover:text-[#da26ff]">
                   Email Marketing
                 </Link>
                 <Link href="/smm" onClick={toggleMenu} className="block px-4 py-2 hover:text-[#da26ff]">
-                  Instagram
+                  Menadžment Društvenih Mreža
                 </Link>
                 <Link href="/reels" onClick={toggleMenu} className="block px-4 py-2 hover:text-[#da26ff]">
-                  Reels
+                  Izrada Reels Reklama
                 </Link>
                 <Link href="/izrada-sajtova" onClick={toggleMenu} className="block px-4 py-2 hover:text-[#da26ff]">
-                  Websites
+                  Izrada Veb Sajtova
                 </Link>
                 <Link href="/graficki-dizajn" onClick={toggleMenu} className="block px-4 py-2 hover:text-[#da26ff]">
-                  Graficki Dizajn
+                  Grafički Dizajn
                 </Link>
               </motion.div>
             )}
           </AnimatePresence>
         </div>
-
-        <Link href="#contactSection" className="text-white text-lg hover:text-[#da26ff]">
-          Kontaktirajte nas
-        </Link>
         <Link href="/onama" className="text-white text-lg hover:text-[#da26ff]">
           O nama
         </Link>
+        <Link href="#contactSection" className="text-white text-lg hover:text-[#da26ff]">
+          Kontaktirajte nas
+        </Link>
+
       </div>
 
       {/* Mobile Menu */}
@@ -151,13 +151,13 @@ export default function Nav() {
             {[
               { href: "/", text: "Pocetna" },
               { href: "/seo-optimizacija", text: "Seo Optimizacija" },
-              { href: "/google-reklame", text: "Google Ads" },
-              { href: "/meta-reklame", text: "Meta Ads" },
+              { href: "/google-reklame", text: "Google Reklame" },
+              { href: "/meta-reklame", text: "Meta Reklame" },
               { href: "/email-marketing", text: "Email Marketing" },
-              { href: "/smm", text: "Instagram" },
-              { href: "/reels", text: "Reels" },
-              { href: "/izrada-sajtova", text: "Websites" },
-              { href: "/graficki-dizajn", text: "Graficki Dizajn" },
+              { href: "/smm", text: "Menadžment Društvenih Mreža" },
+              { href: "/reels", text: "Izrada Reels Reklama" },
+              { href: "/izrada-sajtova", text: "Izrada Veb Sajtova" },
+              { href: "/graficki-dizajn", text: "Grafički Dizajn" },
               { href: "#contactSection", text: "Kontaktirajte nas" },
               { href: "/onama", text: "O nama" },
             ].map((link, index) => (

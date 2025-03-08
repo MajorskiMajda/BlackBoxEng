@@ -50,6 +50,7 @@ const Card: React.FC<CardProps> = ({
                             ) : null}
                             <h3 className="text-3xl  font-normal">{title}</h3>
                         </div>
+                        
                         <div className="flex flex-col items-left space-x-2">
                             <h3 className="font-light flex gap-2 items-center pb-3">
                                 <span className="text-md text-neutral-300">Od</span>

@@ -11,10 +11,11 @@ export default function MainPage(props: {
     image: string | StaticImport;
 }) {
     const features = [
-        "Usavršite engleski jezik",
-        "Učite bilo kada i bilo gde.",
-        "Gledajte video predavanja neograničeno.",
-        "Zakažite online časove sa našim predavačima.",
+        "Veća konverzija, veći profit – pretvaramo posetioce u kupce.",
+        "Više vremena za važne stvari – preuzimamo marketing na sebe.",
+        "Manje stresa, više rezultata – optimizujemo sve za vas.",
+        "Više poseta sajtu i profilima – privlačimo ciljanu publiku.",
+        "Bolja vidljivost – ističemo vas tamo gde je važno."
     ];
     useEffect(() => {
         // GSAP flying animation for the rocket
@@ -46,7 +47,7 @@ export default function MainPage(props: {
 
     return (
         <div className="flex z-2  flex-col justify-end ">
-            <div className="flex flex-col-reverse test2 lg:h-[70vh] h-fit md:flex-row items-center z-9 lg:gap-0 gap-10 lg:justify-between  lg:px-16 px-8 ">
+            <div className="flex flex-col-reverse test2 lg:h-[80vh] h-fit md:flex-row items-center z-9 lg:gap-0 gap-10 lg:justify-between  lg:px-16 px-8 ">
                 {/* Image Section */}
                 <div className={`lg:w-2/4 md:w-8/12 sm:w-full md:w-[300] flex justify-center p-4 md:mt-0`}>
                     <Image
@@ -62,32 +63,33 @@ export default function MainPage(props: {
                 {/* Text Section */}
                 <div className="flex flex-col items-left justify-left min-h-fit w-full md:w-1/2 ">
                     {/* Wrapper for Title and Description */}
-                    <div className="w-full ">
-                        {/* Title Section */}
-                        <div className="text-5xl text-left md:text-4xl font-normal mb-8">
-                            Benefiti Nase Platforme
+                    <div className="w-full">
+                        <div className="text-5xl text-left  font-semibold mb-8">
+                            Od izazova do <span className="text-[#da26ff] underline">profita!</span>
                         </div>
 
-                        {/* Feature List */}
-                        {features.map((feature, index) => (
-                            <MotionDiv
-                                key={index}
-                                className="flex items-center text-neutral-300 gap-4 mb-4"
-                                initial={{ opacity: 0, x: -75 }}
-                                whileInView={{ opacity: 1, x: 0 }}
-                                viewport={{ once: true, amount: 0.5 }}
-                                transition={{ duration: 0.8, delay: index * 0.5 }}
-                            >
-                                <Image
-                                    src={'/verify.svg'}
-                                    alt="Custom Icon"
-                                    width={40}
-                                    height={40}
-                                    className="rounded-md"
-                                />
-                                <p className="text-3xl font-light ">{feature}</p>
-                            </MotionDiv>
-                        ))}
+                        <div className="flex flex-col gap-y-8">
+                            {features.map((feature, index) => (
+                                <MotionDiv
+                                    key={index}
+                                    className="flex items-center text-neutral-300"
+                                    initial={{ opacity: 0, x: -75 }}
+                                    whileInView={{ opacity: 1, x: 0 }}
+                                    viewport={{ once: true, amount: 0.5 }}
+                                    transition={{ duration: 0.8, delay: index * 0.5 }}
+                                >
+                                    <Image
+                                        src={'/verify.svg'}
+                                        alt="Custom Icon"
+                                        width={40}
+                                        height={40}
+                                        className="rounded-md"
+                                    />
+                                    <p className="text-3xl ml-4 font-normal">{feature}</p>
+                                </MotionDiv>
+                            ))}
+                        </div>
+
                     </div>
                 </div>
             </div>

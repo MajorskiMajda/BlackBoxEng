@@ -42,8 +42,8 @@ const HorizontalScrollSection: React.FC<HorizontalScrollSectionProps> = ({ headi
         <section className="panel w-full h-full flex-shrink-0 flex">
           <div className="flex items-center justify-center w-full h-full flex-col">
             <div className={`flex justify-center items-center flex-row gap-0 ${sectionType === "features" ? 'lg:pl-16 lg:pr-16 px-8' : ''} w-full text-left pb-12`}>
-              <div className="text-4xl w-fit sm:text-5xl md:text-6xl lg:text-7xl pf font-normal">{heading}</div>
-              <div className="w-full lg:block hidden flex justify-center items-center mx-auto">
+              <div className="text-5xl w-2/5 sm:text-5xl md:text-6xl lg:text-6xl  font-semibold">{heading}</div>
+              <div className="w-3/5 pl-4 lg:block hidden flex justify-center items-center mx-auto">
                 <hr className="w-full border-neutral-400  mr-0" />
               </div>
             </div>

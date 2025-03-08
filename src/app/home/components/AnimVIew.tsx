@@ -27,17 +27,16 @@ export default function MainPage(props: {
                 {/* Wrapper for Title and Description */}
                 <div className="w-full lg:px-0 px-8 pb-8  md:w-2/4 lg:w-3/4">
                     {/* Title Section */}
-                    <div className={`font-normal  text-white lg:mb-4 lg:p-0 pt-4 pb-4  'lg:text-8xl text-6xl md:text-5xl text-3xl text-left'}`}>
+                    <div className={`font-semibold  text-white lg:mb-4 lg:p-0 pt-4 pb-4  lg:text-5xl  md:text-5xl text-3xl text-left`}>
                         {props.text}
                     </div>
                     <div
-                        className={`font-light mb-4  'lg:text-6xl text-4xl md:text-5xl `}
-                        style={{ color: props.subHColor || 'inherit' }}
+                         className={`font-light  text-neutral-300 mb-4 lg:text-3xl text-lg text-left`}
                     >
                         {props.subH}
                     </div>
                     {/* Description Section */}
-                    <div className={` font-light lg:text-2xl text-lg`}>
+                    <div className={`font-light text-neutral-300 lg:text-xl text-md`}>
                         {props.opis}
                     </div>
                 </div>

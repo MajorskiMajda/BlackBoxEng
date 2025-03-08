@@ -13,7 +13,7 @@ const Footer = () => {
         <div>
           <Image src="/logo.svg" alt="Kursor Logo" width={180} height={80} />
           <p className="mt-4 text-neutral-400">
-            Providing the best services to help you achieve your goals. Join us today!
+          Pružamo najbolje usluge da bismo vam pomogli da ostvarite svoje ciljeve. Pridružite nam se danas!
           </p>
         </div>
 
@@ -23,6 +23,11 @@ const Footer = () => {
           <ul className="mt-4 space-y-2">
             <li>
               <Link href="/" className="text-neutral-400 text-lg hover:text-[#da26ff]">
+                Početna
+              </Link>
+            </li>
+            <li>
+              <Link href="/onama" className="text-neutral-400 text-lg hover:text-[#da26ff]">
                 O nama
               </Link>
             </li>
@@ -31,17 +36,13 @@ const Footer = () => {
                 Kontaktirajte nas
               </Link>
             </li>
-            <li>
-              <Link href="/onama" className="text-neutral-400 text-lg hover:text-[#da26ff]">
-                O nama
-              </Link>
-            </li>
+           
           </ul>
         </div>
 
         {/* Column 3: Social Media Links */}
         <div>
-          <h3 className="text-xl font-semibold  text-[#da26ff]">Zapratite nas</h3>
+          <h3 className="text-xl font-semibold  text-[#da26ff]">Kontaktirajte nas</h3>
           <div className="mt-4 flex space-x-4">
             <a
               href="https://facebook.com"
@@ -80,19 +81,28 @@ const Footer = () => {
               <FontAwesomeIcon icon={faInstagram} className="text-2xl" />
             </a>
           </div>
+          
           <p className="mt-4 text-neutral-400">
-            Kontaktirajte nas:{" "}
-            <a href="mailto:contact@yourcompany.com" className="text-white">
-              contact@yourcompany.com
+            Kontakt email:{" "}
+            <a href="mailto:info@black-box-media.com" className="text-white">
+              info@black-box-media.com
+            </a>
+  
+          </p>
+          <p className="mt-4 text-neutral-400">
+            Kontakt telefon:{" "}
+            <a className="text-white">
+              +381601305588
             </a>
           </p>
         </div>
+        
       </div>
 
       {/* Bottom Section */}
       <div className="mt-12 border-t border-gray-700 pt-6 text-center">
         <p className="text-neutral-300">
-          &copy; {new Date().getFullYear()} Black Box.  Sva prava zadržana.
+          &copy; {new Date().getFullYear()} Black Box Media.  Sva prava zadržana.
         </p>
       </div>
     </footer>
