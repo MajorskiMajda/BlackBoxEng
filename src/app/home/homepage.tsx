@@ -30,9 +30,10 @@ export default function HomePage() {
                 tex="text-left"
                 className2="test3"
                 hideImageOnMobile={false}
-                textSizeClass="text-6xl"
+                textSizeClass="lg:text-6xl text-5xl"
                 opis={mainPage1Data.opis}
                 subH={mainPage1Data.subH}
+                subHSizeClass="lg:text-3xl text-xl text-left"
                 text={mainPage1Data.title}
                 className="lg:order-last md:order-first"
             />
@@ -76,9 +77,10 @@ export default function HomePage() {
                 tex="text-left"
                 className2="test3"
                 hideImageOnMobile={false}
-                textSizeClass="lg:text-6xl text-3xl"
+                textSizeClass="lg:text-5xl text-4xl"
                 opis={mainPage2Data.opis}
                 subH={mainPage2Data.subH}
+                subHSizeClass="lg:text-2xl text-xl text-left"
                 text={mainPage2Data.title}
                 className="lg:order-last md:order-first"
             />

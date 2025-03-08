@@ -22,7 +22,7 @@ export default function MainPage() {
                 tex="text-left"
                 className2="test3"
                 hideImageOnMobile={false}
-                textSizeClass="text-5xl"
+                textSizeClass="lg:text-6xl text-5xl"
                 opis="Hello"
                 subH=""
                 text="Social Media Management"

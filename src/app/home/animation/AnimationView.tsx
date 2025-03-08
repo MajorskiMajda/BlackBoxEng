@@ -157,7 +157,7 @@ export default function MainPage() {
                     ref={svgRef}
                     width="800" // Make width responsive
                     height="auto" // Maintain aspect ratio
-                    viewBox="-100 0 759 737"
+                    viewBox="-150 0 759 737"
                     fill="none"
                     className="hidden md:block"
                     xmlns="http://www.w3.org/2000/svg"

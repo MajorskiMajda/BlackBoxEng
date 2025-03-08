@@ -93,10 +93,10 @@ background-size: 20px 20px;
 
 .btn-col {
   /* color: whitesmoke;
+  #7f17ee
   background: rgb(218,38,255);
   background: linear-gradient(90deg, rgba(218,38,255,1) 0%, rgba(127,23,238,1) 100%); */
-  background: rgb(218, 38, 255);
-  background: linear-gradient(99deg, rgba(218, 38, 255, 1) 0%, rgba(255, 0, 127, 1) 100%);
+  background:#da26ff;
   color: white;
 }
 

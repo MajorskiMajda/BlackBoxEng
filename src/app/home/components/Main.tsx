@@ -17,20 +17,20 @@ export default function MainPage(props: {
     className2?: string;
     hideImageOnMobile?: boolean;
     textSizeClass?: string;
+    subHSizeClass?: string;
     priority?: boolean;
 
 }) {
 
 
     const words = props.text.split(" ");
-    console.log(words);
 
-    const purpleWords = ["Povećajte", "profit!"];
+    const purpleWords = ["Povećajte", "profit!", "?"];
     
 
 
     return (
-        <div className={`flex z-2 ${props.className2 || ''} ${props.gap || ''} flex-col-reverse md:flex-row items-center justify-evenly lg:pl-16 lg:pr-16 p-8`}>
+        <div className={`flex z-2 ${props.className2 || ''} ${props.gap || ''} flex-col-reverse md:flex-row items-center justify-evenly pl-8 pr-8 pb-8 pt-3 lg:pl-16 lg:pr-16 `}>
             {/* Image Section */}
             <div
                 className={`lg:ml-8 lg:mt-12 lg:w-2/4 md:w-10/12 sm:w-full flex justify-center md:mt-0 
@@ -67,14 +67,15 @@ export default function MainPage(props: {
                             );
                         })}
                     </div>
+                    <div className={`font-normal  mb-4 lg:text-4xl text-2xl`}>
+                        {props.opis}
+                    </div>
                     <div
-                        className={`font-light  text-neutral-300 mb-4 lg:text-3xl text-lg md:text-md lg:text-left text-center`}
+                        className={`font-light  text-neutral-300 mb-4 ${props.subHSizeClass || 'lg:text-2xl'}  lg:text-left`}
                     >
                         {props.subH}
                     </div>
-                    <div className={`font-light text-neutral-300 lg:text-xl text-md`}>
-                        {props.opis}
-                    </div>
+                    
                 </div>
             </div>
         </div>

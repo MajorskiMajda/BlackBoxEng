@@ -104,8 +104,8 @@ const ContactForm = ({ variant = "home", reverseOrder = false }: ContactFormProp
         >
           <div className="flex flex-col h-full">
             <div className={`flex-1 ${variant === "services" ? "hidden" : " "}`}>
-              <div className="lg:text-6xl pb-8 font-semibold">Kontaktirajte nas</div>
-              <div className={`text-2xl text-neutral-400 w-3/3 ${variant === "services" ? "hidden" : " "} font-light`}>
+              <div className="lg:text-5xl text-4xl pb-8 font-semibold">Kontaktirajte nas</div>
+              <div className={`lg:text-2xl text-xl text-neutral-400 w-3/3 ${variant === "services" ? "hidden" : " "} font-light`}>
                 Ukoliko imate bilo kakva pitanja. Zakažite besplatne konsultacije i krenite ka unapređenju svog poslovanja. Tu smo da vam pomognemo u svakom koraku. 🙂
               </div>
             </div>
@@ -134,10 +134,10 @@ const ContactForm = ({ variant = "home", reverseOrder = false }: ContactFormProp
           className={`w-full ${variant === "home" ? "lg:pl-24" : "order-first"} content-center lg:w-full`}
         >
           <div className={`${variant === "services" ? "" : "hidden"}`}>
-            <h2 className="lg:text-6xl text-3xl font-normal text-center lg:text-left">
+            <h2 className="lg:text-4xl text-3xl font-semibold lg:text-left">
               Pošljite nam poruku
             </h2>
-            <p className="mt-4 lg:text-xl text-neutral-400 text-lg text-center lg:text-left">
+            <p className="mt-4 text-xl text-neutral-400 text-lg  lg:text-left">
               Imate pitanja? Napišite nam na email ili pozovite na telefon.
             </p>
           </div>

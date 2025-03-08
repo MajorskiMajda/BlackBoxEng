@@ -47,7 +47,7 @@ export default function MainPage(props: {
 
     return (
         <div className="flex z-2  flex-col justify-end ">
-            <div className="flex flex-col-reverse test2 lg:h-[80vh] h-fit md:flex-row items-center z-9 lg:gap-0 gap-10 lg:justify-between  lg:px-16 px-8 ">
+            <div className="flex flex-col-reverse test2 lg:h-[90vh] h-fit md:flex-row items-center z-9 lg:gap-0 gap-10 lg:justify-between  lg:px-16 px-8 ">
                 {/* Image Section */}
                 <div className={`lg:w-2/4 md:w-8/12 sm:w-full md:w-[300] flex justify-center p-4 md:mt-0`}>
                     <Image
@@ -62,10 +62,9 @@ export default function MainPage(props: {
 
                 {/* Text Section */}
                 <div className="flex flex-col items-left justify-left min-h-fit w-full md:w-1/2 ">
-                    {/* Wrapper for Title and Description */}
                     <div className="w-full">
-                        <div className="text-5xl text-left  font-semibold mb-8">
-                            Od izazova do <span className="text-[#da26ff] underline">profita!</span>
+                        <div className="lg:text-5xl text-4xl leading-[1.3] text-left  font-semibold mb-8">
+                            Od izazova do <span className="text-[#da26ff]">profita!</span>
                         </div>
 
                         <div className="flex flex-col gap-y-8">
@@ -85,7 +84,7 @@ export default function MainPage(props: {
                                         height={40}
                                         className="rounded-md"
                                     />
-                                    <p className="text-3xl ml-4 font-normal">{feature}</p>
+                                    <p className="lg:text-3xl text-xl ml-4 font-normal">{feature}</p>
                                 </MotionDiv>
                             ))}
                         </div>

@@ -26,11 +26,11 @@ const Info: React.FC<InfoProps> = ({
   whatWeDoList,
 }) => {
   return (
-    <section className="pb-20 test2 pt-10 px-6 md:px-8 lg:px-20 text-white">
+    <section className="lg:pb-20 test2 pt-10 px-6 md:px-8 lg:px-20 text-white">
       <div className="max-w-7xl mx-auto pb-8 shadow-lg rounded-2xl ">
         {/* Section Title and Description */}
-        <h2 className="text-5xl font-normal mb-6">{howWeDoTitle}</h2>
-        <p className="text-2xl font-light text-neutral-300 mb-6">
+        <div className="lg:text-5xl text-3xl font-semibold mb-6">{howWeDoTitle}</div>
+        <p className="text-2xl font-light text-neutral-300 lg:mb-6">
           {howWeDoDescription}
         </p>
 
@@ -41,8 +41,8 @@ const Info: React.FC<InfoProps> = ({
         />
 
         {/* What We Do Section */}
-        <h2 className="text-5xl font-normal mb-6">{whatWeDoTitle}</h2>
-        <ul className="list-disc font-light text-neutral-300 pl-5 text-2xl marker:text-purple-500 pb-20 space-y-3">
+        <h2 className="lg:text-5xl text-3xl font-semibold lg:mb-6 lg:p-0 md:pb-0 pt-8 ">{whatWeDoTitle}</h2>
+        <ul className="list-disc font-light text-neutral-300 pl-5 lg:text-2xl text-xl marker:text-purple-500 lg:pb-20 lg:p-0 p-8 space-y-3">
           {whatWeDoList.map((item, index) => (
             <li key={index}>{item}</li>
           ))}
@@ -51,8 +51,8 @@ const Info: React.FC<InfoProps> = ({
 
       {/* What We Do Additional Info */}
       <div className="max-w-7xl mx-auto text-left">
-        <h2 className="text-5xl font-normal mb-6">What We Do</h2>
-        <p className="text-2xl text-neutral-400 mb-12">
+        <h2 className="lg:text-5xl text-3xl font-semibold mb-6">What We Do</h2>
+        <p className="lg:text-2xl text-xl text-neutral-400 mb-12">
           {whatWeDoDescription}
         </p>
       </div>

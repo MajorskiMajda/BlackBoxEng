@@ -2,53 +2,61 @@
     "marketingCardContents": [
       {
         "title": "Seo Optimizacija",
-        "content": "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
+        "content": "SEO optimizacija podrazumeva unapređenje veb sajta – od ključnih reči i tehničkih poboljšanja do sadržaja, kako bi se postigla veća vidljivost i rangiranje na pretraživačima.",
         "iconSrc": "/google.svg",
-        "buttonLink": "/seo-optimizacija"
+        "buttonLink": "/seo-optimizacija",
+        "price": "200"
       },
       {
         "title": "Google Reklame",
-        "content": "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
+        "content": "Google reklame obuhvataju kreiranje i optimizaciju oglasa na Google platformi – od ključnih reči i dizajna do analitike, za veću vidljivost i postizanje poslovnih ciljeva.",
         "iconSrc": "/googleads.svg",
-        "buttonLink": "/google-reklame"
+        "buttonLink": "/google-reklame",
+        "price": "100"
       },
       {
         "title": "Meta Reklame",
-        "content": "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
+        "content": "Meta reklame podrazumevaju kreiranje i upravljanje ciljanim oglasima na platformama poput Facebooka i Instagrama – od dizajna i postavljanja do optimizacije za veći doseg i konverzije.",
         "iconSrc": "/meta.svg",
-        "buttonLink": "/meta-reklame"
+        "buttonLink": "/meta-reklame",
+        "price": "100"
       },
       {
         "title": "Email Outreach",
-        "content": "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
+        "content": "Email marketing i outreach uključuju kreiranje ciljanih kampanja – od pisanja privlačnih mejlova do upravljanja kontaktima, sa ciljem većeg angažmana i širenja vašeg dosega.",
         "iconSrc": "/gmail.svg",
-        "buttonLink": "/email-marketing"
+        "buttonLink": "/email-marketing",
+        "price": "150"
       }
     ],
     "brandingCardContents": [
       {
         "title": "Menadzment D. Mreza",
-        "content": "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
+        "content": "Upravljanje društvenim mrežama podrazumeva kreiranje, vođenje i optimizaciju vaših profila – od dizajna i objava, preko odgovora na poruke, do kreiranja Reels-a za veći doseg i angažman.",
         "iconSrc": "/instagram.svg",
-        "buttonLink": "/smm"
+        "buttonLink": "/smm",
+        "price": "200"
       },
       {
         "title": "Izrada Reels Reklama",
-        "content": "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
+        "content": "Snimanje i editovanje Reels reklama uključuje kreiranje dinamičnih, kratkih videa – od ideje i snimanja do profesionalne montaže, optimizovane za veći doseg i angažman na društvenim mrežama.",
         "iconSrc": "/video.svg",
-        "buttonLink": "/reels"
+        "buttonLink": "/reels",
+        "price": "200"
       },
       {
         "title": "Izrada Veb Sajtova",
-        "content": "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
+        "content": "Izrada veb sajtova podrazumeva dizajniranje, razvoj i optimizaciju modernih, funkcionalnih sajtova – od vizuelnog identiteta do tehničke podrške, prilagođenih vašim potrebama i ciljevima.",
         "iconSrc": "/domain.svg",
-        "buttonLink": "/izrada-sajtova"
+        "buttonLink": "/izrada-sajtova",
+        "price": "350"
       },
       {
-        "title": "Graficki Dizajn",
-        "content": "Lorem ipsum odor amet, consectetuer adipiscing elit. Felis senectus tristique eros id senectus himenaeos libero quam.",
+        "title": "Grafički Dizajn",
+        "content": "Grafički dizajn obuhvata kreiranje vizuelnih rešenja – od dizajna logoa, objava za društvene mreže, do materijala za veb, prilagođenih vašem brendu i estetskim ciljevima.",
         "iconSrc": "/pen-tool.svg",
-        "buttonLink": "/graficki-dizajn"
+        "buttonLink": "/graficki-dizajn",
+        "price": "50"
       }
     ]
   }

@@ -65,7 +65,7 @@ export default function CustomerReviews() {
 
     return (
         <div className="max-w-full gg  bg-black z-2 mx-auto lg:px-16 lg:py-12 p-8 text-white" suppressHydrationWarning={true}>
-            <div className="text-5xl font-semibold text-left">Iskustva koja govore umesto nas</div>
+            <div className="lg:text-5xl text-4xl font-semibold text-left">Iskustva koja govore umesto nas</div>
             <Swiper
                 modules={[Pagination, Autoplay]}
                 spaceBetween={20}
@@ -81,7 +81,7 @@ export default function CustomerReviews() {
             >
                 {reviews.map(({ id, name, image, title, review }) => {
                     const isExpanded = expandedId === id;
-                    const truncatedText = review.length > 100 ? `${review.substring(0, 100)}...` : review;
+                    const truncatedText = review.length > 200 ? `${review.substring(0, 200)}...` : review;
 
                     return (
                         <SwiperSlide key={id} className="lg:mb-20">
@@ -106,9 +106,9 @@ export default function CustomerReviews() {
                                 <p className="text-neutral-400 font-normal mt-2">
                                     {isExpanded ? review : truncatedText}
                                 </p>
-                                {review.length > 100 && (
+                                {review.length > 200 && (
                                     <button
-                                        className="text-[#da26ff] mt-2 text-sm font-semibold transition-colors duration-200 hover:underline"
+                                        className="text-white mt-2 text-sm font-normal underline cursor-pointer transition-colors duration-200 hover:underline"
                                         onClick={() => toggleExpand(id)}
                                     >
                                         {isExpanded ? 'Prikaži manje' : 'Prikaži više'}
