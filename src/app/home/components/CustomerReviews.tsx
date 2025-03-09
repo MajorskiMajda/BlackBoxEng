@@ -10,7 +10,7 @@ import 'swiper/css/pagination';
 const reviews = [
     {
         id: 1,
-        name: 'Radoš Stefanović',
+        name: 'Radoš S.',
         image: '/man.png',
         title: 'PR Menadžer',
         review: 'Radio sam na projektu širenja našeg brenda na druge prostore. Kontaktirao sam BBM zarad njihovih usluga Meta oglašavanja. Pomogli su mi da dođem do ciljane grupe ljudi kao i do targeta brodaje i širenja brenda.'
