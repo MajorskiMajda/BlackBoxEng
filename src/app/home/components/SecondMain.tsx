@@ -46,7 +46,7 @@ export default function MainPage(props: {
     }, []);
 
     return (
-        <div className="flex z-2  flex-col justify-end">
+        <div className="flex z-2  flex-col justify-end xl:mb-0 lg:mb-0 md:mb-15">
             <div className="flex flex-col-reverse test2 lg:h-[90vh] h-fit md:flex-row items-center z-9 lg:gap-10 gap-10 lg:justify-between lg:px-16 px-8">
                 {/* Image Section */}
                 <div className="lg:w-2/4 md:w-8/12 sm:w-full flex justify-center p-4 md:mt-0">
@@ -65,7 +65,7 @@ export default function MainPage(props: {
                     <div className="w-full">
                         {/* Title */}
                         <div
-                            className="text-3xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl leading-[1.3] text-left font-semibold mb-8"
+                            className="text-4xl md:text-4xl lg:text-4xl xl:text-5xl leading-[1.3] text-left font-semibold mb-8"
                         >
                             Od izazova do <span className="text-[#da26ff]">profita!</span>
                         </div>

@@ -29,7 +29,7 @@ export default function MainPage(props: {
         >
             {/* Text Section */}
             <div className="flex flex-col items-center justify-center min-h-fit w-full md:w-6/12">
-                <div className={`w-full md:w-4/4 ${props.tex || 'text-center'} lg:text-left lg:w-4/4`}>
+                <div className={`w-full md:w-4/4 sm:mb-10 mt-10 mt-0 mb-0 ${props.tex || 'text-center'} lg:text-left lg:w-4/4`}>
                     {/* Title Section */}
                     <div
                         className={`font-semibold leading-[1.3] lg:mb-4 lg:p-0 pt-4 pb-4 ${props.textSizeClass || ' sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl'

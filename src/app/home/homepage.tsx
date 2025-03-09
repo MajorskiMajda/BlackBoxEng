@@ -30,7 +30,7 @@ export default function HomePage() {
                 tex="text-left"
                 className2="test3"
                 hideImageOnMobile={false}
-                textSizeClass=" xl:text-6xl lg:text-5xl text-4xl "
+                textSizeClass=" xl:text-6xl lg:text-5xl md:text-4xl text-5xl "
                 opis={mainPage1Data.opis}
                 subH={mainPage1Data.subH}
                 imgsize={800}

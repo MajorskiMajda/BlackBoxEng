@@ -128,7 +128,7 @@ export default function MainPage(props: {
     return (
         <div
             ref={sectionRef}
-            className="flex flex-col-reverse md:flex-col lg:flex-row items-center justify-evenly h-fit lg:pl-16 p-0 pt-0"
+            className="flex  sm:mb-10 mb-0 flex-col-reverse md:flex-col lg:flex-row items-center justify-evenly h-fit lg:pl-16 p-0 pt-0"
         >
             {/* Image Section */}
             {isClient && (
@@ -140,12 +140,12 @@ export default function MainPage(props: {
             )}
 
             {/* Text Section */}
-            <div className="flex flex-col justify-center items-center min-h-fit w-full md:w-12/12">
+            <div className="flex flex-col justify-center sm:mt-10 sm:mb-10 mt-0 mb-0 items-center min-h-fit w-full md:w-12/12">
                 {/* Wrapper for Title and Description */}
                 <div className="w-full lg:p-0 p-8 md:w-4/4 text-left lg:w-3/4">
                     {/* Title Section */}
                     <div
-                        className={`font-semibold leading-[1.3] lg:mb-8 lg:p-0 pt-4 pb-4 'text-2xl sm:text-3xl xl:text-5xl md:text-4xl lg:text-4xl '
+                        className={`font-semibold leading-[1.3] lg:mb-8 lg:p-0 pt-4 pb-4 'text-2xl text-4xl xl:text-5xl md:text-4xl lg:text-4xl '
                          text-left`}
                     >
                         {styledText}
