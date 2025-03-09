@@ -13,7 +13,7 @@ const reviews = [
         name: 'Radoš S.',
         image: '/man.png',
         title: 'PR Menadžer',
-        review: 'Radio sam na projektu širenja našeg brenda na druge prostore. Kontaktirao sam BBM zarad njihovih usluga Meta oglašavanja. Pomogli su mi da dođem do ciljane grupe ljudi kao i do targeta brodaje i širenja brenda.'
+        review: 'Radio sam na projektu širenja našeg brenda. Kontaktirao sam BBM zarad njihovih usluga Meta oglašavanja. Pomogli su mi da dođem do ciljane grupe ljudi kao i do targeta brodaje i širenja brenda.'
     },
     {
         id: 2,
@@ -61,7 +61,7 @@ export default function CustomerReviews() {
 
     return (
         <div className="max-w-full bg-black z-2 mx-auto px-8  py-8 md:px-8 md:py-10 lg:px-16 lg:py-12 text-white" suppressHydrationWarning={true}>
-            <div className="text-3xl md:text-4xl lg:text-5xl font-semibold text-left mb-6 md:mb-8 lg:mb-12">
+            <div className="text-3xl md:text-4xl xl:text-6xl lg:text-4xl font-semibold text-left mb-6 md:mb-8 lg:mb-12">
                 Iskustva koja govore umesto nas
             </div>
             <Swiper

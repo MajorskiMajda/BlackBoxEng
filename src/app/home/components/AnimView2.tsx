@@ -12,7 +12,6 @@ export default function MainPage(props: {
     showButton2?: boolean;
     className?: string;
     hideImageOnMobile?: boolean;
-    textSizeClass?: string;
 }) {
     const [isClient, setIsClient] = useState(false);
     const [isVisible, setIsVisible] = useState(false);
@@ -146,25 +145,22 @@ export default function MainPage(props: {
                 <div className="w-full lg:p-0 p-8 md:w-4/4 text-left lg:w-3/4">
                     {/* Title Section */}
                     <div
-                        className={`font-semibold leading-[1.3] lg:mb-8 lg:p-0 pt-4 pb-4 ${
-                            props.textSizeClass || 'text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl'
-                        } text-left`}
+                        className={`font-semibold leading-[1.3] lg:mb-8 lg:p-0 pt-4 pb-4 'text-2xl sm:text-3xl xl:text-6xl md:text-4xl lg:text-4xl '
+                         text-left`}
                     >
                         {styledText}
                     </div>
                     {/* Subtitle Section */}
                     <div
-                        className={`font-light text-neutral-300 mb-4 ${
-                            props.textSizeClass ? '' : 'text-base sm:text-lg md:text-xl lg:text-2xl'
-                        } text-left`}
+                        className={`font-light text-neutral-300 mb-4  xl:text-2xl text-base sm:text-lg md:text-xl lg:text-xl
+                         text-left`}
                     >
                         {styledSubH}
                     </div>
                     {/* Description Section */}
                     <div
-                        className={`font-light text-neutral-300 ${
-                            props.textSizeClass ? '' : 'text-sm sm:text-base md:text-lg lg:text-xl'
-                        }`}
+                        className={`font-light text-neutral-300 text-sm sm:text-base md:text-lg lg:text-xl
+                        `}
                     >
                         {props.opis}
                     </div>

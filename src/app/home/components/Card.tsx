@@ -48,15 +48,15 @@ const Card: React.FC<CardProps> = ({
                   className="rounded-md "
                 />
               ) : null}
-              <h3 className="lg:text-3xl text-2xl font-normal">{title}</h3>
+              <h3 className="xl:text-3xl lg:text-2xl text-2xl font-normal">{title}</h3>
             </div>
             <div className="flex flex-col items-left space-x-2">
               <h3 className="font-light flex gap-2 items-center pb-3">
                 <span className="text-md text-neutral-300">Od</span>
-                <span className="lg:text-3xl text-2xl">{price}</span>
+                <span className="xl:text-3xl lg:text-2xl text-2xl">{price}</span>
                 <span className="text-md text-neutral-300">€</span>
               </h3>
-              <p className="text-xl text-neutral-400 font-light">{content}</p>
+              <p className=" text-xl text-neutral-400 font-light">{content}</p>
             </div>
           </div>
 
