@@ -18,7 +18,7 @@ import animPage2Data from '../data/homeanim2.json'
 
 export default function HomePage() {
     const { marketingCardContents, brandingCardContents } = contentData;
-    
+
 
     return (
         <div>
@@ -33,7 +33,7 @@ export default function HomePage() {
                 textSizeClass=" xl:text-6xl lg:text-5xl text-4xl "
                 opis={mainPage1Data.opis}
                 subH={mainPage1Data.subH}
-                imgsize={700}
+                imgsize={300}
                 subHSizeClass="lg:text-3xl sm:text-2xl text-xl text-left"
                 text={mainPage1Data.title}
                 className="lg:order-last md:order-first"
@@ -47,17 +47,17 @@ export default function HomePage() {
             {/* Marketing Section */}
             <HorizontalScrollSection
                 heading="Usluge Marketinga"
-                sectionType="features" 
+                sectionType="features"
                 cardContents={marketingCardContents}
             />
 
             <HorizontalScrollSection
                 heading="Usluge Brendiranja"
-                sectionType="features" 
+                sectionType="features"
                 cardContents={brandingCardContents}
             />
 
-  
+
 
             <Anim
                 opis={animPage1Data.opis}
@@ -70,7 +70,7 @@ export default function HomePage() {
             <Anim2 opis={animPage2Data.opis}
                 subH={animPage2Data.subH}
                 text={animPage2Data.title} />
-            
+
             <Separator />
 
             <MainPage

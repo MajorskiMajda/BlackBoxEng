@@ -77,8 +77,8 @@ export default function MainPage(props: {
                 <Image
                     className="rounded-md"
                     src={props.image}
-                    width={props.imgsize ? Number(props.imgsize) : 800}
-                    height={900}
+                    width={props.imgsize ? Number(props.imgsize) : 600}
+                    height={800}
                     objectFit="contain"
                     alt="Image"
                     priority={props.priority}
