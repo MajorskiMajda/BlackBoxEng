@@ -70,15 +70,15 @@ export default function MainPage(props: {
 
             {/* Image Section */}
             <div
-                className={`lg:ml-8 lg:mt-12 lg:w-2/4 md:w-6/12 sm:w-full flex justify-center md:mt-0 
+                className={`lg:ml-8 lg:w-/4 md:w-6/12 sm:w-full flex justify-center  md:mt-0 
                     ${props.className || ''} 
                     ${props.hideImageOnMobile ? 'hidden sm:block' : ''}`}
             >
                 <Image
                     className="rounded-md"
                     src={props.image}
-                    width={props.imgsize ? Number(props.imgsize) : 600}
-                    height={800}
+                    width={props.imgsize ? Number(props.imgsize) : 700}
+                    height={300}
                     objectFit="contain"
                     alt="Image"
                     priority={props.priority}
