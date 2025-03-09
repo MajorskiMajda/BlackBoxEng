@@ -61,7 +61,7 @@ export default function MainPage(props: {
                 </div>
 
                 {/* Text Section */}
-                <div className="flex flex-col items-left justify-left min-h-fit w-full md:w-1/2">
+                <div className="flex flex-col items-left justify-left min-h-fit w-full md:w-1/2 lg:mb-10">
                     <div className="w-full">
                         {/* Title */}
                         <div
