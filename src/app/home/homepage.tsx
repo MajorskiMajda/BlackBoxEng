@@ -30,12 +30,12 @@ export default function HomePage() {
                 tex="text-left"
                 className2="test3"
                 hideImageOnMobile={false}
-                textSizeClass="lg:text-6xl text-5xl"
+                textSizeClass="lg:text-6xl text-4xl "
                 opis={mainPage1Data.opis}
                 subH={mainPage1Data.subH}
-                subHSizeClass="lg:text-3xl text-xl text-left"
+                subHSizeClass="lg:text-3xl sm:text-2xl text-xl text-left"
                 text={mainPage1Data.title}
-                className="lg:order-last md:order-first"
+                className1="lg:order-last md:order-first"
             />
 
             <div className="pic lg:h-[7vw] h-[10vw]">
@@ -77,12 +77,12 @@ export default function HomePage() {
                 tex="text-left"
                 className2="test3"
                 hideImageOnMobile={false}
-                textSizeClass="lg:text-5xl text-4xl"
+                textSizeClass="lg:text-5xl  text-4xl"
                 opis={mainPage2Data.opis}
                 subH={mainPage2Data.subH}
                 subHSizeClass="lg:text-2xl text-xl text-left"
                 text={mainPage2Data.title}
-                className="lg:order-last md:order-first"
+                className1="lg:order-last order-first"
             />
 
             <ContactForm variant="home" />

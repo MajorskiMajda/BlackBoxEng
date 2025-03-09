@@ -130,11 +130,11 @@ export default function MainPage(props: {
     return (
         <div
             ref={sectionRef}
-            className="flex flex-col-reverse md:flex-row items-center justify-evenly h-fit lg:pl-16 pb-0"
+            className="flex flex-col-reverse lg:flex-row md:flex-col items-center justify-evenly h-fit lg:pl-16 pb-0"
         >
             {/* Text Section */}
-            <div className="flex flex-col justify-center min-h-fit w-full md:w-6/12">
-                <div className="lg:pr-8 lg:pl-0 lg:pb-0 px-8 pb-8 md:w-2/4 lg:w-4/4">
+            <div className="flex  md:flex-col md:flex-row justify-center min-h-fit w-full md:w-12/12">
+                <div className="lg:pr-8 lg:pl-0 lg:pb-0 px-8 pb-8 md:w-4/4 lg:w-4/4">
                     {/* Title Section */}
                     <div className={`font-semibold lg:mb-8 leading-[1.3] text-white lg:mb-4 lg:p-0 pt-4 pb-4 lg:text-5xl text-4xl text-left`}>
                         {styledText}

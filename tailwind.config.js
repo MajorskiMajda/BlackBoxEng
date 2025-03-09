@@ -5,12 +5,15 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
     "./src/**/*.{html,js,ts,jsx,tsx}",
   ],
-    theme: {
-      extend: {
-        fontFamily: {
-          sans: ['Lora', 'serif'],
-        },
+  theme: {
+    extend: {
+      screens: {
+        'custom': '1350px', // For grid-cols-2 if you’re still using it
+        'wide': '1350px',  // For wider cards at 1350px
+      },
+      fontFamily: {
+        sans: ['Lora', 'serif'],
       },
     },
-  };
-  
+  },
+};

@@ -5,9 +5,7 @@ import { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
-import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-
 
 const reviews = [
     {
@@ -51,7 +49,6 @@ export default function CustomerReviews() {
     const [expandedId, setExpandedId] = useState<number | null>(null);
     const [isMounted, setIsMounted] = useState(false);
 
-    // Use effect to set the state to true after the component is mounted
     useEffect(() => {
         setIsMounted(true);
     }, []);
@@ -60,55 +57,61 @@ export default function CustomerReviews() {
         setExpandedId(prevId => (prevId === id ? null : id));
     };
 
-    // Don't render the content until after the component has mounted to avoid hydration errors
     if (!isMounted) return null;
 
     return (
-        <div className="max-w-full gg  bg-black z-2 mx-auto lg:px-16 lg:py-12 p-8 text-white" suppressHydrationWarning={true}>
-            <div className="lg:text-5xl text-4xl font-semibold text-left">Iskustva koja govore umesto nas</div>
+        <div className="max-w-full bg-black z-2 mx-auto px-8  py-8 md:px-8 md:py-10 lg:px-16 lg:py-12 text-white" suppressHydrationWarning={true}>
+            <div className="text-3xl md:text-4xl lg:text-5xl font-semibold text-left mb-6 md:mb-8 lg:mb-12">
+                Iskustva koja govore umesto nas
+            </div>
             <Swiper
                 modules={[Pagination, Autoplay]}
-                spaceBetween={20}
+                spaceBetween={15}
                 loop={true}
                 autoplay={{ delay: 4000, disableOnInteraction: false }}
+                pagination={{ clickable: true }}
                 breakpoints={{
-                    240: { slidesPerView: 1, spaceBetween: 10 },
-                    640: { slidesPerView: 1, spaceBetween: 10 },
+                    320: { slidesPerView: 1, spaceBetween: 10 },
+                    640: { slidesPerView: 1, spaceBetween: 15 },
                     768: { slidesPerView: 2, spaceBetween: 20 },
-                    1024: { slidesPerView: 4, spaceBetween: 20 },
+                    1024: { slidesPerView: 3, spaceBetween: 20 }, // 3 slides at 1024px
+                    1280: { slidesPerView: 4, spaceBetween: 20 },
                 }}
-                className="p-4 mt-12 min-h-[30vh]"
+                className="p-4"
             >
                 {reviews.map(({ id, name, image, title, review }) => {
                     const isExpanded = expandedId === id;
-                    const truncatedText = review.length > 200 ? `${review.substring(0, 200)}...` : review;
+                    const truncatedText = review.length > 150 ? `${review.substring(0, 150)}...` : review;
 
                     return (
-                        <SwiperSlide key={id} className="lg:mb-20">
+                        <SwiperSlide key={id} className="mb-10 md:mb-16 lg:mb-20  flex">
                             <div
-                                className={`bg-[#242424] border lg:min-h-[18vw]  border-[#da26ff] shadow-xl p-8 text-white rounded-lg flex flex-col items-start transition-height ${isExpanded ? 'lg:max-h-[1000px]' : 'lg:max-h-[23vw]'
-                                    }`}
+                                className={`bg-[#242424] border border-[#da26ff] shadow-xl p-8 md:p-8 text-white rounded-lg flex flex-col justify-between w-full min-h-[18rem] md:min-h-[20rem] lg:min-h-[22rem] transition-all duration-300 ${
+                                    isExpanded ? 'max-h-fit' : 'h-full  '
+                                }`}
                                 style={{ overflow: 'hidden' }}
                             >
-                                <div className="flex items-center gap-4 mb-4">
-                                    <Image
-                                        src={image}
-                                        alt={name}
-                                        width={64}
-                                        height={64}
-                                        className="rounded-full object-cover"
-                                    />
-                                    <div>
-                                        <h3 className="text-lg  font-semibold">{name}</h3>
-                                        <p className="text-neutral-200 font-normal text-sm">{title}</p>
+                                <div className="flex flex-col flex-grow">
+                                    <div className="flex items-center gap-3 md:gap-4 mb-4">
+                                        <Image
+                                            src={image}
+                                            alt={name}
+                                            width={48}
+                                            height={48}
+                                            className="rounded-full object-cover md:w-16 md:h-16"
+                                        />
+                                        <div>
+                                            <h3 className="text-base md:text-lg font-semibold">{name}</h3>
+                                            <p className="text-neutral-200 font-normal text-xs md:text-sm">{title}</p>
+                                        </div>
                                     </div>
+                                    <p className="text-neutral-400 font-normal text-sm md:text-base mt-2 flex-grow">
+                                        {isExpanded ? review : truncatedText}
+                                    </p>
                                 </div>
-                                <p className="text-neutral-400 font-normal mt-2">
-                                    {isExpanded ? review : truncatedText}
-                                </p>
-                                {review.length > 200 && (
+                                {review.length > 150 && (
                                     <button
-                                        className="text-white mt-2 text-sm font-normal underline cursor-pointer transition-colors duration-200 hover:underline"
+                                        className="text-white mt-2 text-xs md:text-sm font-normal underline cursor-pointer transition-colors duration-200 hover:underline self-start"
                                         onClick={() => toggleExpand(id)}
                                     >
                                         {isExpanded ? 'Prikaži manje' : 'Prikaži više'}

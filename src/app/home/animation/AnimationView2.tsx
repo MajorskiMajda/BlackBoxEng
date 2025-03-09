@@ -89,7 +89,7 @@ export default function MainPage() {
     useEffect(() => {
         const mm = gsap.matchMedia();
         // Match media query for smaller screens (mobile)
-        mm.add("(max-width: 767px)", () => {
+        mm.add("(max-width: 1050px)", () => {
             if (svgRef2.current) {
                 const paths = svgRef2.current.querySelectorAll('path');
 
@@ -156,7 +156,7 @@ export default function MainPage() {
                 {/* SVG for Large Screens */}
                 <svg
                     ref={svgRef}
-                    className="hidden md:block"  // Visible on medium+ screens
+                    className="lg:block md:hidden sm:hidden"  // Visible on medium+ screens
                     width="859" height="100%" viewBox="100 150 759 737" fill="none" xmlns="http://www.w3.org/2000/svg"
                 >
                     <path d="M372 0V319C372 319 372 369 330.992 369C289.984 369 0 369 0 369" stroke="black" />
@@ -173,7 +173,7 @@ export default function MainPage() {
                     viewBox={`20 -20 ${svgWidth} ${svgHeight + 40}`} // Dynamic viewBox
                     preserveAspectRatio="none"
                     fill="none"
-                    className="block  md:hidden " >
+                    className="block  lg:hidden " >
                     <rect width="100%" height="100%" />
                     <path d="M1 105C29.6195 136.09 112.48 179.617 214.965 105C317.45 30.3828 402.127 73.9095 431.655 105C475.265 138.203 587.835 184.688 689.23 105C790.625 25.3118 888.658 71.7966 925 105" stroke="black" />
                     <path d="M1 166.5C29.6195 197.944 112.48 241.965 214.965 166.5C317.45 91.0349 402.127 135.056 431.655 166.5C475.265 200.081 587.835 247.094 689.23 166.5C790.625 85.9062 888.658 132.919 925 166.5" stroke="black" />

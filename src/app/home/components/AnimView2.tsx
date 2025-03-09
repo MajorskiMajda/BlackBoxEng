@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { ReactNode, useEffect, useState, useRef } from 'react';
 import Animation from '../animation/AnimationView2';
@@ -75,7 +75,7 @@ export default function MainPage(props: {
     // Funkcija za stilizovanje ključnih reči u subH
     const highlightKeywords = (text: string): ReactNode => {
         let parts: ReactNode[] = [text];
-        
+
         keywords.forEach((keyword, keywordIndex) => {
             parts = parts.flatMap((part) => {
                 if (typeof part !== "string") return part;
@@ -129,7 +129,7 @@ export default function MainPage(props: {
     return (
         <div
             ref={sectionRef}
-            className="flex flex-col-reverse md:flex-row items-center justify-evenly h-fit lg:pl-16 p-0 pt-0"
+            className="flex flex-col-reverse md:flex-col lg:flex-row items-center justify-evenly h-fit lg:pl-16 p-0 pt-0"
         >
             {/* Image Section */}
             {isClient && (
@@ -141,19 +141,31 @@ export default function MainPage(props: {
             )}
 
             {/* Text Section */}
-            <div className="flex flex-col justify-center min-h-fit w-full md:w-6/12">
+            <div className="flex flex-col justify-center items-center min-h-fit w-full md:w-12/12">
                 {/* Wrapper for Title and Description */}
-                <div className="w-full lg:p-0 p-8 md:w-3/4 text-left lg:w-4/4">
+                <div className="w-full lg:p-0 p-8 md:w-4/4 text-left lg:w-3/4">
                     {/* Title Section */}
-                    <div className={`font-semibold leading-[1.3] lg:mb-8 lg:p-0 pt-4 pb-4 lg:text-5xl text-4xl text-left`}>
+                    <div
+                        className={`font-semibold leading-[1.3] lg:mb-8 lg:p-0 pt-4 pb-4 ${
+                            props.textSizeClass || 'text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl'
+                        } text-left`}
+                    >
                         {styledText}
                     </div>
                     {/* Subtitle Section */}
-                    <div className={`font-light text-neutral-300 mb-4 lg:text-2xl text-lg text-left`}>
+                    <div
+                        className={`font-light text-neutral-300 mb-4 ${
+                            props.textSizeClass ? '' : 'text-base sm:text-lg md:text-xl lg:text-2xl'
+                        } text-left`}
+                    >
                         {styledSubH}
                     </div>
                     {/* Description Section */}
-                    <div className={`font-light text-neutral-300 lg:text-xl text-md`}>
+                    <div
+                        className={`font-light text-neutral-300 ${
+                            props.textSizeClass ? '' : 'text-sm sm:text-base md:text-lg lg:text-xl'
+                        }`}
+                    >
                         {props.opis}
                     </div>
                 </div>
