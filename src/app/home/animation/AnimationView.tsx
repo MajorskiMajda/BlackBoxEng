@@ -159,7 +159,7 @@ export default function MainPage() {
                     height="auto" // Maintain aspect ratio
                     viewBox="-150 0 759 737"
                     fill="none"
-                    className="lg:block md:hidden sm:hidden"
+                    className="lg:block hidden hidden"
                     xmlns="http://www.w3.org/2000/svg"
                 >
                     <path d="M1 0V137.358V243C1 315 73 351.86 109.208 358.239C193 373 209.475 432 209.475 468.931V800" stroke="transparent" />

@@ -156,7 +156,7 @@ export default function MainPage() {
                 {/* SVG for Large Screens */}
                 <svg
                     ref={svgRef}
-                    className="lg:block md:hidden sm:hidden"  // Visible on medium+ screens
+                    className="lg:block hidden hidden"  // Visible on medium+ screens
                     width="859" height="100%" viewBox="100 150 759 737" fill="none" xmlns="http://www.w3.org/2000/svg"
                 >
                     <path d="M372 0V319C372 319 372 369 330.992 369C289.984 369 0 369 0 369" stroke="black" />
