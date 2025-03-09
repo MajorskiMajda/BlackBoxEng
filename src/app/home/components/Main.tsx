@@ -13,7 +13,7 @@ export default function MainPage(props: {
     gap?: string;
     imgsize?: number;
     subHColor?: string;
-    className1?: string;
+    className?: string;
     className2?: string;
     hideImageOnMobile?: boolean;
     textSizeClass?: string;
@@ -71,7 +71,7 @@ export default function MainPage(props: {
             {/* Image Section */}
             <div
                 className={`lg:ml-8 lg:mt-12 lg:w-2/4 md:w-6/12 sm:w-full flex justify-center md:mt-0 
-                    ${props.className1 || ''} 
+                    ${props.className || ''} 
                     ${props.hideImageOnMobile ? 'hidden sm:block' : ''}`}
             >
                 <Image

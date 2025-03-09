@@ -35,7 +35,7 @@ export default function HomePage() {
                 subH={mainPage1Data.subH}
                 subHSizeClass="lg:text-3xl sm:text-2xl text-xl text-left"
                 text={mainPage1Data.title}
-                className1="lg:order-last md:order-first"
+                className="lg:order-last md:order-first"
             />
 
             <div className="pic lg:h-[7vw] h-[10vw]">
@@ -82,7 +82,7 @@ export default function HomePage() {
                 subH={mainPage2Data.subH}
                 subHSizeClass="lg:text-2xl text-xl text-left"
                 text={mainPage2Data.title}
-                className1="lg:order-last order-first"
+                className="lg:order-last order-first"
             />
 
             <ContactForm variant="home" />
