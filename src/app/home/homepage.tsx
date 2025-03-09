@@ -33,6 +33,7 @@ export default function HomePage() {
                 textSizeClass=" xl:text-6xl lg:text-5xl text-4xl "
                 opis={mainPage1Data.opis}
                 subH={mainPage1Data.subH}
+                imgsize={700}
                 subHSizeClass="lg:text-3xl sm:text-2xl text-xl text-left"
                 text={mainPage1Data.title}
                 className="lg:order-last md:order-first"

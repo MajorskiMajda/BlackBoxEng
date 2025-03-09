@@ -43,7 +43,7 @@ const HorizontalScrollSection: React.FC<HorizontalScrollSectionProps> = ({ headi
             </div>
           </div>
           <div
-            className={`grid w-full   ${sectionType === "features" ? 'card-grid lg:pl-16 lg:pr-16 px-8 py-10' : 'card-grid-prices'} text-white items-start justify-evenly gap-6 lg:gap-12 overflow-x-auto`}
+            className={`grid w-full   ${sectionType === "features" ? 'card-grid lg:pl-16 lg:pr-16 px-8 py-10 ' : 'card-grid-prices '} text-white items-start justify-evenly gap-6 lg:gap-12 overflow-x-auto`}
           >
             {cardContents.map((card, index) => (
               <motion.div
