@@ -1,49 +1,49 @@
 {
     "cardContents": [
       {
-        "title": "f you",
-        "content": "This is the basic plan with essential features.",
-        "price": "99"
+        "title": "Osnovni Paket",
+        "content": "Idealan je za one koji žele da započnu s Google reklamama. Uključuje 1 do 2 kampanje, uz 3 do 5 pažljivo osmišljenih oglasa. Ovaj paket podržava do 50 ključnih reči, što vam omogućava solidnu osnovu za privlačenje ciljane publike.",
+        "price": "100-200"
       },
       {
-        "title": "Pro Plan",
-        "content": "The pro plan includes premium features.",
-         "price": "99"
+        "title": "Standardni Paket",
+        "content": "Za one koji žele da prošire svoj doseg. Ovaj paket obuhvata 3 do 5 kampanja i 5 do 10 oglasa, pružajući veću fleksibilnost i vidljivost. Sa preko 100 ključnih reči, možete preciznije ciljati svoju publiku i povećati šanse za uspeh.",
+         "price": "400-500"
       },
       {
-        "title": "Enterprise Plan",
-        "content": "The enterprise plan is for large-scale use.",
-       "price": "99"
+        "title": "Premium Paket",
+        "content": "Namenjen je biznisima koji žele maksimalan uticaj. Uključuje 6 do 10 kampanja i 10 do 20 oglasa, osiguravajući snažno prisustvo na Google pretrazi. Sa više od 300 ključnih reči, ovaj paket vam omogućava da dominirate tržištem i privučete širok spektar potencijalnih klijenata.",
+       "price": "600"
       }
     ],
     "keyContent": [
       {
-        "title": "Basic Plan",
-        "content": "Great for small websites."
+        "title": "Precizno ciljanje ključnih reči",
+        "content": "Istražujemo i biramo ključne reči koje vaši kupci koriste, dodajući negativne reči da eliminišemo nepotrebne troškove i osiguramo da vaši oglasi stignu do prave publike."
       },
       {
-        "title": "Pro Plan",
-        "content": "Advanced features for growing businesses."
+        "title": "Kreiranje i optimizacija oglasa",
+        "content": "Pravim privlačne i efektne oglase, testiramo različite verzije i kontinuirano ih usavršavamo kako bi privukli više klikova i podstakli akciju."
       },
       {
-        "title": "Enterprise Plan",
-        "content": "All-inclusive solution for large enterprises."
+        "title": "Maksimizacija budžeta",
+        "content": "Podešavamo licitiranje da smanjimo cenu po kliku, a povećamo broj konverzija, čineći svaki uloženi evro što isplativijim i donoseći vam više kupaca.."
       }
     ],
     "whatWeDoList": [
-      "Keyword research & strategy to target the right audience",
-      "On-page optimization for better search engine indexing",
-      "Technical SEO to improve site speed and user experience",
-      "Quality link-building strategies for higher domain authority",
-      "Content marketing to engage and convert visitors"
+      "Kreiramo Google Ads nalog, povezujemo alate i pokrećemo kampanje koje rade besprekorno.",
+      "Pronalazimo reči koje privlače prave kupce i dodajemo negativne reči da uštedimo budžet.",
+      "Pravim privlačne oglase, testiramo verzije i usavršavamo ih za više klikova i akcije.",
+      "Analiziramo rezultate svake nedelje, podešavamo kampanje i šaljemo izveštaje s planom.",
+      "Pretvaramo reklame u investiciju koja donosi više kupaca i zarade."
     ],
     "howWeDo": {
-      "title": "How We Help Your Business aaaaaa",
-      "description": "SEO is critical for improving your visibility and driving organic traffic."
+      "title": "Zašto su Google Search reklame važne za vaš biznis?",
+      "description": "Kada neko traži ono što nudite, hoćete li biti tu da ga dočekate? Google Search reklame stavljaju vaš biznis na vrh pretrage – tamo gde ljudi donose odluke. Bez dobre strategije, lako možete potrošiti budžet na pogrešne klikove. Ali kad se uradi kako treba, ove kampanje dovode prave kupce pravo do vas – baš onda kad su spremni da kupe. Više poseta, više prodaje, bolji profit – to je snaga Google-a u pravim rukama.."
     },
     "whatWeDo": {
-      "title": "Our Approach",
-      "description": "We implement proven strategies to boost your site's rankings and performance."
+      "title": "Kako mi vodimo vaše Google Search kampanje?",
+      "description": "Nemate Google Ads nalog? Nema brige – mi sve postavljamo od nule, kreiramo vam nalog, povezujemo alate i pokrećemo kampanje koje rade besprekorno, kao dobro podmazan mehanizam. Zaranjamo u istraživanje da otkrijemo šta vaši kupci traže, birajući ključne reči koje privlače prave ljude i donose rezultate, dok negativne reči koristimo da uštedimo vaš budžet od nepotrebnih klikova. Pravim oglase koji se ističu, privlače pažnju i podstiču akciju, testirajući različite verzije kako bismo ih učinili još boljim. Pametno podešavamo licitiranje da svaki evro donese maksimum – smanjujemo cenu po kliku, a povećavamo broj kupaca ili kontakata. Svake nedelje analiziramo rezultate, unapređujemo kampanje i šaljemo vam jasne izveštaje s brojkama i planom za dalje. S nama, vaše reklame postaju pametna investicija, a ne samo trošak – pomažemo vam da doprete do pravih ljudi, privučete više klijenata i zaradite više, uz budžet koji radi za vas. Ako želite da vaš biznis zablista na Google-u i ostvari pravi uspeh, mi znamo kako da to ostvarimo."
     }
   }
   

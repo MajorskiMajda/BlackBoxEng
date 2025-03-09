@@ -26,9 +26,9 @@ export default function MainPage() {
                 className2="test3"
                 hideImageOnMobile={false}
                 textSizeClass="lg:text-6xl text-5xl"
-                opis="Hello"
-                subH=""
-                text="Social Media Management"
+                opis=""
+                subH="Kreiramo i vodimo vaše profile na društvenim mrežama – od dizajna i objava do odgovora na poruke."
+                text="Menadzment Drustvenih Mreza"
                 className="lg:order-first md:order-first"
             />
              <Info

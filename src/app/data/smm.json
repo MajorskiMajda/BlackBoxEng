@@ -1,49 +1,48 @@
 {
     "cardContents": [
       {
-        "title": "f you",
-        "content": "This is the basic plan with essential features.",
-        "price": "99"
+        "title": "Osnovni Paket",
+        "content": "Naš Osnovni Paket uključuje kreiranje i optimizaciju profila po potrebi, 2 objave i 2 storija nedeljno s privlačnim grafičkim dizajnom i kreativnim tekstovima, te brzo i profesionalno odgovaranje na poruke vaših pratilaca.",
+        "price": "200"
       },
       {
-        "title": "Pro Plan",
-        "content": "The pro plan includes premium features.",
-        "price": "99"
+        "title": "Standardni Paket",
+        "content": "Naš Standardni Paket uključuje kompletno kreiranje i optimizaciju profila, 3 objave i 3 storija nedeljno uz visokokvalitetan grafički dizajn i copywriting, kao i aktivno upravljanje komunikacijom s vašom publikom.",
+        "price": "400"
       },
       {
-        "title": "Enterprise Plan",
-        "content": "The enterprise plan is for large-scale use.",
-        "price": "99"
+        "title": "Premium Paket",
+        "content": "Naš Premium Paket uključuje profesionalno kreiranje i optimizaciju profila, 4 objave i 4 storija nedeljno uz vrhunski grafički dizajn i kreativne tekstove, te brzo i efikasno upravljanje komunikacijom s vašim pratiteljima.",
+        "price": "500"
       }
     ],
     "keyContent": [
       {
-        "title": "Basic Plan",
-        "content": "Great for small websites."
+        "title": "Kreiranje i optimizacija profila",
+        "content": "Vaš profil postaje vaša digitalna vizit karta, koja ostavlja snažan prvi utisak i privlači pravu publiku"
       },
       {
-        "title": "Pro Plan",
-        "content": "Advanced features for growing businesses."
+        "title": "Kreiranje kvalitetnog sadržaja",
+        "content": "Vaš sadržaj postaje nezaboravan, povećava angažman i gradi emocionalnu vezu s vašim pratiteljima."
       },
       {
-        "title": "Enterprise Plan",
-        "content": "All-inclusive solution for large enterprises."
+        "title": "Redovna objava i komunikacija",
+        "content": "Održavamo vašu prisutnost aktivnom, gradeći poverenje i lojalnost kod vaše publike, dok vi štedite vreme i fokusirate se na svoj biznis"
       }
     ],
     "whatWeDoList": [
-      "Keyword research & strategy to target the right audience",
-      "On-page optimization for better search engine indexing",
-      "Technical SEO to improve site speed and user experience",
-      "Quality link-building strategies for higher domain authority",
-      "Content marketing to engage and convert visitors"
+      "Kreiramo ili osvežavamo vaše profile da izgledaju profesionalno i privlačno.",
+      "Pravimo objave i storije s upečatljivim dizajnom i tekstovima koji pogađaju pravu emociju.",
+      "Odgovaramo na poruke umesto vas – ljubazno, brzo i na način koji gradi poverenje.",
+      "Vaši profili postaju živi kanal za privlačenje klijenata, štedite vreme, a dobijate pažnju, angažman i rast."
     ],
     "howWeDo": {
-      "title": "How We Help Your Business aaaaaa",
-      "description": "SEO is critical for improving your visibility and driving organic traffic."
+      "title": "Šta je SMM (Upravljanje Društvenim Mrežama)",
+      "description": "SMM (Social Media Management) je profesionalno upravljanje vašim nalozima na društvenim mrežama kako biste izgradili snažan online identitet, povećali angažman i ostvarili bolje rezultate za svoj brend. To uključuje kreiranje sadržaja, objavljivanje, interakciju s publikom i analizu performansi."
     },
     "whatWeDo": {
-      "title": "Our Approach",
-      "description": "We implement proven strategies to boost your site's rankings and performance."
+      "title": "Kako mi vodimo vaše društvene mreže?",
+      "description":"Mi postavljamo temelje vašeg prisustva na društvenim mrežama – kreiramo ili osvežavamo vaše profile kako bi izgledali profesionalno i privlačno, pravimo sadržaj koji se pamti kroz upečatljiv dizajn i tekstove koji pogađaju pravu emociju, objavljujemo dosledno (2, 3 ili 4 puta nedeljno) kako bismo održali ritam i angažman, brzo i ljubazno odgovaramo na poruke gradeći poverenje, a uz dodatnu uslugu kreiramo Reels koji organski povećavaju vaš domet. Sa nama, vaši profili postaju živi kanal za privlačenje klijenata, štedite vreme, a dobijate pažnju, angažman i rast – bilo da vam treba osnovna prisutnost ili puna snaga Reelsa, mi smo tu da vaš biznis zablista na društvenim mrežama."
     }
   }
   

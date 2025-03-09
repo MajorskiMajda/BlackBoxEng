@@ -1,49 +1,49 @@
 {
     "cardContents": [
       {
-        "title": "f you",
-        "content": "This is the basic plan with essential features.",
-        "price": "99"
+        "title": "Osnovni Paket ",
+        "content": "3 Kampanje - Idealno za manje biznise ili one koji tek ulaze u svijet digitalnog marketinga. Ovaj paket omogućava vam da testirate različite strategije i vidite koja najbolje funkcionira za vaš brend",
+        "price": "200"
       },
       {
-        "title": "Pro Plan",
-        "content": "The pro plan includes premium features.",
-        "price": "99"
+        "title": "Standardni Paket",
+        "content": "6 Kampanja - Ovaj paket nudi veću fleksibilnost i priliku za dublju analizu performansi. Savršen je za one koji žele postepeno povećati svoj online prisustvo i postići konzistentne rezultate.",
+        "price": "400"
       },
       {
-        "title": "Enterprise Plan",
-        "content": "The enterprise plan is for large-scale use.",
-         "price": "99"
+        "title": "Premium Paket",
+        "content": "9 Kampanja - Najisplativija opcija za one koji su ozbiljni u vezi s digitalnim marketingom. Ovaj paket omogućava dugoročno planiranje i optimizaciju kampanja, što vam donosi najbolji ROI (povrat na investiciju).",
+         "price": "600"
       }
     ],
     "keyContent": [
       {
-        "title": "Basic Plan",
-        "content": "Great for small websites."
+        "title": "Veća vidljivost",
+        "content": "Vaš brend dopire do šire i relevantne publike na Facebooku, Instagramu i drugim Meta platformama."
       },
       {
-        "title": "Pro Plan",
-        "content": "Advanced features for growing businesses."
+        "title": "Više kupaca",
+        "content": "Privlačite nove klijente uz ciljane reklame koje podstiču akciju i povećavaju prodaju."
       },
       {
-        "title": "Enterprise Plan",
-        "content": "All-inclusive solution for large enterprises."
+        "title": "Rast biznisa",
+        "content": "Gradite lojalnost, jačate prepoznatljivost i ostvarujete merljive poslovne ciljeve, korak po korak."
       }
     ],
     "whatWeDoList": [
-      "Keyword research & strategy to target the right audience",
-      "On-page optimization for better search engine indexing",
-      "Technical SEO to improve site speed and user experience",
-      "Quality link-building strategies for higher domain authority",
-      "Content marketing to engage and convert visitors"
+      "Kreiramo Meta oglasni nalog, povezujemo ga s vašim sajtom ili alatima i gradimo kampanje koje rade besprekorno.",
+      "Dizajniramo vizuelno privlačne reklame s porukama koje pogađaju vašu publiku, izbegavajući generički sadržaj.",
+      "Analiziramo vašu publiku i delimo je u grupe prema interesima, ponašanju i lokaciji za maksimalni doseg pravih ljudi.",
+      "Postavljamo automatske kampanje i testiramo različite formate da otkrijemo šta donosi najbolje rezultate.",
+      "Merimo sve – klikove, angažman, konverzije – i svake nedelje vam šaljemo izveštaje s predlozima za unapređenje."
     ],
     "howWeDo": {
-      "title": "How We Help Your Business aaaaaa",
-      "description": "SEO is critical for improving your visibility and driving organic traffic."
+      "title": "Sta su Meta Reklame? ",
+      "description": "Meta reklame su plaćeni oglasi koji se prikazuju na platformama kao što su Facebook, Instagram i WhatsApp, u okviru Meta ekosistema. Omogućavaju biznisima da ciljaju specifične grupe ljudi na osnovu njihovih interesovanja, demografije, ponašanja i lokacije. Njima možete postići veću prepoznatljivost brenda, privući nove kupce, povećati prodaju ili angažovati postojeću publiku kroz personalizovane poruke, vizuelno privlačne formate i precizno targetiranje. To je moćan alat za rast u digitalnom svetu!"
     },
     "whatWeDo": {
-      "title": "Our Approach",
-      "description": "We implement proven strategies to boost your site's rankings and performance."
+      "title": "Kako ćemo vam pomoći?",
+      "description": "Mi ćemo vam pomoći da iskoristite pun potencijal Meta reklama tako što ćemo preuzeti sve ključne korake za vas. Kreiraćemo vam Meta oglasni nalog ako ga nemate, postavićemo kampanje od nule i povezati ih s vašim ciljevima. Istražićemo vašu ciljnu publiku kako bismo definisali precizne segmente – od interesa i ponašanja do lokacije – i osigurali da vaše reklame stignu do pravih ljudi. Dizajniraćemo vizuelno privlačne oglase s porukama koje pogađaju metu, testirajući različite formate da pronađemo najefikasnije rešenje. Optimizovaćemo budžet da dobijete najviše klikova, angažmana ili prodaje za uloženi novac, uz stalno praćenje rezultata. Svake nedelje dobićete izveštaj s jasnim brojkama i našim predlozima za unapređenje. S nama, vaše Meta reklame postaju snažan alat za privlačenje kupaca, jačanje brenda i povećanje profita!"
     }
   }
   

@@ -23,9 +23,9 @@ export default function MainPage() {
                 className2="test3"
                 hideImageOnMobile={false}
                 textSizeClass="lg:text-6xl text-5xl"
-                opis="Hello"
-                subH=""
-                text="Social Media Management"
+                opis=""
+                subH="Pametne i optimizovane kampanje koje dopiru do pravih kupaca, smanjuju troškove i značajno povećavaju vaš profit"
+                text="Google Reklame"
                 className="lg:order-first md:order-first"
             />
             <Info

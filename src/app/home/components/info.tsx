@@ -35,7 +35,7 @@ const Info: React.FC<InfoProps> = ({
         </p>
 
         <Prices
-          heading="Choose Your Plan"
+          heading="Nasi Paketi Usluga"
           sectionType="prices"
           cardContents={cardContents}
         />

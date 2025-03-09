@@ -23,9 +23,9 @@ export default function MainPage() {
                 className2="test3"
                 hideImageOnMobile={false}
                 textSizeClass="lg:text-6xl text-5xl"
-                opis="Hello"
-                subH=""
-                text="Social Media Management"
+                opis=""
+                subH="Gradite jače veze s klijentima uz personalizovani email marketing i strateški osmišljen outreach koji donosi rezultate"
+                text="Email Marketing I Outreach"
                 className="lg:order-first md:order-first"
             />
             <Info

@@ -24,9 +24,9 @@ export default function MainPage() {
                 className2="test3"
                 hideImageOnMobile={false}
                 textSizeClass="lg:text-6xl text-5xl"
-                opis="Hello"
-                subH=""
-                text="Social Media Management"
+                opis=""
+                subH="Ako ste spremni da vaš brend podignete na viši nivo, kontaktirajte nas kako bismo započeli s vašom sljedećom uspješnom kampanjom!"
+                text="Meta Reklame"
                 className="lg:order-first md:order-first"
             />
              <Info

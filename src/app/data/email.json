@@ -1,49 +1,49 @@
 {
     "cardContents": [
       {
-        "title": "f you",
-        "content": "This is the basic plan with essential features.",
-        "price": "99"
+        "title": "Osnovni Paket ",
+        "content": "2500 email adresa Dizajn i kreiranje maila. Slanje jedne kampanje Analiza rezultata",
+        "price": "100"
       },
       {
-        "title": "Pro Plan",
-        "content": "The pro plan includes premium features.",
-         "price": "99"
+        "title": "Standard Paket ",
+        "content": "5000 email adresa Dizajn i kreiranje maila. Slanje dve kampanje Analiza rezultata",
+         "price": "150"
       },
       {
-        "title": "Enterprise Plan",
-        "content": "The enterprise plan is for large-scale use.",
-        "price": "99"
+        "title": "Premium Paket ",
+        "content": "7500 email adresa Dizajn i kreiranje maila. Slanje tri kampanje. Analiza rezultata",
+        "price": "200"
       }
     ],
     "keyContent": [
       {
-        "title": "Basic Plan",
-        "content": "Great for small websites."
+        "title": "Postavljamo automatske sekvence",
+        "content": "Od „dobrodošli“ mejlova, preko podsetnika za napuštene korpe, do specijalnih ponuda. Vaš marketing radi non-stop, čak i dok vi spavate."
       },
       {
-        "title": "Pro Plan",
-        "content": "Advanced features for growing businesses."
+        "title": "Praćenje i unapređenje",
+        "content": "Sve merimo – koliko ljudi otvori mejl, klikne, kupi, ili se odjavi. Svake nedelje dobijate izveštaj s brojkama i našim predlozima kako da bude još bolje."
       },
       {
-        "title": "Enterprise Plan",
-        "content": "All-inclusive solution for large enterprises."
+        "title": "Segmentacija i lični pristup",
+        "content": "Znamo da nisu svi vaši klijenti isti. Zato delimo publiku na grupe i šaljemo poruke koje su im važne – baš onda kada im treba. Rezultat? Više otvaranja, više klikova, više prodaje."
       }
     ],
     "whatWeDoList": [
-      "Keyword research & strategy to target the right audience",
-      "On-page optimization for better search engine indexing",
-      "Technical SEO to improve site speed and user experience",
-      "Quality link-building strategies for higher domain authority",
-      "Content marketing to engage and convert visitors"
+      "Email marketing pomaže vašem brendu da se istakne kroz personalizovane poruke.",
+      "Dobro osmišljena strategija donosi više konverzija i jača vezu s klijentima.",
+      "Publiku delimo u grupe za relevantne poruke u pravo vreme – više otvaranja i klikova.",
+      "Postavljamo sekvence (npr. dobrodošlica, podsetnici) za non-stop marketing.",
+      "Privlačimo kupce, gradimo lojalnost i podižemo prodaju korak po korak."
     ],
     "howWeDo": {
-      "title": "How We Help Your Business aaaaaa",
-      "description": "SEO is critical for improving your visibility and driving organic traffic."
+      "title": "Zašto je email marketing važan za vaš biznis?",
+      "description": "U današnjem digitalnom svetu, gde su svi zatrpani informacijama, direktna i lična komunikacija s klijentima čini razliku između brenda koji se gubi u masi i onog koji ostavlja trag. Bez dobre strategije, email marketing može biti samo još jedan zanemaren alat. Ali kada se uradi kako treba – s pažljivo osmišljenim porukama, pravim tajmingom i jasnim ciljem – postaje vaš najjači saveznik za više prodaje, jaču povezanost s kupcima i veću prepoznatljivost."
     },
     "whatWeDo": {
-      "title": "Our Approach",
-      "description": "We implement proven strategies to boost your site's rankings and performance."
+      "title": "Kako mi radimo vaš email marketing?",
+      "description": "Ako nemate sistem za email marketing, mi ga pravimo od nule. Odabir platforme, povezivanje s vašim CRM-om ili sajtom – sve sredimo da radi kao sat. Kampanje koje pogađaju pravo u metu Svaka kampanja je prilagođena vašim klijentima. Ne šaljemo generičke poruke – kreiramo sadržaj koji privlači pažnju, budi interesovanje i vodi ka akciji. Segmentacija i lični pristup Znamo da nisu svi vaši klijenti isti. Zato delimo publiku na grupe i šaljemo poruke koje su im važne – baš onda kada im treba. Rezultat? Više otvaranja, više klikova, više prodaje. Automatizacija koja štedi vreme"
     }
   }
   
