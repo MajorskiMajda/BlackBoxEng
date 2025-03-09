@@ -25,7 +25,7 @@ export default function MainPage() {
                 textSizeClass="lg:text-6xl text-5xl"
                 opis=""
                 subH=""
-                text="Izrada Reels Video Reklama"
+                text="Izrada Reels (UGC) Video Reklama"
                 className="lg:order-first md:order-first"
             />
              <Info

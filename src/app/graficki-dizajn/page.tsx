@@ -23,9 +23,9 @@ export default function MainPage() {
                 tex="text-left"
                 className2="test3"
                 hideImageOnMobile={false}
-                textSizeClass="lg:text-6xl text-5xl"
+                textSizeClass="lg:text-6xl text-5xl "
                 opis=""
-                subH="Kroz kreativne ideje, strategijski pristup i pažljivo osmišljene vizuelne elemente, vaš brend će postati prepoznatljiv, upečatljiv i uspješan. Jer znamo da grafički dizajn nije samo umjetnost – on je investicija u vašu budućnost."
+                subH="Kroz kreativne ideje, strateški pristup i pažljivo osmišljene vizuelne elemente, Vaš brend će postati prepoznatljiv, upečatljiv i uspešan. Jer znamo da grafički dizajn nije samo umetnost, to je investicija u Vašu digitalnu budućnost."
                 text="Grafički Dizajn"
                 className="lg:order-first md:order-first"
             />

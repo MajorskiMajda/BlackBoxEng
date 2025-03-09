@@ -85,7 +85,7 @@ export default function MainPage(props: {
                               <span
                                   key={`${keyword}-${keywordIndex}-${segmentIndex}`}
                                   style={{
-                                      color: coloredIndices.includes(keywordIndex + 1) ? "#ffa400" : "inherit",
+                                      color: coloredIndices.includes(keywordIndex + 1) ? "#bd6cfe" : "inherit",
                                       fontWeight: "600",
                                       transition: "color 0.5s ease"
                                   }}

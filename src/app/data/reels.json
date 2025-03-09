@@ -2,32 +2,32 @@
   "cardContents": [
     {
       "title": "Osnovni Paket",
-      "content": "Idealno za manje biznise ili početnike koji žele isprobati snagu Reels reklama.",
+      "content": "Za koga je ovo? Za one koji žele brze i jednostavne Reels reklame, npr. za događaje, promocije ili pokazivanje atmosfere svog biznisa. Mi dolazimo kod tebe, snimamo video materijal i editujemo. Snimanje do 2 video reklame ti ili tvoj tim ste u kadru (bez našeg modela), a mi hvatamo prave trenutke. ",
       "price": "150€"
     },
     {
       "title": "Standardni Paket",
-      "content": "Savršen za biznise koji žele redovne Reels reklame s naprednijim kreativnim pristupom.",
+      "content": "Za biznise koji žele jači utisak, sa profesionalnim modelom koji će tvoj proizvod ili uslugu pokazati u najboljem svetlu. Snimanje sa našim modelom dovodimo našeg modela koji zna kako da stane pred kameru i predstavi tvoj biznis. Do 3 video reklame, snimamo i editujemo tri različita Reelsa. Kompletno editovanje muzika, prelazi, tekstovi.",
       "price": "300€"
     },
     {
       "title": "Premium Paket",
-      "content": "Kompletan paket za velike brendove koji traže visokokvalitetne, prilagođene Reels reklame s maksimalnim dosegom.",
+      "content": "Za one koji žele punu kampanju na Reelsima, sa više snimanja i ozbiljnom količinom sadržaja. Dva dolaska na lokaciju, dolazimo dva puta da snimimo sve što ti treba, u različitim danima ili situacijama. Snimanje sa našim modelom naš profesionalac je tu da tvoj proizvod ili usluga izgledaju top. Do 6 video reklama, snimamo i editujemo šest unikatnih Reelsa, da imaš materijala za duže vreme. Kompletno editovanje, svaki video dobije pun tretman: efekti, muzika, tekst, sve po tvom ukusu.",
       "price": "500€"
     }
   ],
   "keyContent": [
     {
-      "title": "Osnovni Paket",
-      "content": "Jednostavne Reels reklame za manje kampanje i testiranje tržišta."
+      "title": "Autentičnost – Ljudi žele pravu priču, ne nameštenu reklamu",
+      "content": "Ako Reels izgleda previše polirano ili kao TV reklama, ljudi ga preskoče. UGC radi jer se oseća kao da je neko poput njih snimio nešto iskreno o tvom proizvodu ili usluzi. Dolazimo na tvoju lokaciju i snimamo stvarne trenutke, bilo da si ti ili tvoj tim u kadru, ili naš model koji prirodno koristi tvoj proizvod. Bez preteranih filtera ili glume, fokusiramo se na to da video bude topao i relatable."
     },
     {
-      "title": "Standardni Paket",
-      "content": "Naprednije Reels reklame s kreativnim pristupom za redovne kampanje."
+      "title": "Privlačan vizuelni doživljaj – Brzo hvata pažnju",
+      "content": "Na društvenim mrežama imaš samo par sekundi da zaustaviš nekog dok skroluje. Ako video nije dinamičan ili zanimljiv, odoše dalje. Naš tim snima sa pravim uglovima, svetlom i energijom, a onda to editujemo sa efektima, muzikom i tekstom koji vuku oko."
     },
     {
-      "title": "Premium Paket",
-      "content": "Visokokvalitetne, prilagođene Reels reklame za velike kampanje i maksimalan uticaj."
+      "title": "Jasna poruka – Gledaoci odmah znaju šta nudiš",
+      "content": "Nema poente od sjajnog videa ako ljudi na kraju ne shvate šta prodaješ ili zašto bi te izabrali. UGC mora da ima smisao i cilj. Pre snimanja sednemo s tobom da čujemo šta želiš da kažeš, pa to upakujemo u video na jednostavan način. Ako imaš prodavnicu nakita, naš model pokazuje prsten uz tekst: Ručno rađeno za tebe. Kratko, jasno i pogađa pravo u metu. Sve editujemo tako da poruka iskoči, a da ne bude napadno."
     }
   ],
   "whatWeDoList": [
@@ -38,11 +38,11 @@
     "Strategije za povećanje dosega i angažmana"
   ],
   "howWeDo": {
-    "title": "Kako Vam Pomažemo",
-    "description": "Reels reklame su ključne za privlačenje pažnje i povećanje angažmana na Instagramu i Facebooku."
+    "title": "Zašto su UGC Reels Reklame Važne?",
+    "description": "Danas ljudi ne veruju klasičnim reklamama kao nekad. Sve te savršene slike i scenariji im deluju daleko i lažno. UGC reklame su važne jer izgledaju stvarno. One grade poverenje jer se oseća kao preporuka od prijatelja, a ne prodajni trik. Na primer, ako neko vidi video gde devojka sa sličnim problemom hvali tvoj šampon, pre će ga kupiti nego zbog bilborda sa poznatom facom. Plus, na društvenim mrežama, gde svi skroluju brzinom svetlosti, UGC brzo privlači pažnju jer je kratko, zanimljivo i lično. Ukratko, UGC reklame su kao digitalna verzija dobre stare preporuke: od usta do usta. Pomažu ti da te vide, zavole i izaberu, a mi smo tu da ih napravimo tako da tvoj brend zablista na pravi način."
   },
   "whatWeDo": {
     "title": "Naš Pristup",
-    "description": "Kreiramo Reels reklame koje ne samo da izgledaju sjajno, već i donose rezultate vašem biznisu kroz provjerene strategije i kreativne ideje."
+    "description": "Naše usluge snimanja Reelsa su bolje jer ti dajemo sve na tacni, dolazimo na tvoju lokaciju, snimamo, editujemo i pravimo videe koji izgledaju autentično, a zapravo rade posao za tebe. Rešavamo ti glavne probleme: nemaš vremena da sam snimaš, nemaš opremu ili znanje za editovanje, a hoćeš da tvoj biznis izgleda profi bez da deluje uštogljeno. Time što nas angažuješ, dobijaš Reelse koji privlače pažnju, grade poverenje kod mušterija i šire priču o tvom brendu. Tvoj brend izgleda bolje, stiže do pravih ljudi i ti štediš vreme za ono što voliš da radiš."
   }
 }

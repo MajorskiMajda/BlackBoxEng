@@ -2,47 +2,47 @@
   "cardContents": [
     {
       "title": "Osnovni Paket",
-      "content": "Idealno za manje web stranice ili početnike koji traže jednostavnu, ali funkcionalnu online prisutnost.",
+      "content": "Sa do 3 stranice (npr. početna stranica sa info o tebi, uslugama/proizvodima i kontaktom). Unikatan dizajn, ništa šablonsko, sa grafičkim materijalom za sajt. Osnovna optimizacija, sajt će biti brz i prilagođen telefonima (mobile-friendly). Kontakt forma da ti ljudi lako pišu direktno sa sajta. Postavljanje na hosting mi to sredimo za tebe.",
       "price": "300€"
     },
     {
       "title": "Standardni Paket",
-      "content": "Savršen za biznise u razvoju koji trebaju naprednije funkcionalnosti i bolje korisničko iskustvo.",
+      "content": "Sa do 5 stranica (npr. Početna, O nama, Usluge/Proizvodi, Galerija, Kontakt). Osnovni SEO i integracija društvenih mreža, linkovi ka tvojim profilima i dugmići za deljenje. Unikatan dizajn, potpuno prilagođen tvom brendu sa grafičkim materijalom. Galerija slika, integracija Google Mapa. Postavljanje na hosting. Osnovna obuka kako da sam ažuriraš tekst/slike ako želiš.",
       "price": "600€"
     },
     {
       "title": "Premium Paket",
-      "content": "Kompletan paket za velike brendove koji traže visokokvalitetne, prilagođene web stranice s naprednim funkcionalnostima.",
+      "content": "Sa neograničenim brojem stranica (u okviru razumnog, naravno!). Napredni SEO i Grafički dizajn od nule, sa animacijama, ilustracijama ili čim god poželiš da se istakneš. Napredne funkcionalnosti, npr. online prodavnica, sistem za rezervacije, blog ili personalizovane opcije koje ti trebaju. Integracija Google Analytics, newsletter prijava, društvene mreže. Detaljna obuka za samostalno upravljanje sajtom",
       "price": "1000€"
     }
   ],
   "keyContent": [
     {
-      "title": "Osnovni Paket",
-      "content": "Osnovna web stranica sa esencijalnim funkcionalnostima za manje projekte."
+      "title": "Prvi utisak koji ostavljaš:",
+      "content": "Recimo da neko traži majstora za baštu. Jedan tip ima sajt sa slikama njegovog rada, cenama i kontaktom, a drugi nema ništa osim broja na oglasu. Kome ćeš verovati? Mi ti pravimo sajt koji vrišti: Ovde sam, ozbiljan sam i znaš šta dobiješ sa mnom."
     },
     {
-      "title": "Standardni Paket",
-      "content": "Naprednija web stranica s dodatnim funkcionalnostima i boljim korisničkim iskustvom."
+      "title": "Uvek dostupan:",
+      "content": "Zamisli da neko u 2 ujutru shvati da mu treba tvoj proizvod ili usluga. S sajtom koji mi napravimo, nađu te, vide šta radiš i odmah ti pišu. Bez sajta? Odu dalje, a ti ostaneš bez posla. Mi ti to ne damo."
     },
     {
-      "title": "Premium Paket",
-      "content": "Visokokvalitetna, prilagođena web stranica s kompleksnim funkcionalnostima za velike brendove."
+      "title": "Ispred konkurencije:",
+      "content": "Ako tvoj rival ima sajt, a ti nemaš, gde misliš da ljudi odlaze? Mi ti napravimo sajt da budeš korak ispred, kao da imaš izlog na najprometnijoj ulici u gradu."
     }
   ],
   "whatWeDoList": [
-    "Dizajn i razvoj prilagođen vašim potrebama",
-    "Responsive dizajn za sve uređaje (desktop, mobilni, tablet)",
-    "Optimizacija brzine učitavanja stranice",
-    "Integracija sa društvenim mrežama i drugim alatima",
-    "Kreiranje sadržaja i optimizacija za pretraživače (SEO)"
+    "Dizajn i razvoj prilagođen vašim potrebama.",
+    "Responsive dizajn za sve uređaje (desktop, mobilni, tablet).",
+    "Optimizacija brzine učitavanja stranice.",
+    "Integracija sa društvenim mrežama i drugim alatima.",
+    "Kreiranje sadržaja i optimizacija za pretraživače (SEO)."
   ],
   "howWeDo": {
-    "title": "Kako Vam Pomažemo",
-    "description": "Kreiramo web stranice koje ne samo da izgledaju sjajno, već i donose rezultate vašem biznisu."
+    "title": "Zašto je Važno Imati Sajt?",
+    "description": "Zamisli da si ti, recimo, neko ko prodaje domaće kolače ili popravlja bicikle. Danas, kad ljudi traže bilo šta  od hrane do majstora prvo odu na Google ili pitaju nekog: Hej, znaš li nekog pouzdanog za ovo? Ako nemaš veb sajt, kao da si nevidljiv. Tu nastupamo mi. Pravimo sajtove koji će predstavljati Vaš biznis, dostupan 24/7, čak i dok ti spavaš ili piješ kafu s ekipom. Sajt je mesto gde tvoje mušterije vide ko si, šta nudiš i zašto bi baš tebe izabrali. Dakle, ako želiš da tvoj biznis bude viđen i da te predstavlja u najboljem mogućem svetlu, mi smo tu da ti napravimo sajt koji je kao tvoj najbolji drugar. Uvek tu, Uvek priča dobre stvari o tebi i predstavlja te tvojim kupcima."
   },
   "whatWeDo": {
     "title": "Naš Pristup",
-    "description": "Koristimo provjerene strategije i najnovije tehnologije kako bismo izgradili web stranice koje privlače, angažuju i pretvaraju posjetioce u kupce."
+    "description": "Ne moraš da juriš različite ljude za dizajn, kod, tekstove ili bilo šta drugo. Mi ti dajemo kompletan paket da tvoj sajt bude uspešan, tačno onakav kakav ti treba. E sad, šta to znači za tebe? Mi pravimo custom code sajtove. To su sajtovi pisani od nule, samo za tebe, a ne neke gotove šablone koje vidiš svuda po internetu. Znaš one sajtove gde pomisliš: Ovo sam već negde video? E, to kod nas ne postoji. Tvoj sajt će biti unikat, kao otisak prsta, ne liči ni na jedan drugi na tržištu. To ti daje prepoznatljivost, da ljudi odmah znaju: Aha, ovo je taj brend, ovo je njihovo."
   }
 }

@@ -2,47 +2,47 @@
   "cardContents": [
     {
       "title": "Osnovni Paket",
-      "content": "Idealno za manje projekte i početnike u svijetu grafičkog dizajna. Ukoliko Vam je potrebna izrada logo-a, pojedinacne objave za Instagram ili editovanje slike ovo je pravi paket za Vas.",
-      "price": "50€"
+      "content": "Ovaj paket je savršen za male biznise ili one koji tek kreću i žele da ostave dobar prvi utisak bez velikog ulaganja. Uključuje osnovne stvari koje ti trebaju da zablistaš: izradu jednostavnog, ali upečatljivog logoa, jednu objavu za Instagram koja privlači pažnju ili editovanje slike da izgleda profi. Ti nam kažeš šta voliš, mi to pretvorimo u dizajn koji radi za tebe.",
+      "price": "50"
     },
     {
       "title": "Standardni Paket",
-      "content": "Savršen za biznise koji traže više od osnovnog, uključujući redovne objave i kreativne ideje. Mogucnost izrade vise tipova logoa, izrada nekoliko postova za instagram ili editovanje nekoliko slika.",
-      "price": "200€"
+      "content": "Ako ti treba nešto više od osnova, ovaj paket je pravi izbor za biznise koji žele da se izdvoje i redovno osvežavaju svoj izgled. Dobijaš više opcija: možemo da napravimo nekoliko verzija logoa da izabereš onaj koji ti najviše leži, kreiramo par Instagram postova koji pričaju tvoju priču ili sredimo nekoliko slika da izgledaju kao iz časopisa. Tvoj brend počinje da izgleda ozbiljno i privlači pravu ekipu, a mi se brinemo za sve detalje.",
+      "price": "200"
     },
     {
       "title": "Premium Paket",
-      "content": "Kompletan paket za velike brendove koji traže vrhunski dizajn i maksimalnu kreativnost. Ovaj paket obuhvata izradu vise varijacija logoa, kreiranje grafickog sadrzaja za Vas veb sajt kao i redovno izradjivanje objava za drustvene mreze.",
-      "price": "400€"
+      "content": "Ovo je kompletna usluga za one koji žele da njihov brend zablista na svim frontovima – od logoa do veb sajta i društvenih mreža. Uključuje sve što ti padne na pamet: više varijacija logoa dok ne nađemo savršenu, dizajn za tvoj veb sajt (baneri, ikonice, sve što treba), plus redovne objave za Instagram ili Facebook koje drže tvoju publiku zainteresovanom. Tvoj brend ne samo da izgleda vrhunski, već postaje nešto što ljudi pamte i prepoznaju svuda.",
+      "price": "400"
     }
   ],
   "keyContent": [
     {
       "title": "Vizuelni Identitet",
-      "content": "Bez jasnog vizuelnog identiteta, vaš brend može izgledati neprofesionalno ili nedosljedno. Mi osiguravamo da vaša vizuelna prisutnost bude jedinstvena i prepoznatljiva, što je ključno za izgradnju poverenja kod vaše publike."
+      "content": "Bez jasnog vizuelnog identiteta, tvoj brend može da deluje kao da si ga sklepo na brzinu, neprofesionalno i zaboravljivo. Mi to menjamo. Pravimi ti logo, biramo boje i fontove koji odražavaju tvoj stil, i sve to upakujemo da izgleda kao celina. Tako ti dajemo identitet koji gradi poverenje i čini da te ljudi prepoznaju na prvi pogled."
     },
     {
-      "title": "Brendiranje i prepoznatljivost",
-      "content": "Prepoznatljivost brenda je ključna za privlačenje i zadržavanje klijenata. Kroz dosljedan i kreativan dizajn, vaš brend postaje sinonim za kvalitet i pouzdanost, što vam donosi lojalnu publiku i veću prodaju."
+      "title": "Brendiranje i Prepoznatljivost",
+      "content": "Prepoznatljivost je ono što razdvaja uspešne brendove od onih koji se gube u gomili. Ako tvoj dizajn nije dosledan ili nema taj 'nešto posebno', mušterije te neće pamtiti, a kamoli vraćati se. Mi ti pomažemo da tvoj brend postane sinonim za ono što radiš najbolje. `tvoj brend postaje lice koje ljudi vole i kojem veruju, a to znači više lojalnih klijenata i bolju prodaju."
     },
     {
-      "title": "Vaznost Grafickog Dizajne",
-      "content": "Grafički dizajn nije samo o lepoti – on je alat za komunikaciju. Dobar dizajn može povećati angažman, poboljšati korisničko iskustvo i prenijeti vašu poruku na efikasan način. Bez kvalitetnog dizajna, vaš brend može ostati nezapažen, bez obzira na kvalitet vaših proizvoda ili usluga."
+      "title": "Važnost Grafičkog Dizajna",
+      "content": "Grafički dizajn nije samo da stvari izgledaju lepo, to je tvoj glas kad reči nisu dovoljne. Bez njega, možeš imati najbolji proizvod na svetu, a da te niko ne primeti jer izgledaš dosadno ili nejasno. Mi to pretvaramo u prednost. Dobar dizajn može da digne angažman, zamisli Instagram objavu za tvoj restoran sa fotkom jela koja izgleda tako dobro da svi odmah lajkuju. Bez tog dizajna, bili bi samo još jedna prodavnica, sa nama, postaćete brend koji se pamti."
     }
   ],
   "whatWeDoList": [
-    "Kreiranje vizuelnog identiteta (logo, boje, fontovi)",
-    "Dizajn za društvene mreže (objave, storiji, baneri)",
-    "Dizajn marketing materijala (flajeri, posteri, brošure)",
-    "UI/UX dizajn za web stranice",
-    "Ilustracije i custom grafički elementi"
+    "Kreiranje vizuelnog identiteta (logo, boje, fontovi posebno za tebe)",
+    "Dizajn za društvene mreže (postovi, storiji, baneri koji privlače pažnju)",
+    "Dizajn marketing materijala (flajeri, posteri, brošure koje ostavljaju utisak)",
+    "UI/UX dizajn za veb sajtove (da tvoj sajt izgleda i radi besprekorno)",
+    "Ilustracije i custom grafike (jedinstveni elementi samo za tvoj brend)"
   ],
   "howWeDo": {
     "title": "Važnost Grafičkog Dizajna",
-    "description": "Važnost grafičkog dizajna ide dalje od izgleda. On može značajno uticati na korisničko iskustvo. Na primjer, dobro osmišljen UI/UX dizajn za web stranicu ili aplikaciju može pojednostaviti navigaciju, povećati zadržavanje korisnika i konverzije. Slično, kvalitetan dizajn marketing materijala, poput flajera ili postera, može povećati šanse da vaša poruka bude zapamćena."
+    "description": "Grafički dizajn je mnogo više od lepog izgleda, to je način da tvoj brend komunicira sa svetom. Dobar dizajn može da ti reši gomilu problema: od toga da tvoj sajt bude lak za korišćenje, pa do toga da tvoj flajer završi na zidu umesto u kanti. Na primer, za jedan mali studio za jogu, napravili smo UI dizajn za njihov sajt gde su ljudi lako nalazili raspored časova, to im je udvostručilo prijave. Dizajn nije samo ukras, to je alat koji ti pomaže da te vide, razumeju i zapamte."
   },
   "whatWeDo": {
     "title": "Naš Pristup",
-    "description": "Dobar grafički dizajn nije samo o estetici – on je o komunikaciji. Kroz boje, fontove, vizuelne elemente i kompoziciju, vaš brend može prenijeti svoju priču, vrijednosti i emocije. Na primjer, dobro osmišljen logo može prenijeti profesionalizam i pouzdanost, dok kreativni postovi na društvenim mrežama mogu izazvati radoznalost i angažman."
+    "description": "Mi ne radimo dizajn samo da bismo ti dali nešto lepo, radimo ga da tvoj brend živi i priča svoju priču. Prvo sednemo s tobom da čujemo ko si, šta voliš i šta želiš da kažeš svetu. Onda uzmemo boje, fontove, slike i sve to sklopimo u nešto što je samo tvoje. Na primer, za prodavnicu ručno rađenih torbi, napravili smo logo sa ilustracijom šivenja, Instagram postove sa torbama u prirodi i flajer sa toplim tonovima. Sve je bilo povezano i govorilo 'ovo je kvalitet'. Naš cilj je da tvoj dizajn ne samo izgleda dobro, već i radi za tebe i privlači prave ljude i ostavlja trag."
   }
 }

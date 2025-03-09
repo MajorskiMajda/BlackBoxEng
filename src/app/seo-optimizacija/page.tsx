@@ -21,11 +21,11 @@ export default function MainPage() {
                 gap="gap-0"
                 imgsize={550}
                 tex="text-left"
-                className2="test3"
+                className2="test3 "
                 hideImageOnMobile={false}
-                textSizeClass="lg:text-6xl text-5xl"
+                textSizeClass="lg:text-6xl text-5xl "
                 opis=""
-                subH="Sa SEO-om, vaš brend može postati prepoznatljiv, privlačiti kvalitetne posjetioce i pretvarati ih u lojalne kupce."
+                subH="Sa SEO-om, Vaš brend postaje vidljiv tamo gde Vas ljudi traže, privlači posetioce koji žele upravo ono što nudite i pretvara ih u verne kupce zahvaljujući optimizaciji koja radi za Vas."
                 text="SEO Optimizacija"
                 className="lg:order-first md:order-first"
             />
