@@ -145,7 +145,7 @@ export default function MainPage(props: {
                 <div className="w-full lg:p-0 p-8 md:w-4/4 text-left lg:w-3/4">
                     {/* Title Section */}
                     <div
-                        className={`font-semibold leading-[1.3] lg:mb-8 lg:p-0 pt-4 pb-4 'text-2xl sm:text-3xl xl:text-6xl md:text-4xl lg:text-4xl '
+                        className={`font-semibold leading-[1.3] lg:mb-8 lg:p-0 pt-4 pb-4 'text-2xl sm:text-3xl xl:text-6xl md:text-4xl lg:text-3xl '
                          text-left`}
                     >
                         {styledText}
