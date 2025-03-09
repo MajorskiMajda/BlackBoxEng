@@ -65,7 +65,7 @@ export default function MainPage(props: {
                     <div className="w-full">
                         {/* Title */}
                         <div
-                            className="text-3xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-6xl leading-[1.3] text-left font-semibold mb-8"
+                            className="text-3xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl leading-[1.3] text-left font-semibold mb-8"
                         >
                             Od izazova do <span className="text-[#da26ff]">profita!</span>
                         </div>

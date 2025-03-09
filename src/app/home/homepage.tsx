@@ -77,7 +77,7 @@ export default function HomePage() {
                 tex="text-left"
                 className2="test3"
                 hideImageOnMobile={false}
-                textSizeClass="xl:text-6xl lg:text-4xl  text-4xl"
+                textSizeClass="xl:text-5xl lg:text-4xl  text-4xl"
                 opis={mainPage2Data.opis}
                 subH={mainPage2Data.subH}
                 subHSizeClass=" xl:text-2xl lg:text-xl text-xl text-left"
