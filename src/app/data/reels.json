@@ -1,49 +1,48 @@
 {
-    "cardContents": [
-      {
-        "title": "f you",
-        "content": "This is the basic plan with essential features.",
-         "price": "99"
-      },
-      {
-        "title": "Pro Plan",
-        "content": "The pro plan includes premium features.",
-        "price": "99"
-      },
-      {
-        "title": "Enterprise Plan",
-        "content": "The enterprise plan is for large-scale use.",
-         "price": "99"
-      }
-    ],
-    "keyContent": [
-      {
-        "title": "Basic Plan",
-        "content": "Great for small websites."
-      },
-      {
-        "title": "Pro Plan",
-        "content": "Advanced features for growing businesses."
-      },
-      {
-        "title": "Enterprise Plan",
-        "content": "All-inclusive solution for large enterprises."
-      }
-    ],
-    "whatWeDoList": [
-      "Keyword research & strategy to target the right audience",
-      "On-page optimization for better search engine indexing",
-      "Technical SEO to improve site speed and user experience",
-      "Quality link-building strategies for higher domain authority",
-      "Content marketing to engage and convert visitors"
-    ],
-    "howWeDo": {
-      "title": "How We Help Your Business aaaaaa",
-      "description": "SEO is critical for improving your visibility and driving organic traffic."
+  "cardContents": [
+    {
+      "title": "Osnovni Paket",
+      "content": "Idealno za manje biznise ili početnike koji žele isprobati snagu Reels reklama.",
+      "price": "150€"
     },
-    "whatWeDo": {
-      "title": "Our Approach",
-      "description": "We implement proven strategies to boost your site's rankings and performance."
+    {
+      "title": "Standardni Paket",
+      "content": "Savršen za biznise koji žele redovne Reels reklame s naprednijim kreativnim pristupom.",
+      "price": "300€"
+    },
+    {
+      "title": "Premium Paket",
+      "content": "Kompletan paket za velike brendove koji traže visokokvalitetne, prilagođene Reels reklame s maksimalnim dosegom.",
+      "price": "500€"
     }
+  ],
+  "keyContent": [
+    {
+      "title": "Osnovni Paket",
+      "content": "Jednostavne Reels reklame za manje kampanje i testiranje tržišta."
+    },
+    {
+      "title": "Standardni Paket",
+      "content": "Naprednije Reels reklame s kreativnim pristupom za redovne kampanje."
+    },
+    {
+      "title": "Premium Paket",
+      "content": "Visokokvalitetne, prilagođene Reels reklame za velike kampanje i maksimalan uticaj."
+    }
+  ],
+  "whatWeDoList": [
+    "Kreiranje kreativnih i privlačnih Reels sadržaja",
+    "Optimizacija za ciljanu publiku i platformu",
+    "Dodavanje tekstova, efekata i muzike za veći uticaj",
+    "Redovno praćenje performansi i optimizacija kampanja",
+    "Strategije za povećanje dosega i angažmana"
+  ],
+  "howWeDo": {
+    "title": "Kako Vam Pomažemo",
+    "description": "Reels reklame su ključne za privlačenje pažnje i povećanje angažmana na Instagramu i Facebooku."
+  },
+  "whatWeDo": {
+    "title": "Naš Pristup",
+    "description": "Kreiramo Reels reklame koje ne samo da izgledaju sjajno, već i donose rezultate vašem biznisu kroz provjerene strategije i kreativne ideje."
   }
-  
+}

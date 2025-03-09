@@ -23,9 +23,9 @@ export default function MainPage() {
                 className2="test3"
                 hideImageOnMobile={false}
                 textSizeClass="lg:text-6xl text-5xl"
-                opis="Hello"
+                opis=""
                 subH=""
-                text="Social Media Management"
+                text="Izrada Reels Video Reklama"
                 className="lg:order-first md:order-first"
             />
              <Info

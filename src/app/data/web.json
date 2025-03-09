@@ -1,49 +1,48 @@
 {
-    "cardContents": [
-      {
-        "title": "f you",
-        "content": "This is the basic plan with essential features.",
-         "price": "99"
-      },
-      {
-        "title": "Pro Plan",
-        "content": "The pro plan includes premium features.",
-        "price": "99"
-      },
-      {
-        "title": "Enterprise Plan",
-        "content": "The enterprise plan is for large-scale use.",
-        "price": "99"
-      }
-    ],
-    "keyContent": [
-      {
-        "title": "Basic Plan",
-        "content": "Great for small websites."
-      },
-      {
-        "title": "Pro Plan",
-        "content": "Advanced features for growing businesses."
-      },
-      {
-        "title": "Enterprise Plan",
-        "content": "All-inclusive solution for large enterprises."
-      }
-    ],
-    "whatWeDoList": [
-      "Keyword research & strategy to target the right audience",
-      "On-page optimization for better search engine indexing",
-      "Technical SEO to improve site speed and user experience",
-      "Quality link-building strategies for higher domain authority",
-      "Content marketing to engage and convert visitors"
-    ],
-    "howWeDo": {
-      "title": "How We Help Your Business aaaaaa",
-      "description": "SEO is critical for improving your visibility and driving organic traffic."
+  "cardContents": [
+    {
+      "title": "Osnovni Paket",
+      "content": "Idealno za manje web stranice ili početnike koji traže jednostavnu, ali funkcionalnu online prisutnost.",
+      "price": "300€"
     },
-    "whatWeDo": {
-      "title": "Our Approach",
-      "description": "We implement proven strategies to boost your site's rankings and performance."
+    {
+      "title": "Standardni Paket",
+      "content": "Savršen za biznise u razvoju koji trebaju naprednije funkcionalnosti i bolje korisničko iskustvo.",
+      "price": "600€"
+    },
+    {
+      "title": "Premium Paket",
+      "content": "Kompletan paket za velike brendove koji traže visokokvalitetne, prilagođene web stranice s naprednim funkcionalnostima.",
+      "price": "1000€"
     }
+  ],
+  "keyContent": [
+    {
+      "title": "Osnovni Paket",
+      "content": "Osnovna web stranica sa esencijalnim funkcionalnostima za manje projekte."
+    },
+    {
+      "title": "Standardni Paket",
+      "content": "Naprednija web stranica s dodatnim funkcionalnostima i boljim korisničkim iskustvom."
+    },
+    {
+      "title": "Premium Paket",
+      "content": "Visokokvalitetna, prilagođena web stranica s kompleksnim funkcionalnostima za velike brendove."
+    }
+  ],
+  "whatWeDoList": [
+    "Dizajn i razvoj prilagođen vašim potrebama",
+    "Responsive dizajn za sve uređaje (desktop, mobilni, tablet)",
+    "Optimizacija brzine učitavanja stranice",
+    "Integracija sa društvenim mrežama i drugim alatima",
+    "Kreiranje sadržaja i optimizacija za pretraživače (SEO)"
+  ],
+  "howWeDo": {
+    "title": "Kako Vam Pomažemo",
+    "description": "Kreiramo web stranice koje ne samo da izgledaju sjajno, već i donose rezultate vašem biznisu."
+  },
+  "whatWeDo": {
+    "title": "Naš Pristup",
+    "description": "Koristimo provjerene strategije i najnovije tehnologije kako bismo izgradili web stranice koje privlače, angažuju i pretvaraju posjetioce u kupce."
   }
-  
+}

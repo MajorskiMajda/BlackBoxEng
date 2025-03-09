@@ -24,9 +24,9 @@ export default function MainPage() {
                 className2="test3"
                 hideImageOnMobile={false}
                 textSizeClass="lg:text-6xl text-5xl"
-                opis="Hello"
-                subH=""
-                text="Social Media Management"
+                opis=""
+                subH="Kroz kreativne ideje, strategijski pristup i pažljivo osmišljene vizuelne elemente, vaš brend će postati prepoznatljiv, upečatljiv i uspješan. Jer znamo da grafički dizajn nije samo umjetnost – on je investicija u vašu budućnost."
+                text="Grafički Dizajn"
                 className="lg:order-first md:order-first"
             />
              <Info

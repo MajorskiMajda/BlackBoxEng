@@ -1,49 +1,48 @@
 {
-    "cardContents": [
-      {
-        "title": "f you",
-        "content": "This is the basic plan with essential features.",
-         "price": "99"
-      },
-      {
-        "title": "Pro Plan",
-        "content": "The pro plan includes premium features.",
-        "price": "99"
-      },
-      {
-        "title": "Enterprise Plan",
-        "content": "The enterprise plan is for large-scale use.",
-         "price": "99"
-      }
-    ],
-    "keyContent": [
-      {
-        "title": "Basic Plan",
-        "content": "Great for small websites."
-      },
-      {
-        "title": "Pro Plan",
-        "content": "Advanced features for growing businesses."
-      },
-      {
-        "title": "Enterprise Plan",
-        "content": "All-inclusive solution for large enterprises."
-      }
-    ],
-    "whatWeDoList": [
-      "Keyword research & strategy to target the right audience",
-      "On-page optimization for better search engine indexing",
-      "Technical SEO to improve site speed and user experience",
-      "Quality link-building strategies for higher domain authority",
-      "Content marketing to engage and convert visitors"
-    ],
-    "howWeDo": {
-      "title": "How We Help Your Business aaaaaa",
-      "description": "SEO is critical for improving your visibility and driving organic traffic."
+  "cardContents": [
+    {
+      "title": "Osnovni Paket",
+      "content": "Idealno za manje web stranice, blogove ili početnike koji žele postaviti temelje SEO-a. Uključuje osnovnu optimizaciju sadržaja, meta tagova i ključnih riječi kako biste postali vidljivi u pretragama.",
+      "price": "200€"
     },
-    "whatWeDo": {
-      "title": "Our Approach",
-      "description": "We implement proven strategies to boost your site's rankings and performance."
+    {
+      "title": "Standardni Paket",
+      "content": "Savršen za biznise u razvoju koji traže ozbiljniji pristup SEO-u. Uključuje naprednu optimizaciju sadržaja, tehnički SEO (brzina stranice, mobilna prilagodba) i redovno praćenje performansi kako biste ostali korak ispred konkurencije.",
+      "price": "400€"
+    },
+    {
+      "title": "Premium Paket",
+      "content": "Kompletan paket za velike brendove koji traže maksimalne rezultate. Uključuje sveobuhvatnu SEO strategiju: optimizaciju sadržaja, tehnički SEO, izgradnju backlinkova, redovno praćenje i izvještavanje, te kontinuiranu optimizaciju za vrhunske rezultate.",
+      "price": "600€"
     }
+  ],
+  "keyContent": [
+    {
+      "title": "On-page optimizacija",
+      "content": "On-page optimizacija osigurava da pretraživači pravilno indeksiraju i razumiju vaš sadržaj, što je ključno za visoko rangiranje. Također, poboljšava korisničko iskustvo, čineći vašu stranicu preglednijom i informativnijom."
+    },
+    {
+      "title": "Tehnički SEO",
+      "content": "Tehnički SEO osigurava da vaša stranica bude brza, sigurna i lako dostupna pretraživačima. Bez tehničke optimizacije, čak i najbolji sadržaj može biti neefikasan jer pretraživači neće moći pravilno indeksirati vašu stranicu."
+    },
+    {
+      "title": "Off-page optimizacija",
+      "content": "Off-page optimizacija pokazuje pretraživačima da je vaš sadržaj vrijedan i da ga drugi preporučuju. Kvalitetni backlinkovi i pozitivna online prisutnost povećavaju vaš autoritet, što vodi boljem rangiranju i većem prometu."
+    }
+  ],
+  "whatWeDoList": [
+    "Istraživanje ključnih riječi i strategija za ciljanu publiku",
+    "On-page optimizacija za bolje indeksiranje u pretraživačima",
+    "Tehnički SEO za poboljšanje brzine stranice i korisničkog iskustva",
+    "Strategije izgradnje kvalitetnih linkova za veći autoritet domene",
+    "Content marketing za angažman i konverziju posjetilaca"
+  ],
+  "howWeDo": {
+    "title": "Kako Vam Pomažemo",
+    "description": "SEO vam omogućava da privučete posjetioce bez plaćanja za reklame. Kada se vaša stranica rangira visoko u rezultatima pretrage, vi ste stalno prisutni pred svojom ciljanom publikom. Korisnici vjeruju pretraživačima. Ako se vaša stranica pojavi na prvim pozicijama, to automatski povećava povjerenje u vaš brend. SEO nije samo o pretraživačima – on je i o korisnicima. Optimizacijom brzine stranice, navigacije i sadržaja, vaša stranica postaje ugodnija za korištenje, što vodi do većeg zadržavanja posjetilaca i veće konverzije."
+  },
+  "whatWeDo": {
+    "title": "Naš Pristup",
+    "description": "Bez SEO optimizacije, vaša stranica može ostati zakopana na desetim ili stotim stranicama rezultata pretrage, gdje je rijetko tko doseže. Sa SEO-om, vaš brend može postati prepoznatljiv, privlačiti kvalitetne posjetioce i pretvarati ih u lojalne kupce. Sa našim SEO uslugama, mi vam pomažemo da ne samo budete vidljivi – već da budete nezaboravni. Kroz strategijski pristup, provjerene metode i kontinuiranu optimizaciju, vaša web stranica će postati snažan alat za rast vašeg biznisa."
   }
-  
+}

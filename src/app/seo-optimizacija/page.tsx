@@ -24,9 +24,9 @@ export default function MainPage() {
                 className2="test3"
                 hideImageOnMobile={false}
                 textSizeClass="lg:text-6xl text-5xl"
-                opis="Hello"
-                subH=""
-                text="Social Media Management"
+                opis=""
+                subH="Sa SEO-om, vaš brend može postati prepoznatljiv, privlačiti kvalitetne posjetioce i pretvarati ih u lojalne kupce."
+                text="SEO Optimizacija"
                 className="lg:order-first md:order-first"
             />
              <Info
