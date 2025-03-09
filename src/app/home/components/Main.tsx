@@ -32,9 +32,8 @@ export default function MainPage(props: {
                 <div className={`w-full md:w-4/4 ${props.tex || 'text-center'} lg:text-left lg:w-4/4`}>
                     {/* Title Section */}
                     <div
-                        className={`font-semibold leading-[1.3] lg:mb-4 lg:p-0 pt-4 pb-4 ${
-                            props.textSizeClass || ' sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl'
-                        }`}
+                        className={`font-semibold leading-[1.3] lg:mb-4 lg:p-0 pt-4 pb-4 ${props.textSizeClass || ' sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl'
+                            }`}
                     >
                         {words.map((word, index) => {
                             if (purpleWords.includes(word)) {
@@ -59,9 +58,8 @@ export default function MainPage(props: {
                     </div>
                     {/* Subtitle */}
                     <div
-                        className={`font-light text-neutral-300 mb-4 ${
-                            props.subHSizeClass || 'text-base sm:text-3xl md:text-3xl lg:text-2xl'
-                        } lg:text-left`}
+                        className={`font-light text-neutral-300 mb-4 ${props.subHSizeClass || 'text-base sm:text-3xl md:text-3xl lg:text-2xl'
+                            } lg:text-left`}
                     >
                         {props.subH}
                     </div>
@@ -70,16 +68,17 @@ export default function MainPage(props: {
 
             {/* Image Section */}
             <div
-                className={`lg:ml-8 lg:w-/4 md:w-6/12 sm:w-full flex justify-center  md:mt-0 
-                    ${props.className || ''} 
-                    ${props.hideImageOnMobile ? 'hidden sm:block' : ''}`}
+                className={`lg:ml-8 lg:mt-12 lg:w-4/10 md:w-6/12 sm:w-full 
+        flex justify-center items-center 
+        ${props.className || ''} 
+        ${props.hideImageOnMobile ? 'hidden sm:block' : ''}`}
             >
                 <Image
-                    className="rounded-md"
+                    className="rounded-md max-w-full h-auto"
                     src={props.image}
                     width={props.imgsize ? Number(props.imgsize) : 700}
-                    height={300}
-                    objectFit="contain"
+                    height={300}  // Changed from 'auto' to a number
+                    style={{ objectFit: 'contain' }}  // Moved objectFit to style
                     alt="Image"
                     priority={props.priority}
                 />
