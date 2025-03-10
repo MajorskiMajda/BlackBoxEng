@@ -185,7 +185,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-       <head>
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" type="image/png" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/favicon.ico" />
+        <link rel="manifest" href="/site.webmanifest" />
         {/* Google Analytics */}
         <Script
           strategy="afterInteractive"
