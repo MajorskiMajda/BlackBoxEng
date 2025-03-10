@@ -1,7 +1,7 @@
 "use client";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookF, faTwitter, faLinkedinIn, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import {  faLinkedinIn, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
 import Image from 'next/image';
 
@@ -45,25 +45,7 @@ const Footer = () => {
           <h3 className="text-xl font-semibold  text-[#da26ff]">Kontaktirajte nas</h3>
           <div className="mt-4 flex space-x-4">
             <a
-              href="https://facebook.com"
-              className="text-neutral-400 hover:text-[#da26ff]"
-              target="_blank"
-              aria-label="Facebook"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faFacebookF} className="text-2xl" />
-            </a>
-            <a
-              href="https://twitter.com"
-              className="text-neutral-400 hover:text-[#da26ff]"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Twitter"
-            >
-              <FontAwesomeIcon icon={faTwitter} className="text-2xl" />
-            </a>
-            <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/company/black-box-media-and-marketing"
               className="text-neutral-400 hover:text-[#da26ff]"
               target="_blank"
               rel="noopener noreferrer"
@@ -72,7 +54,7 @@ const Footer = () => {
               <FontAwesomeIcon icon={faLinkedinIn} className="text-2xl" />
             </a>
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/black_box_mediamarketing"
               className="text-neutral-400 hover:text-[#da26ff]"
               target="_blank"
               rel="noopener noreferrer"
@@ -91,9 +73,9 @@ const Footer = () => {
           </p>
           <p className="mt-4 text-neutral-400">
             Kontakt telefon:{" "}
-            <a className="text-white">
+            <span className="text-white">
               +381601305588
-            </a>
+            </span>
           </p>
         </div>
         
