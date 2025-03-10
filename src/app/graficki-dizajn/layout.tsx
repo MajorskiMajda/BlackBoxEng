@@ -2,15 +2,15 @@ import { Metadata } from "next";
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: "Grafički Dizajn Usluge | Profesionalni Dizajn za Vaš Brend - Black Box Media",
-  description: "Kreiramo vizuelno impresivne logoe, banere, Instagram postove, vizit karte i newslettere za vaš brend. Povećajte prepoznatljivost vašeg brenda uz naše usluge grafičkog dizajna. Besplatna konsultacija!",
+  title: "Grafički Dizajn Usluge | Profesionalni Dizajn za Vaš Brend",
+  description: "Kreiramo vizuelno impresivne logoe, banere, Instagram postove, vizit karte i newslettere za vaš brend. Povećajte prepoznatljivost vašeg brenda uz naše usluge grafičkog dizajna.",
   metadataBase: new URL("https://www.black-box-media.com"),
   openGraph: {
-    title: "Grafički Dizajn Usluge | Profesionalni Dizajn za Vaš Brend - Black Box Media",
-    description: "Kreiramo vizuelno impresivne logoe, banere, Instagram postove, vizit karte i newslettere za vaš brend. Povećajte prepoznatljivost vašeg brenda uz naše usluge grafičkog dizajna. Besplatna konsultacija!",
+    title: "Grafički Dizajn Usluge | Profesionalni Dizajn za Vaš Brend",
+    description: "Kreiramo vizuelno impresivne logoe, banere, Instagram postove, vizit karte i newslettere za vaš brend. Povećajte prepoznatljivost vašeg brenda uz naše usluge grafičkog dizajna.",
     images: [
       {
-        url: "https://www.black-box-media.com/graphic.svg", // Replace with the actual image URL
+        url: "https://www.black-box-media.com/graphic.svg",
         alt: "Grafički Dizajn Usluge - Black Box Media",
       },
     ],
@@ -39,11 +39,11 @@ export const metadata: Metadata = {
   authors: [{ name: "Black Box Media", url: "https://www.black-box-media.com" }],
   robots: "index, follow",
   alternates: {
-    canonical: "https://www.black-box-media.com/graficki-dizajn", // Add canonical URL for SEO
+    canonical: "https://www.black-box-media.com/graficki-dizajn",
   },
 };
 
-// Structured data for Graphic Design services
+
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -52,7 +52,7 @@ const structuredData = {
   "provider": {
     "@type": "Organization",
     "name": "Black Box Media",
-    "logo": "https://www.black-box-media.com/logo.svg", // Replace with your logo URL
+    "logo": "https://www.black-box-media.com/logo.svg", 
     "url": "https://www.black-box-media.com",
   },
   "areaServed": {

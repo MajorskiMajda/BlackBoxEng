@@ -13,11 +13,13 @@ export const metadata: Metadata = {
     type: "website",
   },
   keywords:"izrada web sajtova, web development, dizajn web sajtova, responsivni sajtovi, optimizacija web sajtova, programiranje sajtova, razvoj web aplikacija, frontend development, backend development, SEO optimizacija, digitalna transformacija, brendiranje, Black Box Media, Srbija, Hrvatska, Bosna i Hercegovina, Balkan web development, UI/UX dizajn, poslovni sajtovi, e-commerce sajtovi, web aplikacije, prilagođeni sajtovi, kreiranje web sadržaja, moderni web sajtovi, custom web dizajn, web dizajn agencija, web hosting, full-stack development, JavaScript, React, Next.js, PHP, Laravel, HTML, CSS, digitalni marketing, optimizacija konverzija, UX strategija, mobilni web sajtovi, vizuelni identitet, startup sajtovi, izrada landing stranica, responsive dizajn, sigurnost web sajtova, online portfolio, redizajn web sajtova, kreacija brenda online, tehnička SEO optimizacija, brzina učitavanja sajta, prilagođene web aplikacije, API integracije, CMS rešenja",
-  authors: [{ name: "Black Box Media" }],
+  authors: [{ name: "Black Box Media", url: "https://www.black-box-media.com" }],
   robots: "index, follow",
+  alternates: {
+    canonical: "https://www.black-box-media.com/izrada-sajtova",
+  },
 };
 
-// Structured data for Web Development services
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Service",

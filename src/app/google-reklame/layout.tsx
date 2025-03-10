@@ -2,15 +2,15 @@ import { Metadata } from "next";
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: "Google Ads Usluge | Profesionalno Upravljanje Kampanjama - Black Box Media",
-  description: "Povećajte uspešnost vaših Google Ads kampanja uz stručno upravljanje, ciljanje i optimizaciju. Besplatna analiza vaših kampanja! Kontaktirajte nas danas.",
+  title: "Google Ads Usluge | Profesionalno Upravljanje Kampanjama.",
+  description: "Povećajte uspešnost vaših Google Ads kampanja uz stručno upravljanje, ciljanje i optimizaciju.",
   metadataBase: new URL("https://www.black-box-media.com"),
   openGraph: {
-    title: "Google Ads Usluge | Profesionalno Upravljanje Kampanjama - Black Box Media",
-    description: "Povećajte uspešnost vaših Google Ads kampanja uz stručno upravljanje, ciljanje i optimizaciju. Besplatna analiza vaših kampanja! Kontaktirajte nas danas.",
+    title: "Google Ads Usluge | Profesionalno Upravljanje Kampanjama.",
+    description: "Povećajte uspešnost vaših Google Ads kampanja uz stručno upravljanje, ciljanje i optimizaciju.",
     images: [
       {
-        url: "https://www.black-box-media.com/googleads.svg", // Replace with the actual image URL
+        url: "https://www.black-box-media.com/googleads.svg",
         alt: "Google Ads Usluge - Black Box Media",
       },
     ],
@@ -47,7 +47,6 @@ export const metadata: Metadata = {
   },
 };
 
-// Structured data for Google Ads services
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Service",

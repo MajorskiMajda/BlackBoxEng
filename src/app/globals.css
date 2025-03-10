@@ -25,6 +25,12 @@ h2 {
   white-space: nowrap;
   /* Prevents text from wrapping */
 }
+.bg-onama{
+  background-color: #da26ff;
+opacity: 1;
+background-image: radial-gradient(#ffffff 1.35px, #da26ff 1.35px);
+background-size: 27px 27px;
+}
 
 /* Add this to your global CSS or within a <style> tag */
 .transition-height {

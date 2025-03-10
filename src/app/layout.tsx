@@ -11,12 +11,12 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Black Box Media | Vodeća Digital Marketing Agencija za Srbiju, Hrvatsku i Bosnu",
-  description: "Black Box Media je vodeća digital marketing agencija koja nudi usluge SEO, PPC, Reels reklama, UGC reklama, menadzment društvenih mreža, email marketinga, izrade web sajtova i još mnogo toga. Povećajte svoj online prisustvo i prodaju sa nama!",
+  title: "Black Box Media | Vodeća Marketing Agencija",
+  description: "Black Box Media nudi usluge SEO, PPC, Reels reklama, UGC reklama, menadzment društvenih mreža, email marketinga, izrade web sajtova i još mnogo toga. Povećajte svoj online prisustvo i prodaju sa nama!",
   metadataBase: new URL("https://www.black-box-media.com"),
   openGraph: {
-    title: "Black Box Media | Vodeća Digital Marketing Agencija za Srbiju, Hrvatsku i Bosnu",
-    description: "Black Box Media je vodeća digital marketing agencija koja nudi usluge SEO, PPC, Reels reklama, menadzment društvenih mreža, email marketinga, izrade web sajtova i još mnogo toga. Povećajte svoj online prisustvo i prodaju sa nama!",
+    title: "Black Box Media | Vodeća Marketing Agencija",
+    description: "Black Box Media nudi usluge SEO, PPC, Reels reklama, menadzment društvenih mreža, email marketinga, izrade web sajtova i još mnogo toga. Povećajte svoj online prisustvo i prodaju sa nama!",
     images: [
       {
         url: "https://www.black-box-media.com/logo.svg",
@@ -160,7 +160,7 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Black Box Media",
-  "description": "Black Box Media je vodeća digital marketing agencija koja nudi usluge SEO, PPC, Reels reklama, menadzment društvenih mreža, email marketinga, izrade web sajtova i još mnogo toga. Povećajte svoj online prisustvo i prodaju sa nama!",
+  "description": "Black Box Media koja nudi usluge SEO, PPC, Reels reklama, menadzment društvenih mreža, email marketinga, izrade web sajtova i još mnogo toga. Povećajte svoj online prisustvo i prodaju sa nama!",
   "url": "https://www.black-box-media.com",
   "logo": "https://www.black-box-media.com/logo.svg",
   "contactPoint": {

@@ -44,7 +44,6 @@ export default function HomePage() {
 
             <Sec image={"/rock.svg"} />
 
-            {/* Marketing Section */}
             <HorizontalScrollSection
                 heading="Usluge Marketinga"
                 sectionType="features"
@@ -87,7 +86,6 @@ export default function HomePage() {
             />
 
             <ContactForm variant="home" />
-            {/* <Questions /> */}
 
             <Footer />
         </div>

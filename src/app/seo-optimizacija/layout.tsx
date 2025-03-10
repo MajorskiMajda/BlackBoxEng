@@ -2,12 +2,12 @@ import { Metadata } from "next";
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: "SEO Optimizacija | Profesionalne Usluge za Poboljšanje Rangiranja - Black Box Media",
-  description: "Povećajte vidljivost vašeg sajta u pretraživačima uz naše SEO usluge. Specijalizovani smo za tehničku SEO optimizaciju, optimizaciju sadržaja i dugoročne strategije za povećanje organskog prometa. Besplatna konsultacija!",
+  title: "SEO Optimizacija | Profesionalne Usluge za Poboljšanje Rangiranja",
+  description: "Povećajte vidljivost vašeg sajta u pretraživačima uz naše SEO usluge. Specijalizovani smo za tehničku SEO optimizaciju, optimizaciju sadržaja i dugoročne strategije za povećanje organskog prometa.",
   metadataBase: new URL("https://www.black-box-media.com"),
   openGraph: {
-    title: "SEO Optimizacija | Profesionalne Usluge za Poboljšanje Rangiranja - Black Box Media",
-    description: "Povećajte vidljivost vašeg sajta u pretraživačima uz naše SEO usluge. Specijalizovani smo za tehničku SEO optimizaciju, optimizaciju sadržaja i dugoročne strategije za povećanje organskog prometa. Besplatna konsultacija!",
+    title: "SEO Optimizacija | Profesionalne Usluge za Poboljšanje Rangiranja",
+    description: "Povećajte vidljivost vašeg sajta u pretraživačima uz naše SEO usluge. Specijalizovani smo za tehničku SEO optimizaciju, optimizaciju sadržaja i dugoročne strategije za povećanje organskog prometa.",
     images: [
       {
         url: "https://www.black-box-media.com/seoo.svg", 
@@ -64,7 +64,6 @@ export const metadata: Metadata = {
   },
 };
 
-// Structured data for SEO services
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Service",

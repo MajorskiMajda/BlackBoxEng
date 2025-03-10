@@ -3,14 +3,14 @@ import Script from 'next/script';
 
 export const metadata: Metadata = {
   title: "Menadžment Društvenih Mreža | Profesionalno Upravljanje Facebook, Instagram i LinkedIn - Black Box Media",
-  description: "Povećajte angažman i vidljivost vašeg brenda uz naše usluge menadžmenta društvenih mreža. Specijalizovani smo za strategije, kreiranje sadržaja i analitiku za Facebook, Instagram, LinkedIn i TikTok. Besplatna konsultacija!",
+  description: "Povećajte angažman i vidljivost vašeg brenda uz naše usluge menadžmenta društvenih mreža. Specijalizovani smo za strategije, kreiranje sadržaja i analitiku za Facebook, Instagram, LinkedIn i TikTok.",
   metadataBase: new URL("https://www.black-box-media.com"),
   openGraph: {
     title: "Menadžment Društvenih Mreža | Profesionalno Upravljanje Facebook, Instagram i LinkedIn - Black Box Media",
-    description: "Povećajte angažman i vidljivost vašeg brenda uz naše usluge menadžmenta društvenih mreža. Specijalizovani smo za strategije, kreiranje sadržaja i analitiku za Facebook, Instagram, LinkedIn i TikTok. Besplatna konsultacija!",
+    description: "Povećajte angažman i vidljivost vašeg brenda uz naše usluge menadžmenta društvenih mreža. Specijalizovani smo za strategije, kreiranje sadržaja i analitiku za Facebook, Instagram, LinkedIn i TikTok.",
     images: [
       {
-        url: "https://www.black-box-media.com/smm.svg", // Replace with the actual image URL
+        url: "https://www.black-box-media.com/smm.svg",
         alt: "Menadžment Društvenih Mreža - Black Box Media",
       },
     ],
@@ -70,7 +70,7 @@ const structuredData = {
   "provider": {
     "@type": "Organization",
     "name": "Black Box Media",
-    "logo": "https://www.black-box-media.com/logo.svg", // Replace with your logo URL
+    "logo": "https://www.black-box-media.com/logo.svg", 
     "url": "https://www.black-box-media.com",
   },
   "areaServed": {

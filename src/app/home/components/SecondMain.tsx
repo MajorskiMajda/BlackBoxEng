@@ -10,11 +10,11 @@ export default function MainPage(props: {
     image: string | StaticImport;
 }) {
     const features = [
-        "Veća konverzija, veći profit – pretvaramo posetioce u kupce.",
-        "Više vremena za važne stvari – preuzimamo marketing na sebe.",
-        "Manje stresa, više rezultata – optimizujemo sve za vas.",
-        "Više poseta sajtu i profilima – privlačimo ciljanu publiku.",
-        "Bolja vidljivost – ističemo vas tamo gde je važno."
+        "Povećajte konverzije i profit – Pretvaramo posetioce u kupce uz efikasne marketinške strategije.",
+        "Uštedite vreme, mi vodimo marketing – Fokusirajte se na posao dok mi optimizujemo Vaše kampanje.",
+        "Manje stresa, više prodaje – Poboljšavamo Vaš digitalni marketing za maksimalne rezultate.",
+        "Više saobraćaja na sajtu i društvenim mrežama – Privlačimo pravu publiku i povećavamo angažman.",
+        "Bolja vidljivost i prepoznatljivost brenda – Ističemo Vas na ključnim mestima gde su Vaši kupci."
     ];
 
     useEffect(() => {
@@ -88,7 +88,7 @@ export default function MainPage(props: {
                                         height={40}
                                         className="rounded-md"
                                     />
-                                    <p className="text-base sm:text-2xl md:text-xl lg:text-xl xl:text-3xl ml-4 font-normal">
+                                    <p className="text-base sm:text-2xl md:text-xl lg:text-xl xl:text-2xl ml-4 font-normal">
                                         {feature}
                                     </p>
                                 </MotionDiv>

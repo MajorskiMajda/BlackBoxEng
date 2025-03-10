@@ -2,16 +2,16 @@ import { Metadata } from "next";
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: "Reels Reklame | Profesionalna Produkcija Video Sadržaja za Društvene Mreže - Black Box Media",
-  description: "Kreiramo privlačne i angažovane Reels video reklame za vaš brend. Specijalizovani smo za produkciju UGC (User-Generated Content) Reels sadržaja koji povećava prodaju i angažman. Besplatna konsultacija!",
+  title: "Reels UGC Reklame | Profesionalna Produkcija Video Sadržaja za Društvene Mreže",
+  description: "Kreiramo privlačne i angažovane Reels video reklame za vaš brend. Specijalizovani smo za produkciju UGC (User-Generated Content) Reels sadržaja koji povećava prodaju i angažman.",
   metadataBase: new URL("https://www.black-box-media.com"),
   openGraph: {
-    title: "Reels Reklame | Profesionalna Produkcija Video Sadržaja za Društvene Mreže - Black Box Media",
-    description: "Kreiramo privlačne i angažovane Reels video reklame za vaš brend. Specijalizovani smo za produkciju UGC (User-Generated Content) Reels sadržaja koji povećava prodaju i angažman. Besplatna konsultacija!",
+    title: "Reels UGC Reklame | Profesionalna Produkcija Video Sadržaja za Društvene Mreže",
+    description: "Kreiramo privlačne i angažovane Reels video reklame za vaš brend. Specijalizovani smo za produkciju UGC (User-Generated Content) Reels sadržaja koji povećava prodaju i angažman.",
     images: [
       {
-        url: "https://www.black-box-media.com/reels.svg", // Replace with the actual image URL
-        alt: "Reels Reklame - Black Box Media",
+        url: "https://www.black-box-media.com/reels.svg",
+        alt: "Reels UGC Reklame - Black Box Media",
       },
     ],
     url: "https://www.black-box-media.com/reels",
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Black Box Media", url: "https://www.black-box-media.com" }],
   robots: "index, follow",
   alternates: {
-    canonical: "https://www.black-box-media.com/reels", // Add canonical URL for SEO
+    canonical: "https://www.black-box-media.com/reels",
   },
 };
 
@@ -64,12 +64,12 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": "Reels Reklame",
+  "name": "Reels UGC Reklame",
   "description": "Kreiramo privlačne i angažovane Reels video reklame za vaš brend. Specijalizovani smo za produkciju UGC (User-Generated Content) Reels sadržaja koji povećava prodaju i angažman.",
   "provider": {
     "@type": "Organization",
     "name": "Black Box Media",
-    "logo": "https://www.black-box-media.com/logo.svg", // Replace with your logo URL
+    "logo": "https://www.black-box-media.com/logo.svg",
     "url": "https://www.black-box-media.com",
   },
   "areaServed": {

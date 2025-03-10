@@ -2,12 +2,12 @@
   "cardContents": [
     {
       "title": "Osnovni Paket",
-      "content": "Ovaj paket je idealan za manje web stranice, ili one koji tek počinju i žele da ih pretraživači uoče. Uključuje osnovnu optimizaciju sadržaja, meta tagova i ključnih reči kako biste postali vidljivi na pretragama. Na primer, ukoliko vodite blog o receptima, podesićemo naslove i opise tako da se Vaš recept pojavi među prvim rezultatima kada neko traži 'kolači'. Vaš sajt dobija čvrst temelj za vidljivost, a mi preuzimamo sve tehničke detalje kako biste se Vi fokusirali na svoj posao.",
+      "content": "Ovaj paket je idealan za manje veb stranice, ili one koji tek počinju i žele da ih pretraživači uoče. Uključuje osnovnu optimizaciju sadržaja, meta tagova i ključnih reči kako biste postali vidljivi na pretragama. Na primer, ukoliko vodite blog o receptima, podesićemo naslove i opise tako da se Vaš recept pojavi među prvim rezultatima kada neko traži 'kolači'. Vaš sajt dobija čvrst temelj za vidljivost, a mi preuzimamo sve tehničke detalje kako biste se Vi fokusirali na svoj posao.",
       "price": "200€"
     },
     {
       "title": "Standardni Paket",
-      "content": "Savršen izbor za biznise u razvoju koji žele ozbiljan korak napred u SEO-u. Ovde Vam nudimo naprednu optimizaciju sadržaja, tehnički SEO poput ubrzanja sajta i prilagođavanja za mobilne uređaje kao i redovno praćenje performansi kako biste ostali ispred konkurencije. Vaša web stranica postaje efikasan alat koji privlači posetioce, a mi se brinemo da sve funkcioniše besprekorno.",
+      "content": "Savršen izbor za biznise u razvoju koji žele ozbiljan korak napred u SEO-u. Ovde Vam nudimo naprednu optimizaciju sadržaja, tehnički SEO poput ubrzanja sajta i prilagođavanja za mobilne uređaje kao i redovno praćenje performansi kako biste ostali ispred konkurencije. Vaša veb stranica postaje efikasan alat koji privlači posetioce, a mi se brinemo da sve funkcioniše besprekorno.",
       "price": "400€"
     },
     {
@@ -43,6 +43,6 @@
   },
   "whatWeDo": {
     "title": "Naš Pristup",
-    "description": "Bez SEO-a, tvoj sajt je kao prodavnica u mračnoj uličici, može biti super, ali niko ne zna za njega. Mi Vam pomažemo da to promenite. Prvo razgovaramo s Vama kako bismo razumeli Vaše ciljeve i publiku, a zatim kreiramo strategiju: od odabira ključnih reči koje Vaši klijenti traže, preko tehničkih poboljšanja, do izgradnje linkova koji Vam daju kredibilitet. Pratimo performanse i prilagođavamo sve kako biste ostali na vrhu. Naš cilj je da Vaš sajt bude ne samo vidljiv, već i snažan alat za privlačenje i zadržavanje klijenata."
+    "description": "Bez SEO-a, Vaš sajt je kao prodavnica u mračnoj uličici, može biti super, ali niko ne zna za njega. Mi Vam pomažemo da to promenite. Prvo razgovaramo s Vama kako bismo razumeli Vaše ciljeve i publiku, a zatim kreiramo strategiju: od odabira ključnih reči koje Vaši klijenti traže, preko tehničkih poboljšanja, do izgradnje linkova koji Vam daju kredibilitet. Pratimo performanse i prilagođavamo sve kako biste ostali na vrhu. Naš cilj je da Vaš sajt bude ne samo vidljiv, već i snažan alat za privlačenje i zadržavanje klijenata."
   }
 }

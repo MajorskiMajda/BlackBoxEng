@@ -1,7 +1,10 @@
 "use client";
 
 import { ReactNode, useEffect, useState, useRef } from 'react';
-import Animation from '../animation/AnimationView2';
+import dynamic from 'next/dynamic';
+
+// Dynamically import Animation component, disable SSR
+const Animation = dynamic(() => import('../animation/AnimationView2'), { ssr: false });
 
 export default function MainPage(props: {
     text: string;
@@ -13,14 +16,11 @@ export default function MainPage(props: {
     className?: string;
     hideImageOnMobile?: boolean;
 }) {
-    const [isClient, setIsClient] = useState(false);
     const [isVisible, setIsVisible] = useState(false);
     const [coloredIndices, setColoredIndices] = useState<number[]>([]);
     const sectionRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
-        setIsClient(true);
-
         const observer = new IntersectionObserver(
             (entries) => {
                 const entry = entries[0];
@@ -54,15 +54,12 @@ export default function MainPage(props: {
         "ključ za uspeh"
     ];
 
-    // Indeks za "Zašto mi?" je 0, ključne reči počinju od 1
     useEffect(() => {
         if (isVisible) {
-            // Prvo bojimo "Zašto mi?" (indeks 0)
             setTimeout(() => {
                 setColoredIndices((prev) => [...prev, 0]);
             }, 0);
 
-            // Zatim bojimo ključne reči sa zakašnjenjem
             keywords.forEach((_, index) => {
                 setTimeout(() => {
                     setColoredIndices((prev) => [...prev, index + 1]);
@@ -71,7 +68,6 @@ export default function MainPage(props: {
         }
     }, [isVisible]);
 
-    // Funkcija za stilizovanje ključnih reči u subH
     const highlightKeywords = (text: string): ReactNode => {
         let parts: ReactNode[] = [text];
 
@@ -128,39 +124,30 @@ export default function MainPage(props: {
     return (
         <div
             ref={sectionRef}
-            className="flex  sm:mb-10 mb-0 flex-col-reverse md:flex-col lg:flex-row items-center justify-evenly h-fit lg:pl-16 p-0 pt-0"
+            className="flex sm:mb-10 mb-0 flex-col-reverse md:flex-col lg:flex-row items-center justify-evenly h-fit lg:pl-16 p-0 pt-0"
         >
             {/* Image Section */}
-            {isClient && (
-                <div
-                    className={`lg:order-first order-first h-full lg:w-1/4 md:w-10/12 sm:w-full flex justify-center md:mt-0`}
-                >
-                    <Animation />
-                </div>
-            )}
+            <div
+                className="lg:order-first order-first h-full lg:w-1/4 md:w-10/12 sm:w-full flex justify-center md:mt-0"
+            >
+                <Animation />
+            </div>
 
             {/* Text Section */}
             <div className="flex flex-col justify-center sm:mt-10 sm:mb-10 mt-0 mb-0 items-center min-h-fit w-full md:w-12/12">
-                {/* Wrapper for Title and Description */}
                 <div className="w-full lg:p-0 p-8 md:w-4/4 text-left lg:w-3/4">
-                    {/* Title Section */}
                     <div
-                        className={`font-semibold leading-[1.3] lg:mb-8 lg:p-0 pt-4 pb-4 'text-2xl text-4xl xl:text-5xl md:text-4xl lg:text-4xl '
-                         text-left`}
+                        className="font-semibold leading-[1.3] lg:mb-8 lg:p-0 pt-4 pb-4 text-2xl text-4xl xl:text-5xl md:text-4xl lg:text-4xl text-left"
                     >
                         {styledText}
                     </div>
-                    {/* Subtitle Section */}
                     <div
-                        className={`font-light text-neutral-300 mb-4  xl:text-2xl text-base sm:text-lg md:text-xl lg:text-xl
-                         text-left`}
+                        className="font-light text-neutral-300 mb-4 xl:text-2xl text-base sm:text-lg md:text-xl lg:text-xl text-left"
                     >
                         {styledSubH}
                     </div>
-                    {/* Description Section */}
                     <div
-                        className={`font-light text-neutral-300 text-sm sm:text-base md:text-lg lg:text-xl
-                        `}
+                        className="font-light text-neutral-300 text-sm sm:text-base md:text-lg lg:text-xl"
                     >
                         {props.opis}
                     </div>

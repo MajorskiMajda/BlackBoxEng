@@ -2,12 +2,12 @@ import { Metadata } from "next";
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: "Email Marketing Usluge | Profesionalne Kampanje za Povećanje Prodaje - Black Box Media",
-  description: "Povećajte prodaju i angažman vašeg brenda uz naše usluge email marketinga. Specijalizovani smo za kreiranje personalizovanih email kampanja, automatske sekvence i analitiku. Besplatna konsultacija!",
+  title: "Email Marketing Usluge | Profesionalne Kampanje za Povećanje Prodaje",
+  description: "Povećajte prodaju i angažman vašeg brenda uz naše usluge email marketinga. Specijalizovani smo za kreiranje personalizovanih email kampanja, automatske sekvence i analitiku.",
   metadataBase: new URL("https://www.black-box-media.com"),
   openGraph: {
-    title: "Email Marketing Usluge | Profesionalne Kampanje za Povećanje Prodaje - Black Box Media",
-    description: "Povećajte prodaju i angažman vašeg brenda uz naše usluge email marketinga. Specijalizovani smo za kreiranje personalizovanih email kampanja, automatske sekvence i analitiku. Besplatna konsultacija!",
+    title: "Email Marketing Usluge | Profesionalne Kampanje za Povećanje Prodaje",
+    description: "Povećajte prodaju i angažman vašeg brenda uz naše usluge email marketinga. Specijalizovani smo za kreiranje personalizovanih email kampanja, automatske sekvence i analitiku.",
     images: [
       {
         url: "https://www.black-box-media.com/emailm.svg", 

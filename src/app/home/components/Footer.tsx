@@ -13,7 +13,7 @@ const Footer = () => {
         <div>
           <Image src="/logo.svg" alt="Kursor Logo" width={180} height={80} />
           <p className="mt-4 text-neutral-400">
-          Pružamo najbolje usluge da bismo vam pomogli da ostvarite svoje ciljeve. Pridružite nam se danas!
+          Pružamo najbolje usluge da bismo Vam pomogli da ostvarite svoje ciljeve. Pridružite nam se danas!
           </p>
         </div>
 

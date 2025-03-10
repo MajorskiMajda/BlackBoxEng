@@ -2,15 +2,15 @@ import { Metadata } from "next";
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: "Meta Reklamiranje | Profesionalno Oglašavanje na Facebook i Instagram - Black Box Media",
-  description: "Povećajte prodaju i angažman vašeg brenda uz naše usluge Meta reklamiranja. Specijalizovani smo za upravljanje Facebook i Instagram oglasima, optimizaciju kampanja i povećanje ROI-a. Besplatna konsultacija!",
+  title: "Meta Reklamiranje | Profesionalno Oglašavanje na Facebook i Instagram",
+  description: "Povećajte prodaju i angažman vašeg brenda uz naše usluge Meta reklamiranja. Specijalizovani smo za upravljanje Facebook i Instagram oglasima, optimizaciju kampanja i povećanje ROI-a.",
   metadataBase: new URL("https://www.black-box-media.com"),
   openGraph: {
-    title: "Meta Reklamiranje | Profesionalno Oglašavanje na Facebook i Instagram - Black Box Media",
-    description: "Povećajte prodaju i angažman vašeg brenda uz naše usluge Meta reklamiranja. Specijalizovani smo za upravljanje Facebook i Instagram oglasima, optimizaciju kampanja i povećanje ROI-a. Besplatna konsultacija!",
+    title: "Meta Reklamiranje | Profesionalno Oglašavanje na Facebook i Instagram",
+    description: "Povećajte prodaju i angažman vašeg brenda uz naše usluge Meta reklamiranja. Specijalizovani smo za upravljanje Facebook i Instagram oglasima, optimizaciju kampanja i povećanje ROI-a.",
     images: [
       {
-        url: "https://www.black-box-media.com/metaads.svg", // Replace with the actual image URL
+        url: "https://www.black-box-media.com/metaads.svg",
         alt: "Meta Reklamiranje - Black Box Media",
       },
     ],
@@ -54,11 +54,11 @@ export const metadata: Metadata = {
   authors: [{ name: "Black Box Media", url: "https://www.black-box-media.com" }],
   robots: "index, follow",
   alternates: {
-    canonical: "https://www.black-box-media.com/meta-reklame", // Add canonical URL for SEO
+    canonical: "https://www.black-box-media.com/meta-reklame", 
   },
 };
 
-// Structured data for Meta Ads services
+
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -67,7 +67,7 @@ const structuredData = {
   "provider": {
     "@type": "Organization",
     "name": "Black Box Media",
-    "logo": "https://www.black-box-media.com/logo.svg", // Replace with your logo URL
+    "logo": "https://www.black-box-media.com/logo.svg", 
     "url": "https://www.black-box-media.com",
   },
   "areaServed": {
