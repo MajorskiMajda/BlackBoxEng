@@ -3,17 +3,35 @@
       {
         "title": "Osnovni Paket",
         "content": "Naš Osnovni Paket uključuje kreiranje i optimizaciju profila po potrebi, 2 objave i 2 storija nedeljno s privlačnim grafičkim dizajnom i kreativnim tekstovima, te brzo i profesionalno odgovaranje na poruke vaših pratilaca.",
-        "price": "200"
+        "price": "200",
+        "bulet": [
+          "3 kampanje sa personalizovanim reklamama (slike ili video)",
+          "Idealno za manje biznise ili početnike u digitalnom marketingu",
+          "Testiranje različitih strategija i demografija",
+          "Pronalaženje idealne publike"
+        ]
       },
       {
         "title": "Standardni Paket",
         "content": "Naš Standardni Paket uključuje kompletno kreiranje i optimizaciju profila, 3 objave i 3 storija nedeljno uz visokokvalitetan grafički dizajn i copywriting, kao i aktivno upravljanje komunikacijom s vašom publikom.",
-        "price": "400"
+        "price": "400",
+        "bulet": [
+          "3 kampanje sa personalizovanim reklamama (slike ili video)",
+          "Idealno za manje biznise ili početnike u digitalnom marketingu",
+          "Testiranje različitih strategija i demografija",
+          "Pronalaženje idealne publike"
+        ]
       },
       {
         "title": "Premium Paket",
         "content": "Naš Premium Paket uključuje profesionalno kreiranje i optimizaciju profila, 4 objave i 4 storija nedeljno uz vrhunski grafički dizajn i kreativne tekstove, te brzo i efikasno upravljanje komunikacijom s vašim pratiteljima.",
-        "price": "500"
+        "price": "500",
+        "bulet": [
+          "3 kampanje sa personalizovanim reklamama (slike ili video)",
+          "Idealno za manje biznise ili početnike u digitalnom marketingu",
+          "Testiranje različitih strategija i demografija",
+          "Pronalaženje idealne publike"
+        ]
       }
     ],
     "keyContent": [

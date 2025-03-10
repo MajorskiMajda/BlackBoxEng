@@ -1,5 +1,6 @@
 import React from "react";
 import Prices from './Features'
+import Compare from '../components/Compare'
 
 interface Info {
   cardContents: { title: string; content: string; price: number }[];  // Expect cardContents as a prop
@@ -39,6 +40,7 @@ const Info: React.FC<InfoProps> = ({
           sectionType="prices"
           cardContents={cardContents}
         />
+        <Compare heading={'Uporedite Cene'} services={cardContents}/>
 
         {/* What We Do Section */}
         <h2 className="lg:text-5xl text-3xl font-semibold lg:mb-6 lg:p-0 md:pb-0 pt-8  text-[#da26ff] ">{whatWeDoTitle}</h2>

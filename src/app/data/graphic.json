@@ -3,17 +3,35 @@
     {
       "title": "Osnovni Paket",
       "content": "Ovaj paket je savršen za male biznise ili one koji tek kreću i žele da ostave dobar prvi utisak bez velikog ulaganja. Uključuje osnovne stvari koje Vam trebaju da zablistate: izradu jednostavnog, ali upečatljivog logoa, jednu objavu za Instagram koja privlači pažnju ili editovanje slike da izgleda profi. Vi nam kažete šta volite, mi to pretvorimo u dizajn koji radi za Vas.",
-      "price": "50"
+      "price": "50",
+      "bulet": [
+        "3 kampanje sa personalizovanim reklamama (slike ili video)",
+        "Idealno za manje biznise ili početnike u digitalnom marketingu",
+        "Testiranje različitih strategija i demografija",
+        "Pronalaženje idealne publike"
+      ]
     },
     {
       "title": "Standardni Paket",
       "content": "Ako Vam treba nešto više od osnova, ovaj paket je pravi izbor za biznise koji žele da se izdvoje i redovno osvežavaju svoj izgled. Dobijate više opcija: možemo da napravimo nekoliko verzija logoa da izaberete onaj koji Vam najviše leži, kreiramo par Instagram postova koji pričaju Vašu priču ili sredimo nekoliko slika da izgledaju kao iz časopisa. Vaš brend počinje da izgleda ozbiljno i privlači pravu ekipu, a mi se brinemo za sve detalje.",
-      "price": "200"
+      "price": "200",
+      "bulet": [
+        "3 kampanje sa personalizovanim reklamama (slike ili video)",
+        "Idealno za manje biznise ili početnike u digitalnom marketingu",
+        "Testiranje različitih strategija i demografija",
+        "Pronalaženje idealne publike"
+      ]
     },
     {
       "title": "Premium Paket",
       "content": "Ovo je kompletna usluga za one koji žele da njihov brend zablista na svim frontovima – od logoa do veb sajta i društvenih mreža. Uključuje sve što Vam padne na pamet: više varijacija logoa dok ne nađemo savršenu, dizajn za Vaš veb sajt (baneri, ikonice, sve što treba), plus redovne objave za Instagram ili Facebook koje drže Vašu publiku zainteresovanom. Vaš brend ne samo da izgleda vrhunski, već postaje nešto što ljudi pamte i prepoznaju svuda.",
-      "price": "400"
+      "price": "400",
+      "bulet": [
+        "3 kampanje sa personalizovanim reklamama (slike ili video)",
+        "Idealno za manje biznise ili početnike u digitalnom marketingu",
+        "Testiranje različitih strategija i demografija",
+        "Pronalaženje idealne publike"
+      ]
     }
   ],
   "keyContent": [

@@ -3,17 +3,36 @@
       {
         "title": "Osnovni Paket ",
         "content": "Uz ovaj paket dobijate 3 kampanje i totalno personalizovane reklame, bile to reklame u vidu slika ili video zapisa. Osnovni paket je idealan za manje biznise ili one koji tek kreću i ulaze u svet digitalnog marketinga. Možete da testirate različite strategije, oprobate se na različitim demografijama gledaoca i samim tim shvatite koja je Vaša idealna publika.",
-        "price": "200"
+        "price": "200",
+        "bulet": [
+          "3 kampanje sa personalizovanim reklamama (slike ili video)",
+          "Idealno za manje biznise ili početnike u digitalnom marketingu",
+          "Testiranje različitih strategija i demografija",
+          "Pronalaženje idealne publike"
+        ]
+        
       },
       {
         "title": "Standardni Paket",
         "content": "Uz ovaj paket dobijate 6 kampanja, više slobode i više prilika za dolazak do idealne mušterije. Standardni paket je idealan za biznise koji žele da podignu svoje online prisustvo i osiguraju stalne rezultate. Možete da isprobate različite ideje i vidite šta najviše donosi uspeh Vašem brendu. Plus, imate prostora da prilagodite strategiju na osnovu onih kampanja koje donose najviše rezultata.",
-        "price": "400"
+        "price": "400",
+        "bulet": [
+          "3 kampanje sa personalizovanim reklamama (slike ili video)",
+          "Idealno za manje biznise ili početnike u digitalnom marketingu",
+          "Testiranje različitih strategija i demografija",
+          "Pronalaženje idealne publike"
+        ]
       },
       {
         "title": "Premium Paket",
         "content": "Uz ovaj paket dobijate 9 kampanja i ovo je najbolja opcija za biznise koji ozbiljno shvataju uticaj i važnost digitalnog marketinga za njihov brend. Premium paket Vam omogućava optimizaciju kampanja za svaku ciljanu grupu pojedinačno, maksimalno precizno određivanje demografija i dugoročno strateško planiranje što Vam ujedno donosi najbolji mogući ROAS (povrat na investiciju za reklame).",
-         "price": "600"
+         "price": "600",
+         "bulet": [
+          "3 kampanje sa personalizovanim reklamama (slike ili video)",
+          "Idealno za manje biznise ili početnike u digitalnom marketingu",
+          "Testiranje različitih strategija i demografija",
+          "Pronalaženje idealne publike"
+        ]
       }
     ],
     "keyContent": [

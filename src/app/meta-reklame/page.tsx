@@ -38,6 +38,7 @@ export default function MainPage() {
                 keyContent={keyContent}
                 whatWeDoList={whatWeDoList}
             />
+     
             <Contact variant="services" />
             <Footer />
         </div>

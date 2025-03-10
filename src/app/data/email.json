@@ -3,17 +3,35 @@
     {
       "title": "Osnovni Paket",
       "content": "Uz ovaj paket dobijate 2500 email adresa, dizajn i kreiranje unikatnih i prodornih emailova. Šalje se jedna kampanja i na nedeljnom nivou dobijate analizu rezultata.",
-      "price": "100"
+      "price": "100",
+      "bulet": [
+        "3 kampanje sa personalizovanim reklamama (slike ili video)",
+        "Idealno za manje biznise ili početnike u digitalnom marketingu",
+        "Testiranje različitih strategija i demografija",
+        "Pronalaženje idealne publike"
+      ]
     },
     {
       "title": "Standard Paket",
       "content": "Sa 5000 email adresa na raspolaganju, mi Vam kreiramo i dizajniramo privlačne mejlove, šaljemo dve dobro osmišljene kampanje koje pogađaju pravi ton, a zatim analiziramo rezultate i smišljamo kako možemo još više da unapredimo Vaš pristup klijentima.",
-      "price": "150"
+      "price": "150",
+      "bulet": [
+        "3 kampanje sa personalizovanim reklamama (slike ili video)",
+        "Idealno za manje biznise ili početnike u digitalnom marketingu",
+        "Testiranje različitih strategija i demografija",
+        "Pronalaženje idealne publike"
+      ]
     },
     {
       "title": "Premium Paket",
       "content": "Uz 7500 email adresa, osmišljavamo i dizajniramo upečatljive mejlove, pokrećemo tri ciljane kampanje koje se pametno nadovezuju, i na kraju analiziramo rezultate da Vam pokažemo šta radi najbolje i kako da dodatno osnažite svoj odnos s publikom.",
-      "price": "200"
+      "price": "200",
+      "bulet": [
+        "3 kampanje sa personalizovanim reklamama (slike ili video)",
+        "Idealno za manje biznise ili početnike u digitalnom marketingu",
+        "Testiranje različitih strategija i demografija",
+        "Pronalaženje idealne publike"
+      ]
     }
   ],
   "keyContent": [
