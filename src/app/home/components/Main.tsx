@@ -25,7 +25,7 @@ export default function MainPage(props: {
 
     return (
         <div
-            className={`flex z-2 ${props.className2 || ''} ${props.gap || ''} flex-col md:flex-row items-center justify-evenly pl-8 pr-8 pb-8 pt-3 lg:pl-16 lg:pr-16`}
+            className={`flex z-2 ${props.className2 || ''} ${props.gap || ''} flex-col md:flex-row items-center box-border justify-evenly px-8 pr-8 pb-8 lg:pl-16 lg:pr-16`}
         >
             {/* Text Section */}
             <div className="flex flex-col items-center justify-center min-h-fit w-full md:w-6/12">
