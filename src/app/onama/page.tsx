@@ -25,7 +25,7 @@ export default function MainPage() {
           <p className="text-lg text-neutral-300 text-left">
             Mi smo tim stručnjaka sa strašću prema digitalnom marketingu i
             brendiranju, posvećeni pružanju vrhunskih usluga koje će Vam pomoći
-            da ostvarite svoje poslovne ciljeve. Povećavamo vidljivost Vašeg veb
+            da ostvarite svoje poslovne ciljeve. Povećavamo vidljivost Vašeg web
             sajta na pretraživačima, privlačimo organski saobraćaj i poboljšavamo
             rangiranje. Kreiramo ciljane Google Ads kampanje koje donose brze
             rezultate i povećavaju konverzije. Pomažemo Vam da dosegnete Vašu
@@ -35,9 +35,9 @@ export default function MainPage() {
             Vašim profilima na društvenim mrežama, stvarajući angažovanu
             zajednicu i jačajući Vaš brend. Snimamo i montiramo kreativne Reels
             video zapise koji privlače pažnju i povećavaju doseg. Dizajniramo i
-            razvijamo moderne, funkcionalne i vizuelno impresivne veb sajtove.
+            razvijamo moderne, funkcionalne i vizuelno impresivne web sajtove.
             Kreiramo jedinstveni vizuelni identitet za Vaš brend, od logotipa
-            do materijala za štampu i veb.
+            do materijala za štampu i web.
           </p>
         </section>
         <Main
@@ -54,8 +54,8 @@ export default function MainPage() {
         <section className="py-16 bg-black px-6 md:px-12 lg:px-20 max-w-8xl mx-auto">
           <h2 className="text-3xl font-bold text-left mb-6">Zašto Mi?</h2>
           <p className="text-lg text-neutral-300 text-left">
-            Da li se Vaš veb sajt gubi u moru online sadržaja? Povećavamo
-            vidljivost Vašeg veb sajta na pretraživačima, privlačimo organski
+            Da li se Vaš web sajt gubi u moru online sadržaja? Povećavamo
+            vidljivost Vašeg web sajta na pretraživačima, privlačimo organski
             saobraćaj i poboljšavamo rangiranje, tako da Vas Vaša ciljna publika
             lako pronađe. Želite brze rezultate, ali ne znate kako da efikasno
             iskoristite Google Ads? Kreiramo ciljane Google Ads kampanje koje
@@ -72,10 +72,10 @@ export default function MainPage() {
             video zapise koji privlače pažnju i povećavaju doseg, čineći Vaš
             brend relevantnim u digitalnom svetu. Da li želite da Vaš brend
             ima prepoznatljiv vizuelni identitet? Kreiramo jedinstveni vizuelni
-            identitet za Vaš brend, od logotipa do materijala za štampu i veb,
+            identitet za Vaš brend, od logotipa do materijala za štampu i web,
             osiguravajući da Vaš brend ostavi trajan utisak. Da li Vam je
-            potreban moderan i funkcionalan veb sajt? Dizajniramo i razvijamo
-            moderne, funkcionalne i vizuelno impresivne veb sajtove, koji
+            potreban moderan i funkcionalan web sajt? Dizajniramo i razvijamo
+            moderne, funkcionalne i vizuelno impresivne web sajtove, koji
             ostavljaju snažan prvi utisak.
           </p>
         </section>

@@ -47,7 +47,7 @@ export default function MainPage(props: {
     // Lista ključnih reči za subH
     const keywords = [
         "rešenja za Vas",
-        "Custom-Code Veb Sajtova",
+        "Custom-Code Web Sajtova",
         "SEO optimizacije",
         "Meta",
         "Google",

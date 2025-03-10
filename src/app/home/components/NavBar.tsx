@@ -14,7 +14,7 @@ const navItems = [
   { href: "/email-marketing", text: "Email Marketing" },
   { href: "/smm", text: "Menadžment Društvenih Mreža" },
   { href: "/reels", text: "Izrada Reels Reklama" },
-  { href: "/izrada-sajtova", text: "Izrada Veb Sajtova" },
+  { href: "/izrada-sajtova", text: "Izrada Web Sajtova" },
   { href: "/graficki-dizajn", text: "Grafički Dizajn" },
 ];
 
