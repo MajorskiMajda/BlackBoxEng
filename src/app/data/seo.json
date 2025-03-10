@@ -2,13 +2,15 @@
   "cardContents": [
     {
       "title": "Osnovni Paket",
-      "content": "Ovaj paket je idealan za manje veb stranice, ili one koji tek počinju i žele da ih pretraživači uoče. Uključuje osnovnu optimizaciju sadržaja, meta tagova i ključnih reči kako biste postali vidljivi na pretragama. Na primer, ukoliko vodite blog o receptima, podesićemo naslove i opise tako da se Vaš recept pojavi među prvim rezultatima kada neko traži 'kolači'. Vaš sajt dobija čvrst temelj za vidljivost, a mi preuzimamo sve tehničke detalje kako biste se Vi fokusirali na svoj posao.",
+      "content": "Ovaj paket je idealan za manje veb stranice, ili one koji tek počinju i žele da ih pretraživači uoče. Uključuje osnovnu optimizaciju sadržaja, meta tagova i ključnih reči kako biste postali vidljivi na pretragama. Vaš sajt dobija čvrst temelj za vidljivost, a mi preuzimamo sve tehničke detalje kako biste se Vi fokusirali na svoj posao.",
       "price": "200€",
       "bulet": [
-        "3 kampanje sa personalizovanim reklamama (slike ili video)",
-        "Idealno za manje biznise ili početnike u digitalnom marketingu",
-        "Testiranje različitih strategija i demografija",
-        "Pronalaženje idealne publike"
+        "Osnovna optimizacija sadržaja",
+        "Osnovna optimizacija meta tagova",
+        "Osnovno Praćenje performansi",
+        " ",
+        " ",
+        " "
       ]
     },
     {
@@ -16,10 +18,12 @@
       "content": "Savršen izbor za biznise u razvoju koji žele ozbiljan korak napred u SEO-u. Ovde Vam nudimo naprednu optimizaciju sadržaja, tehnički SEO poput ubrzanja sajta i prilagođavanja za mobilne uređaje kao i redovno praćenje performansi kako biste ostali ispred konkurencije. Vaša veb stranica postaje efikasan alat koji privlači posetioce, a mi se brinemo da sve funkcioniše besprekorno.",
       "price": "400€",
       "bulet": [
-        "3 kampanje sa personalizovanim reklamama (slike ili video)",
-        "Idealno za manje biznise ili početnike u digitalnom marketingu",
-        "Testiranje različitih strategija i demografija",
-        "Pronalaženje idealne publike"
+        "Optimizovan SEO sadržaja (keywords)",
+        "Optimizovan Tehnički SEO",
+        "Ubrzanje sajta i prilagođavanje za mobilne uređaje",
+        "Napredno Praćenje performansi",
+        " ",
+        " "
       ]
     },
     {
@@ -27,10 +31,12 @@
       "content": "Kompletna usluga za one koji žele maksimalne rezultate i dominantnu poziciju na pretraživačima. Ovaj paket obuhvata sveobuhvatnu SEO strategiju: optimizaciju sadržaja, tehnički SEO, izgradnju backlinkova, redovne izveštaje i kontinuirano podešavanje za vrhunske performanse. Vaš sajt postaje magnet za ciljanu publiku, a Vi dobijate merljive rezultate u vidu većeg prometa i prodaje.",
       "price": "600€",
       "bulet": [
-        "3 kampanje sa personalizovanim reklamama (slike ili video)",
-        "Idealno za manje biznise ili početnike u digitalnom marketingu",
-        "Testiranje različitih strategija i demografija",
-        "Pronalaženje idealne publike"
+        "Optimizovan SEO sadržaja (keywords)",
+        "SEO Backlinkovi",
+        "Optimizovan Tehnički SEO",
+        "Kontinuirano podešavanje performansi",
+        "Ubrzanje sajta i prilagođavanje za mobilne uređaje",
+        "Izveštaji i analiza rezultata"
       ]
     }
   ],
