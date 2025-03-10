@@ -20,7 +20,7 @@ export default function MainPage() {
                 gap="gap-0"
                 imgsize={550}
                 tex="text-left"
-                className2="test3"
+                className2=" "
                 hideImageOnMobile={false}
                 textSizeClass="lg:text-6xl text-5xl"
                 opis=""
