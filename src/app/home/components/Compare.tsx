@@ -93,7 +93,7 @@ const ServiceComparison: React.FC<ServiceComparisonProps> = ({ heading, services
                   className="px-4 py-2 font-semibold border-b border-[#da26ff] w-1/3 text-center"
                 >
                   <div className="text-2xl">{service.title || "-"}</div>
-                  <div className="text-2xl mt-2">{service.price ? `€${service.price}` : "-"}</div>
+                  <div className="text-2xl mt-2">{service.price ? `${service.price}€` : "-"}</div>
                 </th>
               ))}
             </tr>
