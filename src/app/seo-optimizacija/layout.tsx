@@ -111,6 +111,10 @@ const structuredData = {
     "ratingValue": "4.9",
     "reviewCount": "52",
     "bestRating": "5",
+    "itemReviewed": {
+      "@type": "Service",
+      "name": "SEO optimizacija"
+    }
   },
 };
 

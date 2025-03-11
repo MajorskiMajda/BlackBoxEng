@@ -106,6 +106,10 @@ const structuredData = {
     "ratingValue": "4.8",
     "reviewCount": "45",
     "bestRating": "5",
+    "itemReviewed": {
+      "@type": "Service",
+      "name": "Meta Reklamiranje"
+    }
   },
 };
 

@@ -108,6 +108,10 @@ const structuredData = {
     "ratingValue": "4.9",
     "reviewCount": "38",
     "bestRating": "5",
+    "itemReviewed": {
+      "@type": "Service",
+      "name": "Izrada Reels UGC reklama"
+    }
   },
 };
 

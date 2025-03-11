@@ -60,7 +60,17 @@ const structuredData = {
         "priceCurrency": "EUR"
       },
     ]
-  }
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "45",
+    "bestRating": "5",
+    "itemReviewed": {
+      "@type": "Service",
+      "name": "Izrada Sajtova"
+    }
+  },
 };
 
 export default function WebsiteDevelopmentLayout({ children }: { children: React.ReactNode }) {

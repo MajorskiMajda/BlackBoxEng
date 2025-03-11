@@ -87,6 +87,10 @@ const structuredData = {
     "ratingValue": "4.9",
     "reviewCount": "47",
     "bestRating": "5",
+    "itemReviewed": {
+      "@type": "Service",
+      "name": "Google Reklamiranje"
+    }
   },
 };
 

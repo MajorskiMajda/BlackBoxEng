@@ -84,6 +84,10 @@ const structuredData = {
     "ratingValue": "4.9",
     "reviewCount": "42",
     "bestRating": "5",
+    "itemReviewed": {
+      "@type": "Service",
+      "name": "graficki Dizajn"
+    }
   },
 };
 
