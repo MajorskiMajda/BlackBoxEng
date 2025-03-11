@@ -102,17 +102,7 @@ const structuredData = {
         "priceCurrency": "EUR",
       },
     ],
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "reviewCount": "38",
-    "bestRating": "5",
-    "itemReviewed": {
-      "@type": "Service",
-      "name": "Izrada Reels UGC reklama"
-    }
-  },
+  }
 };
 
 

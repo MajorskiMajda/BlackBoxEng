@@ -101,16 +101,7 @@ const structuredData = {
       },
     ],
   },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.7",
-    "reviewCount": "35",
-    "bestRating": "5",
-    "itemReviewed": {
-      "@type": "Service",
-      "name": "Email Marketing"
-    }
-  },
+
 };
 
 export default function EmailMarketingLayout({ children }: { children: React.ReactNode }) {

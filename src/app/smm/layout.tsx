@@ -103,17 +103,7 @@ const structuredData = {
         "priceCurrency": "EUR",
       },
     ],
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "reviewCount": "40",
-    "bestRating": "5",
-    "itemReviewed": {
-      "@type": "Service",
-      "name": "Menadzment Drustvenih Mreza"
-    }
-  },
+  }
 };
 
 export default function SMMLayout({ children }: { children: React.ReactNode }) {

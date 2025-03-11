@@ -100,17 +100,7 @@ const structuredData = {
         "priceCurrency": "EUR",
       },
     ],
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "reviewCount": "45",
-    "bestRating": "5",
-    "itemReviewed": {
-      "@type": "Service",
-      "name": "Meta Reklamiranje"
-    }
-  },
+  }
 };
 
 export default function MetaAdsLayout({ children }: { children: React.ReactNode }) {

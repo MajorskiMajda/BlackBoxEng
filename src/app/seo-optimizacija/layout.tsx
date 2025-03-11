@@ -105,17 +105,7 @@ const structuredData = {
         "priceCurrency": "EUR",
       },
     ],
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "reviewCount": "52",
-    "bestRating": "5",
-    "itemReviewed": {
-      "@type": "Service",
-      "name": "SEO optimizacija"
-    }
-  },
+  }
 };
 
 export default function SEOLayout({ children }: { children: React.ReactNode }) {
