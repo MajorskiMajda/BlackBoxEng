@@ -3,6 +3,7 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Script from 'next/script';
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 const montserrat = Montserrat({
   variable: "--font-montserrat-sans-serif",
@@ -199,6 +200,7 @@ export default function RootLayout({
       <body className={montserrat.variable}>
         {children}
         <Analytics />
+        <SpeedInsights />
         <Script
           id="structured-data"
           type="application/ld+json"
