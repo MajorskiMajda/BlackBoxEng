@@ -2,39 +2,39 @@ import { Metadata } from "next";
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: "Grafički Dizajn Usluge | Profesionalni Dizajn za Vaš Brend",
-  description: "Kreiramo vizuelno impresivne logoe, banere, Instagram postove, vizit karte i newslettere za vaš brend. Povećajte prepoznatljivost vašeg brenda uz naše usluge grafičkog dizajna.",
+  title: "Graphic Design Services | Professional Design for Your Brand",
+  description: "We create visually impressive logos, banners, Instagram posts, business cards, and newsletters for your brand. Increase your brand recognition with our graphic design services.",
   metadataBase: new URL("https://www.black-box-media.com"),
   openGraph: {
-    title: "Grafički Dizajn Usluge | Profesionalni Dizajn za Vaš Brend",
-    description: "Kreiramo vizuelno impresivne logoe, banere, Instagram postove, vizit karte i newslettere za vaš brend. Povećajte prepoznatljivost vašeg brenda uz naše usluge grafičkog dizajna.",
+    title: "Graphic Design Services | Professional Design for Your Brand",
+    description: "We create visually impressive logos, banners, Instagram posts, business cards, and newsletters for your brand. Increase your brand recognition with our graphic design services.",
     images: [
       {
         url: "https://www.black-box-media.com/graphic.svg",
-        alt: "Grafički Dizajn Usluge - Black Box Media",
+        alt: "Graphic Design Services - Black Box Media",
       },
     ],
     url: "https://www.black-box-media.com/graficki-dizajn",
     type: "website",
   },
   keywords: [
-    "grafički dizajn",
-    "dizajn logoa",
-    "dizajn banera",
-    "Instagram postovi",
-    "vizit karte",
-    "newsletter dizajn",
-    "brending usluge",
-    "dizajn za društvene mreže",
-    "profesionalni grafički dizajn",
+    "graphic design",
+    "logo design",
+    "banner design",
+    "Instagram posts",
+    "business cards",
+    "newsletter design",
+    "branding services",
+    "social media design",
+    "professional graphic design",
     "Black Box Media",
-    "Srbija",
-    "Hrvatska",
-    "Bosna i Hercegovina",
-    "Balkanci",
-    "kreiranje objava za društvene mreže",
-    "dizajn za Facebook",
-    "dizajn za Instagram",
+    "Serbia",
+    "Croatia",
+    "Bosnia and Herzegovina",
+    "Balkans",
+    "social media post creation",
+    "Facebook design",
+    "Instagram design",
   ],
   authors: [{ name: "Black Box Media", url: "https://www.black-box-media.com" }],
   robots: "index, follow",
@@ -43,12 +43,11 @@ export const metadata: Metadata = {
   },
 };
 
-
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": "Grafički Dizajn Usluge",
-  "description": "Kreiramo vizuelno impresivne logoe, banere, Instagram postove, vizit karte i newslettere za vaš brend. Povećajte prepoznatljivost vašeg brenda uz naše usluge grafičkog dizajna.",
+  "name": "Graphic Design Services",
+  "description": "We create visually impressive logos, banners, Instagram posts, business cards, and newsletters for your brand. Increase your brand recognition with our graphic design services.",
   "provider": {
     "@type": "Organization",
     "name": "Black Box Media",
@@ -57,30 +56,29 @@ const structuredData = {
   },
   "areaServed": {
     "@type": "Country",
-    "name": ["Srbija", "Hrvatska", "Bosna i Hercegovina"],
+    "name": ["Serbia", "Croatia", "Bosnia and Herzegovina"],
   },
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Paketi Usluga za Grafički Dizajn",
+    "name": "Graphic Design Service Packages",
     "itemListElement": [
       {
         "@type": "Offer",
-        "name": "Osnovni Paket",
-        "description": "Dizajn logoa, Instagram postova i osnovnih vizuelnih elemenata za vaš brend.",
+        "name": "Basic Package",
+        "description": "Logo design, Instagram posts, and basic visual elements for your brand.",
         "price": "199",
-        "priceCurrency": "EUR",
+        "priceCurrency": "USD",
       },
       {
         "@type": "Offer",
-        "name": "Premium Paket",
-        "description": "Kompletan brending paket uključujući logo, banere, Instagram postove, vizit karte i newslettere.",
+        "name": "Premium Package",
+        "description": "Complete branding package including logo, banners, Instagram posts, business cards, and newsletters.",
         "price": "499",
-        "priceCurrency": "EUR",
+        "priceCurrency": "USD",
       },
     ],
   }
 };
-
 
 export default function GraphicDesignLayout({ children }: { children: React.ReactNode }) {
   return (

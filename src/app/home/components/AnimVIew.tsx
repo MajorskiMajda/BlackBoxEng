@@ -46,13 +46,14 @@ export default function MainPage(props: {
 
     // Lista ključnih reči za subH
     const keywords = [
-        "rešenja za Vas",
-        "Custom-Code Web Sajtova",
-        "SEO optimizacije",
+        "website development",
+        "SEO optimization",
         "Meta",
-        "Google",
-        "Grafičkog Dizajna",
-        "uspešan biznis"
+        "Google Ads",
+        "conversions",
+        "engagement",
+        "sales",
+        "all in one place!"
     ];
 
     useEffect(() => {

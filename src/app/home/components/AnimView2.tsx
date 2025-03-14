@@ -45,9 +45,10 @@ export default function MainPage(props: {
 
     // Lista ključnih reči za subH
     const keywords = [
-        "rezultate",
-        "menadžment i kreativan sadržaj",
-        "objava za Instagram",
+        "results",
+        "build a recognizable brand",
+        "UGC Reels video ads",
+        "outreach email",
         "Reels UGC video reklame",
         "profit",
         "slanja outreach mejlova",

@@ -21,7 +21,7 @@ export default function MainPage(props: {
     priority?: boolean;
 }) {
     const words = props.text.split(" ");
-    const purpleWords = ["Povećajte", "profit!", "?"];
+    const purpleWords = ["Boost", "Profit!", "profit!", "?"];
 
     return (
         <div

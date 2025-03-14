@@ -2,43 +2,42 @@ import { Metadata } from "next";
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: "Google Ads Usluge | Profesionalno Upravljanje Kampanjama.",
-  description: "Povećajte uspešnost vaših Google Ads kampanja uz stručno upravljanje, ciljanje i optimizaciju.",
+  title: "Google Ads Services | Professional Campaign Management.",
+  description: "Increase the success of your Google Ads campaigns with expert management, targeting, and optimization.",
   metadataBase: new URL("https://www.black-box-media.com"),
   openGraph: {
-    title: "Google Ads Usluge | Profesionalno Upravljanje Kampanjama.",
-    description: "Povećajte uspešnost vaših Google Ads kampanja uz stručno upravljanje, ciljanje i optimizaciju.",
+    title: "Google Ads Services | Professional Campaign Management.",
+    description: "Increase the success of your Google Ads campaigns with expert management, targeting, and optimization.",
     images: [
       {
         url: "https://www.black-box-media.com/googleads.svg",
-        alt: "Google Ads Usluge - Black Box Media",
+        alt: "Google Ads Services - Black Box Media",
       },
     ],
     url: "https://www.black-box-media.com/google-reklame",
     type: "website",
   },
   keywords: [
-    "Google Ads usluge",
-    "Google Reklame",
-    "Google oglasavanje",
-    "Google Reklamiranje",
-    "Google Ads stručnjaci",
-    "digitalni marketing",
-    "povećanje ROI-a",
-    "ciljanje reklama",
-    "Google Ads firme",
-    "Google reklame firme",
-    "upravljanje Google kampanjama",
-    "optimizacija Google Ads",
-    "PPC reklame",
-    "Google Ads stručnjaci",
-    "digitalni marketing",
-    "povećanje ROI-a",
-    "ciljanje reklama",
-    "Google Ads za male firme",
-    "Google Ads za Srbiju",
-    "Google Ads za Hrvatsku",
-    "Google Ads za Bosnu i Hercegovinu",
+    "Google Ads services",
+    "Google Ads",
+    "Google advertising",
+    "Google Ads experts",
+    "digital marketing",
+    "increase ROI",
+    "ad targeting",
+    "Google Ads agencies",
+    "Google ads company",
+    "Google campaign management",
+    "Google Ads optimization",
+    "PPC ads",
+    "Google Ads experts",
+    "digital marketing",
+    "increase ROI",
+    "ad targeting",
+    "Google Ads for small businesses",
+    "Google Ads for Serbia",
+    "Google Ads for Croatia",
+    "Google Ads for Bosnia and Herzegovina",
   ],
   authors: [{ name: "Black Box Media", url: "https://www.black-box-media.com" }],
   robots: "index, follow",
@@ -50,8 +49,8 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": "Google Ads Usluge",
-  "description": "Povećajte uspešnost vaših Google Ads kampanja uz stručno upravljanje, ciljanje i optimizaciju. Besplatna analiza vaših kampanja! Kontaktirajte nas danas.",
+  "name": "Google Ads Services",
+  "description": "Increase the success of your Google Ads campaigns with expert management, targeting, and optimization. Free analysis of your campaigns! Contact us today.",
   "provider": {
     "@type": "Organization",
     "name": "Black Box Media",
@@ -60,29 +59,30 @@ const structuredData = {
   },
   "areaServed": {
     "@type": "Country",
-    "name": ["Srbija", "Hrvatska", "Bosna i Hercegovina"],
+    "name": ["Serbia", "Croatia", "Bosnia and Herzegovina"],
   },
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Paketi Usluga za Google Ads",
+    "name": "Google Ads Service Packages",
     "itemListElement": [
       {
         "@type": "Offer",
-        "name": "Osnovni Paket",
-        "description": "Ciljane reklame na Google-u za poboljšanje vidljivosti i povećanje CTR-a.",
+        "name": "Basic Package",
+        "description": "Targeted ads on Google to improve visibility and increase CTR.",
         "price": "199",
-        "priceCurrency": "EUR",
+        "priceCurrency": "USD",
       },
       {
         "@type": "Offer",
-        "name": "Premium Paket",
-        "description": "Kompletna optimizacija Google Ads kampanja uz ciljanje, analitiku i strategiju za poboljšanje rezultata.",
+        "name": "Premium Package",
+        "description": "Complete Google Ads campaign optimization with targeting, analytics, and strategy to improve results.",
         "price": "499",
-        "priceCurrency": "EUR",
+        "priceCurrency": "USD",
       },
     ],
   }
 };
+
 
 
 export default function GoogleAdsLayout({ children }: { children: React.ReactNode }) {
