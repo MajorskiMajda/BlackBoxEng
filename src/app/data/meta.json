@@ -1,71 +1,69 @@
 {
-    "cardContents": [
-      {
-        "title": "Osnovni Paket ",
-        "content": "Uz ovaj paket dobijate 3 kampanje i totalno personalizovane reklame, bile to reklame u vidu slika ili video zapisa. Osnovni paket je idealan za manje biznise ili one koji tek kreću i ulaze u svet digitalnog marketinga. Možete da testirate različite strategije, oprobate se na različitim demografijama gledaoca i samim tim shvatite koja je Vaša idealna publika.",
-        "price": "200",
-        "bulet": [
-          "3 kampanje sa personalizovanim reklamama (slike)",
-          "Idealno za početnike i manje biznise",
-          "Testiranje strategija i različitih demografija",
-          " ",
-          " "
-        ]
-        
-      },
-      {
-        "title": "Standardni Paket",
-        "content": "Uz ovaj paket dobijate 6 kampanja, više slobode i više prilika za dolazak do idealne mušterije. Standardni paket je idealan za biznise koji žele da podignu svoje online prisustvo i osiguraju stalne rezultate. Možete da isprobate različite ideje i vidite šta najviše donosi uspeh Vašem brendu. Plus, imate prostora da prilagodite strategiju na osnovu onih kampanja koje donose najviše rezultata.",
-        "price": "400",
-        "bulet": [
-          "6 kampanja personalizovanim reklamama (slike ili video)",
-          "Prilagođavanje strategije na osnovu najboljih rezultata",
-          "Testiranje različitih strategija i demografija",
-          "Pronalaženje idealne publike",
-          " "
-        ]
-      },
-      {
-        "title": "Premium Paket",
-        "content": "Uz ovaj paket dobijate 9 kampanja i ovo je najbolja opcija za biznise koji ozbiljno shvataju uticaj i važnost digitalnog marketinga za njihov brend. Premium paket Vam omogućava optimizaciju kampanja za svaku ciljanu grupu pojedinačno, maksimalno precizno određivanje demografija i dugoročno strateško planiranje što Vam ujedno donosi najbolji mogući ROAS (povrat na investiciju za reklame).",
-         "price": "600",
-         "bulet": [
-          "9 kampanja sa naprednom optimizacijom",
-          "Posebno personalizovane reklamame (slike ili video)",
-          "Maksimalno precizno određivanje ciljne publike",
-          "Dugoročno strateško planiranje za najbolji ROAS",
-          "Detaljno pronalaženje idealne publike"
-        ]
-      }
-    ],
-    "keyContent": [
-      {
-        "title": "Veća vidljivost",
-        "content": "Vaš brend dopire do šire i relevantne publike na Facebooku, Instagramu i drugim Meta platformama."
-      },
-      {
-        "title": "Više kupaca",
-        "content": "Privlačite nove klijente uz ciljane reklame koje podstiču akciju i povećavaju prodaju."
-      },
-      {
-        "title": "Rast biznisa",
-        "content": "Gradite lojalnost, jačate prepoznatljivost i ostvarujete merljive poslovne ciljeve, korak po korak."
-      }
-    ],
-    "whatWeDoList": [
-      "Kreiramo Meta oglasni nalog, povezujemo ga s Vašim sajtom ili alatima i gradimo kampanje koje rade besprekorno.",
-      "Dizajniramo vizuelno privlačne reklame s porukama koje pogađaju Vašu publiku, izbegavajući generički sadržaj.",
-      "Analiziramo Vašu publiku i delimo je u grupe prema interesima, ponašanju i lokaciji za maksimalni doseg pravih ljudi.",
-      "Postavljamo automatske kampanje i testiramo različite formate da otkrijemo šta donosi najbolje rezultate.",
-      "Merimo sve, klikove, angažman, konverzije. Svake nedelje Vam šaljemo izveštaje s predlozima za unapređenje."
-    ],
-    "howWeDo": {
-      "title": "Sta su Meta Reklame? ",
-      "description": "Meta reklame su plaćeni oglasi koji se prikazuju na platformama poput Facebooka i Instagrama i u sklopu su Meta ekosistema. Vrlo su efikasne jer omogućavaju da željeni proizvod ili uslugu prikažete ciljanoj grupi Vašeg biznisa, na osnovu pola, godina, hobija ili čak i mesta stanovanja. Uz Meta reklame možete da podignete svoj brend, privučete nove mušterije, podignete prodaju ili čak vratite klijente sa kojima ste sarađivali u prošlosti."
+  "cardContents": [
+    {
+      "title": "Basic Package",
+      "content": "This package offers 3 campaigns with fully personalized ads—whether images or videos—perfect for small businesses or those new to digital marketing. Test different strategies, explore various audience demographics, and discover your ideal customers with ease.",
+      "price": "200",
+      "bulet": [
+        "3 campaigns with personalized ads (images)",
+        "Ideal for beginners and small businesses",
+        "Testing strategies and demographics",
+        " ",
+        " "
+      ]
     },
-    "whatWeDo": {
-      "title": "Kako ćemo vam pomoći?",
-      "description": "Pružamo Vam pomoć da iskoristite pun potencijal Meta reklama tako što ćemo raditi sav posao za Vas i modifikovati kampanje po Vašim željama. Kreiraćemo Meta manager ako ga nemate, postaviti kampanje od nule, napraviti kvalitetne i unikatne reklame. Istražićemo Vašu ciljanu publiku da bismo definisali njihove interese i pretvorili našu uslugu u isplativu investiciju. Reklame će biti odrađene po najnovijim standardima i specifikovane striktno za Vašu ciljanu grupu mušterija. Budžet će biti optimizovan po Vašem zahtevu i akcenat će biti na maksimalnom broju klikova, konverzija i ostalih bitnih aspekata za rast biznisa, uz stalno praćenje rezultata. Svake nedelje ćete dobijati detaljan izveštaj sa jasnim brojkama i našim predlozima za unapređenje. Sa našim uslugama Meta reklame postaju snažan alat za prikupljanje kupaca, jačanje brenda i povećavanje profita!"
+    {
+      "title": "Standard Package",
+      "content": "Get 6 campaigns with more freedom and opportunities to reach your perfect customers. Ideal for businesses looking to boost their online presence and secure consistent results, this package lets you try multiple ideas, see what works best, and adjust your strategy based on top-performing campaigns.",
+      "price": "400",
+      "bulet": [
+        "6 campaigns with personalized ads (images or video)",
+        "Strategy adjustments based on top results",
+        "Testing various strategies and demographics",
+        "Finding your ideal audience",
+        " "
+      ]
+    },
+    {
+      "title": "Premium Package",
+      "content": "With 9 campaigns, this is the ultimate choice for businesses serious about leveraging digital marketing. Enjoy advanced campaign optimization for each target group, pinpoint-accurate demographic targeting, and long-term strategic planning for the best possible ROAS (return on ad spend).",
+      "price": "600",
+      "bulet": [
+        "9 campaigns with advanced optimization",
+        "Highly personalized ads (images or video)",
+        "Pinpoint-accurate audience targeting",
+        "Long-term planning for optimal ROAS",
+        "Detailed ideal audience discovery"
+      ]
     }
+  ],
+  "keyContent": [
+    {
+      "title": "Greater Visibility",
+      "content": "Your brand reaches a wider, more relevant audience across Facebook, Instagram, and other Meta platforms."
+    },
+    {
+      "title": "More Customers",
+      "content": "Attract new clients with targeted ads that spark action and drive sales."
+    },
+    {
+      "title": "Business Growth",
+      "content": "Build loyalty, boost brand recognition, and achieve measurable goals, step by step."
+    }
+  ],
+  "whatWeDoList": [
+    "We set up your Meta Ads account, link it to your site or tools, and create seamless campaigns.",
+    "We design visually stunning ads with messages that resonate, steering clear of generic content.",
+    "We analyze your audience, segmenting by interests, behavior, and location for maximum reach.",
+    "We launch automated campaigns and test formats to uncover what delivers the best results.",
+    "We track everything—clicks, engagement, conversions—and send weekly reports with improvement ideas."
+  ],
+  "howWeDo": {
+    "title": "What Are Meta Ads?",
+    "description": "Meta Ads are paid advertisements displayed on platforms like Facebook and Instagram within the Meta ecosystem. They’re highly effective, letting you showcase your product or service to a precise audience based on gender, age, hobbies, or even location. With Meta Ads, you can elevate your brand, attract new customers, increase sales, or re-engage past clients."
+  },
+  "whatWeDo": {
+    "title": "How We Help You",
+    "description": "We unlock the full potential of Meta Ads by handling everything for you and tailoring campaigns to your needs. If you don’t have a Meta Ads Manager, we’ll set it up, build campaigns from scratch, and create high-quality, unique ads. We research your target audience to pinpoint their interests, turning our service into a profitable investment. Your ads will meet the latest standards, designed specifically for your ideal customers. We optimize your budget per your request, focusing on maximizing clicks, conversions, and key growth metrics, with constant result tracking. You’ll get a detailed weekly report with clear data and our recommendations for improvement. With our Meta Ads services, you’ll have a powerful tool to attract customers, strengthen your brand, and boost profits!"
   }
-  
+}

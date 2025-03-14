@@ -1,78 +1,78 @@
 {
   "cardContents": [
     {
-      "title": "Osnovni Paket",
-      "content": "Sa do 3 stranice (npr. početna stranica sa info o Vama, uslugama/proizvodima i kontaktom). Unikatan dizajn, ništa šablonsko, sa grafičkim materijalom za sajt. Osnovna optimizacija, sajt će biti brz i prilagođen telefonima (mobile-friendly). Kontakt forma da Vam ljudi lako pišu direktno sa sajta. Postavljanje na hosting, mi to sređujemo za Vas.",
+      "title": "Basic Package",
+      "content": "Up to 3 pages (e.g., Home, Services/Products, Contact). Unique design—no templates—with graphic content tailored for your site. Basic optimization ensures it’s fast and mobile-friendly. Includes a contact form for easy customer outreach, plus hosting setup—we handle it all for you.",
       "price": "300",
       "bulet": [
-        "Do 3 stranice (Početna, Usluge/Proizvodi, Kontakt)",
-        "Dizajn sa grafičkim materijalom",
-        "Osnovna optimizacija (brzina, mobile-friendly)",
-        "Kontakt forma i postavljanje na hosting",
-        "Priprema osnovnog grafičkog sadržaja ",
+        "Up to 3 pages (Home, Services/Products, Contact)",
+        "Design with custom graphic content",
+        "Basic optimization (speed, mobile-friendly)",
+        "Contact form and hosting setup",
+        "Basic graphic content preparation",
         " ",
         " ",
         " "
       ]
     },
     {
-      "title": "Standardni Paket",
-      "content": "Sa do 5 stranica (npr. Početna, O nama, Usluge/Proizvodi, Galerija, Kontakt). Osnovni SEO i integracija društvenih mreža, linkovi ka Vašim profilima i dugmići za deljenje. Unikatan dizajn, potpuno prilagođen Vašem brendu sa grafičkim materijalom. Galerija slika, integracija Google Mapa. Postavljanje na hosting. Osnovna obuka kako da sami ažurirate tekst/slike ako želite.",
+      "title": "Standard Package",
+      "content": "Up to 5 pages (e.g., Home, About Us, Services/Products, Gallery, Contact). Basic SEO and social media integration—links to your profiles and share buttons. Unique design fully customized to your brand with graphic content. Includes an image gallery, Google Maps integration, hosting setup, and basic training to update text or images yourself if desired.",
       "price": "600",
       "bulet": [
-        "Do 5 stranica (Početna, O nama, Usluge/Proizvodi, Galerija, Kontakt)",
-        "Unikatan dizajn prilagođen Vašem brendu",
-        "Priprema grafičkog sadržaja",
-        "Osnovni SEO i integracija društvenih mreža",
-        "Manja baza podataka",
-        "Galerija slika, Google Mape, osnovna obuka za ažuriranje",
+        "Up to 5 pages (Home, About Us, Services/Products, Gallery, Contact)",
+        "Unique design tailored to your brand",
+        "Graphic content preparation",
+        "Basic SEO and social media integration",
+        "Small database setup",
+        "Image gallery, Google Maps, and basic update training",
         " ",
         " "
       ]
     },
     {
-      "title": "Premium Paket",
-      "content": "Sa neograničenim brojem stranica (u okviru razumnog, naravno!). Napredni SEO i Grafički dizajn od nule, sa animacijama, ilustracijama ili čim god poželite da se istaknete. Napredne funkcionalnosti, npr. online prodavnica, sistem za rezervacije, blog ili personalizovane opcije koje Vam trebaju. Integracija Google Analytics, newsletter prijava, društvene mreže. Detaljna obuka za samostalno upravljanje sajtom.",
+      "title": "Premium Package",
+      "content": "Unlimited pages (within reason, of course!). Advanced SEO and custom graphic design from scratch with animations, illustrations, or anything to make you stand out. Advanced features like an online store, booking system, blog, or personalized options you need. Includes Google Analytics, newsletter signup, social media integration, and detailed training for managing your site independently.",
       "price": "1000",
       "bulet": [
-        "Neograničen broj stranica (u razumnom okviru)",
-        "Napredni dizajn sa animacijama i ilustracijama",
-        "Unikatan dizajn prilagođen Vašem brendu",
-        "Napredni SEO, Google Analytics, newsletter prijava",
-        "Kompletno editovanje i priprema grafičkog sadržaja",
-        "Optimizovanje grafičkog sadržaja za bolju brzinu",
-        "Veća baza podataka",
-        "Online prodavnica, rezervacije, blog, detaljna obuka"
+        "Unlimited pages (within reasonable limits)",
+        "Advanced design with animations and illustrations",
+        "Unique design tailored to your brand",
+        "Advanced SEO, Google Analytics, newsletter signup",
+        "Full graphic content editing and preparation",
+        "Graphic content optimization for speed",
+        "Larger database setup",
+        "Online store, booking system, blog, and detailed training"
       ]
     }
   ],
   "keyContent": [
     {
-      "title": "Prvi utisak koji ostavljate:",
-      "content": "Recimo da neko traži majstora za baštu. Jedan tip ima sajt sa slikama njegovog rada, cenama i kontaktom, a drugi nema ništa osim broja na oglasu. Kome ćete verovati? Mi Vam pravimo sajt koji vrišti: Ovde sam, ozbiljan sam i znate šta dobijate sa mnom."
+      "title": "First Impressions That Stick",
+      "content": "Imagine someone’s looking for a gardener. One guy has a site with photos of his work, prices, and contact info; the other just has a number on an ad. Who’d you trust? We build you a site that screams: I’m here, I’m serious, and you know what you’re getting with me."
     },
     {
-      "title": "Uvek dostupan:",
-      "content": "Zamisli da neko u 2 ujutru shvati da mu treba Vaš proizvod ili usluga. S sajtom koji mi napravimo, nađu Vas, vide šta radite i odmah Vam pišu. Bez sajta? Odu dalje, a Vi ostanete bez posla. Mi Vam to ne damo."
+      "title": "Always Available",
+      "content": "Picture someone realizing at 2 a.m. they need your product or service. With our site, they find you, see what you offer, and message you right away. No site? They move on, and you miss out. We make sure that doesn’t happen."
     },
     {
-      "title": "Ispred konkurencije:",
-      "content": "Ako Vaš rival ima sajt, a Vi nemate, gde mislite da ljudi odlaze? Mi Vam napravimo sajt da budete korak ispred, kao da imate izlog na najprometnijoj ulici u gradu."
+      "title": "Ahead of the Competition",
+      "content": "If your competitor has a site and you don’t, guess where people go? We create a website that puts you one step ahead—like having a storefront on the busiest street in town."
     }
   ],
   "whatWeDoList": [
-    "Dizajn i razvoj prilagođen Vašim potrebama.",
-    "Responsive dizajn za sve uređaje (desktop, mobilni, tablet).",
-    "Optimizacija brzine učitavanja stranice.",
-    "Integracija sa društvenim mrežama i drugim alatima.",
-    "Kreiranje sadržaja i optimizacija za pretraživače (SEO)."
+    "Design and development tailored to your needs.",
+    "Responsive design for all devices (desktop, mobile, tablet).",
+    "Page load speed optimization.",
+    "Integration with social media and other tools.",
+    "Content creation and search engine optimization (SEO)."
   ],
   "howWeDo": {
-    "title": "Zašto je Važno Imati Sajt?",
-    "description": "Zamisli da ste Vi, recimo, neko ko prodaje domaće kolače ili popravlja bicikle. Danas, kad ljudi traže bilo šta – od hrane do majstora – prvo odu na Google ili pitaju nekog: Hej, znaš li nekog pouzdanog za ovo? Ako nemate veb sajt, kao da ste nevidljivi. Tu nastupamo mi. Pravimo sajtove koji će predstavljati Vaš biznis, dostupan 24/7, čak i dok Vi spavate ili pijete kafu s ekipom. Sajt je mesto gde Vaše mušterije vide ko ste, šta nudite i zašto bi baš Vas izabrali. Dakle, ako želite da Vaš biznis bude viđen i da Vas predstavlja u najboljem mogućem svetlu, mi smo tu da Vam napravimo sajt koji je kao Vaš najbolji drugar. Uvek tu, uvek priča dobre stvari o Vama i predstavlja Vas Vašim kupcima."
+    "title": "Why You Need a Website",
+    "description": "Imagine you sell homemade cakes or fix bikes. Today, when people need anything—from food to repairs—they hit Google or ask: ‘Know someone reliable for this?’ Without a website, you’re invisible. That’s where we come in. We build sites that showcase your business 24/7—even while you’re asleep or grabbing coffee with friends. Your site becomes the place where customers see who you are, what you offer, and why they should pick you. Want your business to be seen and shine in the best light? We create a website that’s like your best buddy—always there, always talking you up to your customers."
   },
   "whatWeDo": {
-    "title": "Naš Pristup",
-    "description": "Ne morate da jurite različite ljude za dizajn, kod, tekstove ili bilo šta drugo. Mi Vam dajemo kompletan paket da Vaš sajt bude uspešan, tačno onakav kakav Vam treba. E sad, šta to znači za Vas? Mi pravimo custom code sajtove. To su sajtovi pisani od nule, samo za Vas, a ne neke gotove šablone koje vidite svuda po internetu. Znate one sajtove gde pomislite: Ovo sam već negde video? E, to kod nas ne postoji. Vaš sajt će biti unikat, kao otisak prsta, ne liči ni na jedan drugi na tržištu. To Vam daje prepoznatljivost, da ljudi odmah znaju: Aha, ovo je taj brend, ovo je njihovo."
+    "title": "Our Approach",
+    "description": "No need to chase down different people for design, coding, or copy—we deliver a complete package to make your site a success, exactly how you need it. What does that mean? We craft custom-coded websites from scratch, just for you—no cookie-cutter templates you see all over the web. Ever visit a site and think: ‘I’ve seen this before’? Not with us. Your site will be one-of-a-kind, like a fingerprint, standing out from the crowd. That gives you instant recognition—people will know: ‘Oh, this is that brand, this is their vibe.’"
   }
 }

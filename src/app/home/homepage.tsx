@@ -45,13 +45,13 @@ export default function HomePage() {
             <Sec image={"/rock.svg"} />
 
             <HorizontalScrollSection
-                heading="Usluge Marketinga"
+                heading="Marketing Services"
                 sectionType="features"
                 cardContents={marketingCardContents}
             />
 
             <HorizontalScrollSection
-                heading="Usluge Brendiranja"
+                heading="Branding Services"
                 sectionType="features"
                 cardContents={brandingCardContents}
             />

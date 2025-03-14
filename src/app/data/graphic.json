@@ -1,69 +1,69 @@
 {
   "cardContents": [
     {
-      "title": "Osnovni Paket",
-      "content": "Ovaj paket je savršen za male biznise ili one koji tek kreću i žele da ostave dobar prvi utisak bez velikog ulaganja. Uključuje osnovne stvari koje Vam trebaju da zablistate: izradu jednostavnog, ali upečatljivog logoa, jednu objavu za Instagram koja privlači pažnju ili editovanje slike da izgleda profi. Vi nam kažete šta volite, mi to pretvorimo u dizajn koji radi za Vas.",
+      "title": "Basic Package",
+      "content": "Perfect for small businesses or beginners wanting to make a strong first impression without breaking the bank. This package covers the essentials: a simple yet striking logo, one attention-grabbing Instagram post, or professional photo editing. Tell us what you love, and we’ll turn it into a design that works for you.",
       "price": "50",
       "bulet": [
-        "Izrada jednostavnog, ali upečatljivog logoa",
-        "Jedna Instagram objava ili editovanje slike",
-        "Upečatljiv dizajn sa brzim rezultatima",
+        "Simple yet striking logo design",
+        "One Instagram post or photo edit",
+        "Eye-catching design with quick results",
         " ",
         " "
       ]
     },
     {
-      "title": "Standardni Paket",
-      "content": "Ako Vam treba nešto više od osnova, ovaj paket je pravi izbor za biznise koji žele da se izdvoje i redovno osvežavaju svoj izgled. Dobijate više opcija: možemo da napravimo nekoliko verzija logoa da izaberete onaj koji Vam najviše leži, kreiramo par Instagram postova koji pričaju Vašu priču ili sredimo nekoliko slika da izgledaju kao iz časopisa. Vaš brend počinje da izgleda ozbiljno i privlači pravu ekipu, a mi se brinemo za sve detalje.",
+      "title": "Standard Package",
+      "content": "Ideal for businesses ready to step up their game and keep their look fresh. You get more options: multiple logo versions to choose from, a few Instagram posts that tell your story, or several polished photos that look magazine-ready. Your brand starts to stand out, attracting the right crowd, while we handle every detail.",
       "price": "200",
       "bulet": [
-        "Više verzija logoa za izbor",
-        "Više formata grafičkg sadržaja za bolju optimizaciju",
-        "Kreiranje nekoliko Instagram postova i editovanje slika",
-        "Brendiranje grafičkog sadržaja koje privlači pravu ekipu",
+        "Multiple logo versions to choose from",
+        "Various graphic content formats for better optimization",
+        "Several Instagram posts and photo edits",
+        "Branded designs that attract the right audience",
         " "
       ]
     },
     {
-      "title": "Premium Paket",
-      "content": "Ovo je kompletna usluga za one koji žele da njihov brend zablista na svim frontovima – od logoa do veb sajta i društvenih mreža. Uključuje sve što Vam padne na pamet: više varijacija logoa dok ne nađemo savršenu, dizajn za Vaš veb sajt (baneri, ikonice, sve što treba), plus redovne objave za Instagram ili Facebook koje drže Vašu publiku zainteresovanom. Vaš brend ne samo da izgleda vrhunski, već postaje nešto što ljudi pamte i prepoznaju svuda.",
+      "title": "Premium Package",
+      "content": "The ultimate solution for businesses wanting their brand to shine across all platforms—from logo to website and social media. This includes everything you can imagine: multiple logo variations until we nail the perfect one, web design elements (banners, icons, etc.), and regular posts for Instagram or Facebook to keep your audience hooked. Your brand looks top-notch and becomes unforgettable.",
       "price": "400",
       "bulet": [
-        "Više varijacija logoa dok ne nađemo savršenu",
-        "Svi formati grafičkg sadržaja potrebni za Vaš brend",
-        "Dizajn za veb sajt (baneri, ikonice) i nekoliko objave za društvene mreže",
-        "Kompletan dizajn za sve aspekte brenda",
-        "Premium dizajn sa punom podrškom za sve vizuelne potrebe"
+        "Multiple logo variations until perfection",
+        "All graphic content formats your brand needs",
+        "Web design (banners, icons) and several social media posts",
+        "Complete design for all brand aspects",
+        "Premium design with full visual support"
       ]
     }
   ],
   "keyContent": [
     {
-      "title": "Vizuelni Identitet",
-      "content": "Bez jasnog vizuelnog identiteta, Vaš brend može da deluje kao da ste ga sklepali na brzinu, neprofesionalno i zaboravljivo. Mi to menjamo. Pravimo Vam logo, biramo boje i fontove koji odražavaju Vaš stil, i sve to upakujemo da izgleda kao celina. Tako Vam dajemo identitet koji gradi poverenje i čini da Vas ljudi prepoznaju na prvi pogled."
+      "title": "Visual Identity",
+      "content": "Without a clear visual identity, your brand can feel rushed, unprofessional, and forgettable. We change that. We create a logo, pick colors and fonts that reflect your style, and tie it all together into a cohesive look. This builds trust and makes your brand instantly recognizable."
     },
     {
-      "title": "Brendiranje i Prepoznatljivost",
-      "content": "Prepoznatljivost je ono što razdvaja uspešne brendove od onih koji se gube u gomili. Ako Vaš dizajn nije dosledan ili nema taj 'nešto posebno', mušterije Vas neće pamtiti, a kamoli vraćati se. Mi Vam pomažemo da Vaš brend postane sinonim za ono što radite najbolje. Vaš brend postaje lice koje ljudi vole i kojem veruju, a to znači više lojalnih klijenata i bolju prodaju."
+      "title": "Branding and Recognition",
+      "content": "Recognition sets successful brands apart from the crowd. Inconsistent or uninspired design means customers won’t remember you—or return. We make your brand synonymous with what you do best. It becomes a face people love and trust, leading to more loyal clients and better sales."
     },
     {
-      "title": "Važnost Grafičkog Dizajna",
-      "content": "Grafički dizajn nije samo da stvari izgledaju lepo, to je Vaš glas kad reči nisu dovoljne. Bez njega, možete imati najbolji proizvod na svetu, a da Vas niko ne primeti jer izgledate dosadno ili nejasno. Mi to pretvaramo u prednost. Dobar dizajn može da digne angažman, zamislite Instagram objavu za Vaš restoran sa fotkom jela koja izgleda tako dobro da svi odmah lajkuju. Bez tog dizajna, bili bi samo još jedna prodavnica, sa nama, postaćete brend koji se pamti."
+      "title": "The Power of Graphic Design",
+      "content": "Graphic design isn’t just about looking good—it’s your voice when words aren’t enough. Without it, even the best product can go unnoticed if it looks dull or unclear. We turn that into your advantage. Great design boosts engagement—imagine an Instagram post for your restaurant with a dish so stunning everyone hits ‘like’ instantly. With us, you’re not just another business; you’re a memorable brand."
     }
   ],
   "whatWeDoList": [
-    "Kreiranje vizuelnog identiteta (logo, boje, fontovi posebno za Vas)",
-    "Dizajn za društvene mreže (postovi, stori-ji, baneri koji privlače pažnju)",
-    "Dizajn marketing materijala (flajeri, posteri, brošure koje ostavljaju utisak)",
-    "UI/UX dizajn za veb sajtove (da Vaš sajt izgleda i radi besprekorno)",
-    "Ilustracije i custom grafike (jedinstveni elementi samo za Vaš brend)"
+    "Crafting visual identity (logo, colors, fonts tailored to you)",
+    "Social media design (posts, stories, banners that grab attention)",
+    "Marketing material design (flyers, posters, brochures that impress)",
+    "UI/UX design for websites (sleek, seamless user experience)",
+    "Custom illustrations and graphics (unique elements just for your brand)"
   ],
   "howWeDo": {
-    "title": "Važnost Grafičkog Dizajna",
-    "description": "Grafički dizajn je mnogo više od lepog izgleda, to je način da Vaš brend komunicira sa svetom. Dobar dizajn može da Vam reši gomilu problema: od toga da Vaš sajt bude lak za korišćenje, pa do toga da Vaš flajer završi na zidu umesto u kanti. Na primer, za jedan mali studio za jogu, napravili smo UI dizajn za njihov sajt gde su ljudi lako nalazili raspored časova, to im je udvostručilo prijave. Dizajn nije samo ukras, to je alat koji Vam pomaže da Vas vide, razumeju i zapamte."
+    "title": "Why Graphic Design Matters",
+    "description": "Graphic design goes beyond aesthetics—it’s how your brand speaks to the world. Good design solves problems: it makes your site easy to navigate or your flyer too good to toss. For example, we designed a UI for a small yoga studio’s site, making class schedules a breeze to find—doubling their sign-ups. Design isn’t just decoration; it’s a tool to get noticed, understood, and remembered."
   },
   "whatWeDo": {
-    "title": "Naš Pristup",
-    "description": "Mi ne radimo dizajn samo da bismo Vam dali nešto lepo, radimo ga da Vaš brend živi i priča svoju priču. Prvo sednemo s Vama da čujemo ko ste, šta volite i šta želite da kažete svetu. Onda uzmemo boje, fontove, slike i sve to sklopimo u nešto što je samo Vaše. Na primer, za prodavnicu ručno rađenih torbi, napravili smo logo sa ilustracijom šivenja, Instagram postove sa torbama u prirodi i flajer sa toplim tonovima. Sve je bilo povezano i govorilo 'ovo je kvalitet'. Naš cilj je da Vaš dizajn ne samo izgleda dobro, već i radi za Vas i privlači prave ljude i ostavlja trag."
+    "title": "Our Approach",
+    "description": "We don’t just design for looks—we bring your brand to life and tell its story. First, we sit down with you to understand who you are, what you love, and what you want to say. Then, we blend colors, fonts, and images into something uniquely yours. For a handmade bag shop, we created a logo with a stitching illustration, nature-inspired Instagram posts, and warm-toned flyers—all tied together to scream ‘quality.’ Our goal? Design that not only looks great but works hard, drawing in the right people and leaving a lasting mark."
   }
 }

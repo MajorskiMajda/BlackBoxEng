@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: "Black Box Media nudi usluge SEO, PPC, Reels reklama, menadzment društvenih mreža, email marketinga, izrade web sajtova i još mnogo toga. Povećajte svoj online prisustvo i prodaju sa nama!",
     images: [
       {
-        url: "https://www.black-box-media.com/logo.svg",
+        url: "https://www.black-box-media.com/log.svg",
         alt: "Black Box Media - Digital Marketing Agencija",
       },
     ],
@@ -163,7 +163,7 @@ const structuredData = {
   "name": "Black Box Media",
   "description": "Black Box Media koja nudi usluge SEO, PPC, Reels reklama, menadzment društvenih mreža, email marketinga, izrade web sajtova i još mnogo toga. Povećajte svoj online prisustvo i prodaju sa nama!",
   "url": "https://www.black-box-media.com",
-  "logo": "https://www.black-box-media.com/logo.svg",
+  "logo": "https://www.black-box-media.com/log.svg",
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+381-60-130-5588",

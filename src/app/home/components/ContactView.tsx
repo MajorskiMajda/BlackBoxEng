@@ -1,4 +1,5 @@
 "use client";
+
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import emailjs from "emailjs-com";
@@ -27,22 +28,22 @@ const ContactForm = ({ variant = "home", reverseOrder = false }: ContactFormProp
 
     const name = (form.name as unknown as HTMLInputElement).value.trim();
     if (!name || !/^[A-Za-z\s]+$/.test(name)) {
-      newErrors.name = "Ime je obavezno i mora sadržavati samo slova.";
+      newErrors.name = "Name is required and must contain only letters.";
     }
 
     const lastName = (form.lastN as HTMLInputElement).value.trim();
     if (!lastName || !/^[A-Za-z\s]+$/.test(lastName)) {
-      newErrors.lastN = "Prezime je obavezno i mora sadržavati samo slova.";
+      newErrors.lastN = "Last name is required and must contain only letters.";
     }
 
     const email = (form.email as HTMLInputElement).value.trim();
     if (!email || !/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(email)) {
-      newErrors.email = "Molimo unesite validnu email adresu.";
+      newErrors.email = "Please enter a valid email address.";
     }
 
     const message = (form.message as HTMLTextAreaElement).value.trim();
     if (!message) {
-      newErrors.message = "Poruka je obavezna.";
+      newErrors.message = "Message is required.";
     }
 
     setErrors(newErrors); // Set errors state
@@ -65,7 +66,7 @@ const ContactForm = ({ variant = "home", reverseOrder = false }: ContactFormProp
       )
       .then(
         () => {
-          alert("Poruka uspešno poslata!");
+          alert("Message sent successfully!");
           setIsLoading(false);
 
           if (formRef.current) {
@@ -74,7 +75,7 @@ const ContactForm = ({ variant = "home", reverseOrder = false }: ContactFormProp
         },
         (error) => {
           console.error(error.text);
-          alert("Greška u slanju poruke. Molimo Vas pokušajte kasnije.");
+          alert("Error sending message. Please try again later.");
           setIsLoading(false);
         }
       );
@@ -93,9 +94,9 @@ const ContactForm = ({ variant = "home", reverseOrder = false }: ContactFormProp
         >
           <div className="flex flex-col h-full">
             <div className={`flex-1 ${variant === "services" ? "hidden" : " "}`}>
-              <div className="xl:text-5xl lg:text-4xl text-4xl pb-8 font-semibold">Kontaktirajte nas</div>
+              <div className="xl:text-5xl lg:text-4xl text-4xl pb-8 font-semibold">Contact Us</div>
               <div className={`xl:text-2xl lg:text-xl text-xl text-neutral-400 w-3/3 ${variant === "services" ? "hidden" : " "} font-light`}>
-                Ukoliko imate pitanja, niste sigurni koja je prva usluga za Vas ili imate specifičan zahtev kontaktirajte nas. Zajedno ćemo pronaći najbolje rešenje.
+                If you have questions, aren’t sure which service is right for you, or have a specific request, reach out to us. Together, we’ll find the best solution.
               </div>
             </div>
 
@@ -122,16 +123,16 @@ const ContactForm = ({ variant = "home", reverseOrder = false }: ContactFormProp
         >
           <div className={`${variant === "services" ? "" : "hidden"}`}>
             <h2 className="xl:text-5xl lg:text-4xl text-3xl font-semibold lg:text-left">
-              Pošljite nam poruku
+              Send Us a Message
             </h2>
             <p className="xl:text-2xl mt-4 text-xl text-neutral-400 text-lg lg:text-left">
-              Ukoliko imate pitanja, niste sigurni koja je prva usluga za Vas ili imate specifičan zahtev kontaktirajte nas. Zajedno ćemo pronaći najbolje rešenje.
+              If you have questions, aren’t sure which service is right for you, or have a specific request, reach out to us. Together, we’ll find the best solution.
             </p>
           </div>
           <form ref={formRef} onSubmit={sendEmail} className="mt-8 flex flex-col gap-4">
             <div className="mb-4">
               <label htmlFor="name" className="block text-xl font-normal text-white">
-                Ime
+                Name
               </label>
               <input
                 autoComplete="off"
@@ -140,14 +141,14 @@ const ContactForm = ({ variant = "home", reverseOrder = false }: ContactFormProp
                 name="name"
                 className="w-full p-2 mt-2 border border-gray-400 focus:outline-none rounded"
                 required
-                placeholder="Ime"
+                placeholder="Name"
               />
               {errors.name && <span className="text-red-500 text-sm">{errors.name}</span>}
             </div>
 
             <div className="mb-4">
               <label htmlFor="lastN" className="block text-xl font-normal text-neutral-300-300">
-                Prezime
+                Last Name
               </label>
               <input
                 autoComplete="off"
@@ -156,7 +157,7 @@ const ContactForm = ({ variant = "home", reverseOrder = false }: ContactFormProp
                 name="lastN"
                 className="w-full p-2 mt-2 border border-gray-400 focus:outline-none rounded"
                 required
-                placeholder="Prezime"
+                placeholder="Last Name"
               />
               {errors.lastN && <span className="text-red-500 text-sm">{errors.lastN}</span>}
             </div>
@@ -179,7 +180,7 @@ const ContactForm = ({ variant = "home", reverseOrder = false }: ContactFormProp
 
             <div className="mb-4">
               <label htmlFor="message" className="block text-xl font-normal text-neutral-300-300">
-                Vaša poruka
+                Your Message
               </label>
               <textarea
                 autoComplete="off"
@@ -199,7 +200,7 @@ const ContactForm = ({ variant = "home", reverseOrder = false }: ContactFormProp
               disabled={isLoading}
               className="py-2 w-2/8 text-xl cursor-pointer rounded-md shadow-md btn-col text-neutral-800 font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-[#ff007f]/50"
             >
-              {isLoading ? "Slanje..." : "Pošalji"}
+              {isLoading ? "Sending..." : "Send"}
             </button>
           </form>
         </div>

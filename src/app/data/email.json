@@ -1,69 +1,69 @@
 {
   "cardContents": [
     {
-      "title": "Osnovni Paket",
-      "content": "Uz ovaj paket dobijate 2500 email adresa, dizajn i kreiranje unikatnih i prodornih emailova. Šalje se jedna kampanja i na nedeljnom nivou dobijate analizu rezultata.",
+      "title": "Basic Package",
+      "content": "With this package, you get 2,500 email addresses, unique and compelling email designs, and one campaign launch. Plus, we provide a weekly performance analysis to track your results.",
       "price": "100",
       "bulet": [
-       "250 email adresa",
-        "Kreiranje unikatnih email-ova sa custom sadržajem",
-        "1 kampanja sa analizom rezultata",
-        "Nedeljna analiza učinka",
+        "2,500 email addresses",
+        "Custom email creation with unique content",
+        "1 campaign with results analysis",
+        "Weekly performance report",
         " "
       ]
     },
     {
-      "title": "Standard Paket",
-      "content": "Sa 5000 email adresa na raspolaganju, mi Vam kreiramo i dizajniramo privlačne mejlove, šaljemo dve dobro osmišljene kampanje koje pogađaju pravi ton, a zatim analiziramo rezultate i smišljamo kako možemo još više da unapredimo Vaš pristup klijentima.",
+      "title": "Standard Package",
+      "content": "Unlock 5,000 email addresses with eye-catching, custom-designed emails. We launch two strategically crafted campaigns that hit the right note, analyze the results, and suggest ways to further optimize your customer outreach.",
       "price": "150",
       "bulet": [
-        "500 email adresa",
-        "Kreiranje unikatnih email-ova sa custom sadržajem",
-        "Dizajn grafickog materijala za email-ove",
-        "2 kampanje sa analizom i optimizacijom",
-        "Unapređenje pristupa klijentima na osnovu rezultata"
+        "5,000 email addresses",
+        "Custom email creation with unique content",
+        "Graphic design for emails",
+        "2 campaigns with analysis and optimization",
+        "Enhanced customer outreach based on results"
       ]
     },
     {
-      "title": "Premium Paket",
-      "content": "Uz 7500 email adresa, osmišljavamo i dizajniramo upečatljive mejlove, pokrećemo tri ciljane kampanje koje se pametno nadovezuju, i na kraju analiziramo rezultate da Vam pokažemo šta radi najbolje i kako da dodatno osnažite svoj odnos s publikom.",
+      "title": "Premium Package",
+      "content": "Gain access to 7,500 email addresses with standout email designs. We run three interconnected, targeted campaigns, then deliver in-depth analysis to show what works best and how to strengthen your audience connection.",
       "price": "200",
       "bulet": [
-        "750 email adresa",
-        "Dizajn grafickog materijala za email-ove",
-        "Kreiranje unikatnih email-ova sa custom sadržajem",
-        "3 povezane kampanje za maksimalan efekat",
-        "Detaljna analiza i poboljšanje odnosa sa publikom"
+        "7,500 email addresses",
+        "Graphic design for emails",
+        "Custom email creation with unique content",
+        "3 linked campaigns for maximum impact",
+        "Detailed analysis and audience relationship improvement"
       ]
     }
   ],
   "keyContent": [
     {
-      "title": "Automatske sekvence",
-      "content": "Od „dobrodošli“ mejlova, preko podsetnika za napuštene korpe, pa sve do specijalnih ponuda. Mi posložimo sve tako da Vaš marketing radi non-stop, čak i dok Vi odmarate ili spavate."
+      "title": "Automated Sequences",
+      "content": "From welcome emails to abandoned cart reminders and special offers, we set up everything so your marketing runs 24/7—even while you’re resting or sleeping."
     },
     {
-      "title": "Praćenje i unapređenje",
-      "content": "Sve pratimo od toga koliko ljudi otvori mejl, klikne, kupi, ili se odjavi, pa svake nedelje dobijate izveštaj s jasnim brojkama i našim idejama kako da stvari podignemo na još viši nivo."
+      "title": "Tracking and Improvement",
+      "content": "We monitor opens, clicks, purchases, and unsubscribes, delivering weekly reports with clear data and actionable insights to take your results to the next level."
     },
     {
-      "title": "Segmentacija i lični pristup",
-      "content": "Shvatamo da svaki Vaš klijent ima svoje potrebe, pa ih zato razvrstavamo u grupe i šaljemo im poruke koje pogađaju pravo u metu i uvek u pravom trenutku. A rezultat? Veći broj otvaranja, više klikova i naravno, bolja prodaja."
+      "title": "Segmentation and Personalization",
+      "content": "We know every client is unique, so we segment your audience and send tailored messages that hit the mark at the perfect time—driving higher open rates, more clicks, and better sales."
     }
   ],
   "whatWeDoList": [
-    "Email marketing pomaže Vašem brendu da se istakne kroz personalizovane poruke.",
-    "Dobro osmišljena strategija donosi više konverzija i jača vezu s klijentima.",
-    "Publiku delimo u grupe za relevantne poruke u pravo vreme – više otvaranja i klikova.",
-    "Postavljamo sekvence (npr. dobrodošlica, podsetnici) za non-stop marketing.",
-    "Privlačimo kupce, gradimo lojalnost i podižemo prodaju korak po korak."
+    "Email marketing helps your brand stand out with personalized messages.",
+    "A smart strategy boosts conversions and builds stronger client relationships.",
+    "We segment your audience for relevant, timely messages—more opens and clicks.",
+    "We set up sequences (e.g., welcome emails, reminders) for nonstop marketing.",
+    "We attract customers, foster loyalty, and increase sales step by step."
   ],
   "howWeDo": {
-    "title": "Zašto je email marketing važan za Vaš biznis?",
-    "description": "U ovom digitalnom vremenu, gde su svi preplavljeni informacijama, direktan i ličan kontakt s klijentima je ono što izdvaja brend koji tone u gomili od onog koji ostaje zapamćen. Bez pametne strategije, email marketing lako može postati još jedan zapostavljen alat. Ali kad se radi ispravno, s porukama skrojenim po meri, dobro tempiranim slanjem i jasnom svrhom, pretvara se u Vaše najjače oružje za veću prodaju, čvršću vezu s kupcima i jaču prepoznatljivost."
+    "title": "Why Email Marketing Matters for Your Business",
+    "description": "In today’s digital world, where everyone’s flooded with information, direct and personal client contact sets a forgettable brand apart from one that sticks. Without a smart strategy, email marketing can easily become an overlooked tool. But when done right—with custom-tailored messages, perfect timing, and clear goals—it becomes your most powerful weapon for driving sales, deepening customer bonds, and boosting brand recognition."
   },
   "whatWeDo": {
-    "title": "Kako mi radimo Vaš email marketing?",
-    "description": "Ako nemate sistem za email marketing, mi ga gradimo od početka. Pronalazimo pravu platformu, povezujemo je s Vašim CRM-om ili sajtom, sve podesimo da radi glatko i bez greške. Svaka kampanja je napravljena prema Vašim klijentima. Ne šaljemo dosadne, generičke poruke, nego pravimo sadržaj koji zaista privlači pažnju, zainteresuje ljude i podstakne ih da nešto urade. Jasno nam je da Vaši klijenti nisu svi isti. Zato ih delimo u grupe i šaljemo im poruke koje im znače i to tačno kad im zatrebaju. Šta dobijate? Više otvaranja, više klikova i na kraju više prodaje. Postavljamo stvari da rade same od sebe, od poruka dobrodošlice do podsetnika. Tako da Vi ne morate da gubite vreme, a marketing ide dalje bez zastoja."
+    "title": "How We Handle Your Email Marketing",
+    "description": "No email marketing system yet? We’ll build it from scratch—finding the right platform, integrating it with your CRM or website, and ensuring it runs smoothly. Every campaign is designed for your audience. We skip boring, generic emails and create content that grabs attention, sparks interest, and drives action. We get that your clients aren’t all the same, so we segment them and send messages that matter, exactly when they’re needed. The result? Higher open rates, more clicks, and increased sales. We set up automated flows—from welcome emails to reminders—so your marketing keeps going without you lifting a finger."
   }
 }

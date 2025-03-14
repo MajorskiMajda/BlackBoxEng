@@ -1,72 +1,72 @@
 {
   "cardContents": [
     {
-      "title": "Osnovni Paket",
-      "content": "Ovaj paket je idealan za manje veb stranice, ili one koji tek počinju i žele da ih pretraživači uoče. Uključuje osnovnu optimizaciju sadržaja, meta tagova i ključnih reči kako biste postali vidljivi na pretragama. Vaš sajt dobija čvrst temelj za vidljivost, a mi preuzimamo sve tehničke detalje kako biste se Vi fokusirali na svoj posao.",
+      "title": "Basic Package",
+      "content": "Ideal for small websites or those just starting out who want search engines to notice them. This package includes basic content optimization, meta tags, and keyword setup to make your site visible in searches. We lay a solid foundation for your online presence, handling all the technical details so you can focus on your business.",
       "price": "200",
       "bulet": [
-        "Osnovna optimizacija sadržaja",
-        "Osnovna optimizacija meta tagova",
-        "Osnovno Praćenje performansi",
+        "Basic content optimization",
+        "Basic meta tag optimization",
+        "Basic performance tracking",
         " ",
         " ",
         " "
       ]
     },
     {
-      "title": "Standardni Paket",
-      "content": "Savršen izbor za biznise u razvoju koji žele ozbiljan korak napred u SEO-u. Ovde Vam nudimo naprednu optimizaciju sadržaja, tehnički SEO poput ubrzanja sajta i prilagođavanja za mobilne uređaje kao i redovno praćenje performansi kako biste ostali ispred konkurencije. Vaša veb stranica postaje efikasan alat koji privlači posetioce, a mi se brinemo da sve funkcioniše besprekorno.",
+      "title": "Standard Package",
+      "content": "Perfect for growing businesses ready to take a serious step forward in SEO. We offer advanced content optimization, technical SEO like site speed boosts and mobile responsiveness, plus regular performance monitoring to keep you ahead of the competition. Your website becomes an effective tool for attracting visitors, and we ensure it runs flawlessly.",
       "price": "400",
       "bulet": [
-        "Optimizovan SEO sadržaja (keywords)",
-        "Optimizovan Tehnički SEO",
-        "Ubrzanje sajta i prilagođavanje za mobilne uređaje",
-        "Napredno Praćenje performansi",
+        "Optimized SEO content (keywords)",
+        "Optimized technical SEO",
+        "Site speed boost and mobile optimization",
+        "Advanced performance tracking",
         " ",
         " "
       ]
     },
     {
-      "title": "Premium Paket",
-      "content": "Kompletna usluga za one koji žele maksimalne rezultate i dominantnu poziciju na pretraživačima. Ovaj paket obuhvata sveobuhvatnu SEO strategiju: optimizaciju sadržaja, tehnički SEO, izgradnju backlinkova, redovne izveštaje i kontinuirano podešavanje za vrhunske performanse. Vaš sajt postaje magnet za ciljanu publiku, a Vi dobijate merljive rezultate u vidu većeg prometa i prodaje.",
+      "title": "Premium Package",
+      "content": "The complete solution for those aiming for top results and search engine dominance. This package includes a full SEO strategy: content optimization, technical SEO, backlink building, regular reports, and ongoing adjustments for peak performance. Your site turns into a magnet for your target audience, delivering measurable increases in traffic and sales.",
       "price": "600",
       "bulet": [
-        "Optimizovan SEO sadržaja (keywords)",
-        "SEO Backlinkovi",
-        "Optimizovan Tehnički SEO",
-        "Kontinuirano podešavanje performansi",
-        "Ubrzanje sajta i prilagođavanje za mobilne uređaje",
-        "Izveštaji i analiza rezultata"
+        "Optimized SEO content (keywords)",
+        "SEO backlink building",
+        "Optimized technical SEO",
+        "Ongoing performance adjustments",
+        "Site speed boost and mobile optimization",
+        "Reports and result analysis"
       ]
     }
   ],
   "keyContent": [
     {
-      "title": "On-page optimizacija",
-      "content": "On-page optimizacija osigurava da pretraživači razumeju šta Vaša stranica nudi i da je rangiraju što više. Mi Vam sređujemo sadržaj – naslove, ključne reči i opise – kako bi bio privlačan i za Google i za posetioce. Osim toga, poboljšava se preglednost sajta, što korisnicima olakšava navigaciju."
+      "title": "On-Page Optimization",
+      "content": "On-page optimization ensures search engines understand your site and rank it higher. We refine your content—titles, keywords, and descriptions—to appeal to both Google and visitors. Plus, we improve site structure for easier navigation, enhancing user experience."
     },
     {
-      "title": "Tehnički SEO",
-      "content": "Tehnički SEO je ključan da Vaša stranica bude brza, sigurna i dostupna pretraživačima. Mi Vam ubrzavamo učitavanje stranica, prilagođavamo sajt za mobilne uređaje i uklanjamo tehničke greške koje bi mogle da ga koče. Bez ovoga, čak i najbolji sadržaj može ostati neprimećen ako se sajt sporo otvara."
+      "title": "Technical SEO",
+      "content": "Technical SEO is essential for a fast, secure, and search-engine-friendly site. We speed up page loading, optimize for mobile devices, and fix technical errors that could hold you back. Without this, even great content can go unnoticed if your site lags."
     },
     {
-      "title": "Off-page optimizacija",
-      "content": "Off-page optimizacija pokazuje pretraživačima da Vaš sajt ima vrednost jer ga drugi preporučuju. Mi Vam pomažemo da dobijete kvalitetne backlinkove sa relevantnih stranica, čime se povećava autoritet Vašeg domena. To Vam donosi bolju poziciju i veći promet."
+      "title": "Off-Page Optimization",
+      "content": "Off-page optimization proves your site’s value to search engines through external endorsements. We help you earn quality backlinks from relevant sites, boosting your domain authority. This lifts your ranking and drives more traffic."
     }
   ],
   "whatWeDoList": [
-    "Istraživanje ključnih reči i strategija za Vašu ciljanu publiku",
-    "On-page optimizacija za bolje rangiranje na pretraživačima",
-    "Tehnički SEO za brzinu sajta i optimalno korisničko iskustvo",
-    "Izgradnja kvalitetnih linkova za povećanje autoriteta domena",
-    "Content marketing za privlačenje i konverziju posetilaca"
+    "Keyword research and strategy for your target audience",
+    "On-page optimization for better search engine rankings",
+    "Technical SEO for site speed and optimal user experience",
+    "Building quality backlinks to boost domain authority",
+    "Content marketing to attract and convert visitors"
   ],
   "howWeDo": {
-    "title": "Kako Vam Pomažemo",
-    "description": "SEO je kao postavljanje bilborda na najprometnijoj ulici, ali bez plaćanja za svaki dan. Kada Vaša stranica zauzme visoku poziciju na pretraživačima, postajete dostupni tačno onima kojima ste potrebni, i to u pravom trenutku. Visoko rangiranje takođe povećava poverenje, ljudi veruju pretraživačima, pa ako ste među prvim rezultatima, Vaš brend deluje kredibilnije. Osim toga, mi Vam optimizujemo sajt da bude brži i jednostavniji za korišćenje, što zadržava posetioce i povećava šanse za konverziju. Na primer, za prodavnicu cveća, ubrzali smo sajt i podesili ključne reči, što je dovelo do dužeg zadržavanja posetilaca i više porudžbina."
+    "title": "How We Help You",
+    "description": "SEO is like putting up a billboard on the busiest street—without the daily cost. A high-ranking site makes you visible to the right people at the right time. It also builds trust—people rely on search engines, so top results feel more credible. We also optimize your site to load faster and be user-friendly, keeping visitors engaged and increasing conversions. For example, for a flower shop, we sped up their site and tuned keywords, leading to longer visits and more orders."
   },
   "whatWeDo": {
-    "title": "Naš Pristup",
-    "description": "Bez SEO-a, Vaš sajt je kao prodavnica u mračnoj uličici, može biti super, ali niko ne zna za njega. Mi Vam pomažemo da to promenite. Prvo razgovaramo s Vama kako bismo razumeli Vaše ciljeve i publiku, a zatim kreiramo strategiju: od odabira ključnih reči koje Vaši klijenti traže, preko tehničkih poboljšanja, do izgradnje linkova koji Vam daju kredibilitet. Pratimo performanse i prilagođavamo sve kako biste ostali na vrhu. Naš cilj je da Vaš sajt bude ne samo vidljiv, već i snažan alat za privlačenje i zadržavanje klijenata."
+    "title": "Our Approach",
+    "description": "Without SEO, your site’s like a store in a dark alley—great, but unseen. We change that. First, we talk to understand your goals and audience, then craft a strategy: picking keywords your clients search for, enhancing technical performance, and building credible backlinks. We track results and tweak as needed to keep you on top. Our goal? Make your site not just visible, but a powerful tool to attract and retain customers."
   }
 }

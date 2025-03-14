@@ -24,7 +24,7 @@ const Card: React.FC<CardProps> = ({
   customClass2 = '',
   customIcon,
   iconSrc,
-  buttonText = "Saznaj Vise",
+  buttonText = "Find Out More",
   lineShow = true,
   buttonLink = "/",
   showButton = true,
@@ -52,9 +52,9 @@ const Card: React.FC<CardProps> = ({
             </div>
             <div className="flex flex-col items-left space-x-2">
               <h3 className="font-light flex gap-2 items-center pb-3">
-                <span className="text-md text-neutral-300">Od</span>
+                <span className="text-md text-neutral-300">From</span>
+                <span className="text-md text-neutral-300">$</span>
                 <span className="xl:text-3xl lg:text-2xl text-2xl">{price}</span>
-                <span className="text-md text-neutral-300">€</span>
               </h3>
               <p className=" text-xl text-neutral-400 font-light">{content}</p>
             </div>

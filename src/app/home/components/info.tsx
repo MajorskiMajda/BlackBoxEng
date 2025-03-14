@@ -1,13 +1,13 @@
 import React from "react";
-import Prices from './Features';
-import Compare from '../components/Compare';
+import Prices from "./Features";
+import Compare from "../components/Compare";
 
 interface InfoProps {
   howWeDoTitle: string;
   howWeDoDescription: string;
   whatWeDoTitle: string;
   whatWeDoDescription: string;
-  keyContent: { title: string; content: string; }[];
+  keyContent: { title: string; content: string }[];
   cardContents: { title: string; content: string; price: string }[];
   whatWeDoList: string[];
 }
@@ -33,15 +33,15 @@ const Info: React.FC<InfoProps> = ({
         </p>
 
         <Prices
-          heading="Nasi Paketi Usluga"
+          heading="Our Service Packages"
           sectionType="prices"
           cardContents={cardContents}
         />
-        <Compare heading={'Uporedite Cene'} services={cardContents} />
+        <Compare heading={"Compare Prices"} services={cardContents} />
 
         {/* What We Do Section */}
         <h2 className="text-2xl md:text-3xl lg:text-5xl font-semibold mb-4 text-[#da26ff]">
-          Pogodnosti Koje Dobijate
+          Benefits You Get
         </h2>
         <ul className="list-disc font-light text-neutral-300 pl-5 text-lg md:text-xl lg:text-2xl marker:text-purple-500 space-y-2">
           {whatWeDoList.map((item, index) => (

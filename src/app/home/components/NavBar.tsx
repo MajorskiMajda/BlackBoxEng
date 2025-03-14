@@ -8,14 +8,14 @@ import { motion, AnimatePresence } from "framer-motion";
 
 // Define navigation items once to reuse in both desktop and mobile
 const navItems = [
-  { href: "/seo-optimizacija", text: "Seo Optimizacija" },
-  { href: "/google-reklame", text: "Google Reklame" },
-  { href: "/meta-reklame", text: "Meta Reklame" },
+  { href: "/seo-optimization", text: "SEO Optimization" },
+  { href: "/google-ads", text: "Google Ads" },
+  { href: "/meta-ads", text: "Meta Ads" },
   { href: "/email-marketing", text: "Email Marketing" },
-  { href: "/smm", text: "Menadžment Društvenih Mreža" },
-  { href: "/reels", text: "Izrada Reels Reklama" },
-  { href: "/izrada-sajtova", text: "Izrada Web Sajtova" },
-  { href: "/graficki-dizajn", text: "Grafički Dizajn" },
+  { href: "/social-media-management", text: "Social Media Management" },
+  { href: "/reels-ads", text: "Reels Video Ads" },
+  { href: "/website-development", text: "Website Development" },
+  { href: "/graphic-design", text: "Graphic Design" },
 ];
 
 export default function Nav() {
@@ -92,7 +92,7 @@ export default function Nav() {
       {/* Navigation Links - Desktop */}
       <div className="hidden md:flex md:items-center md:space-x-6">
         <Link href="/" className="text-white text-lg hover:text-[#da26ff]">
-          Početna
+          Home
         </Link>
 
         {/* Dropdown Menu */}
@@ -102,7 +102,7 @@ export default function Nav() {
             onClick={toggleDropdown}
             className="text-white text-lg flex items-center hover:text-[#da26ff] focus:outline-none"
           >
-            Naše Usluge <ChevronDownIcon className="w-5 h-5 ml-1" />
+            Our Services <ChevronDownIcon className="w-5 h-5 ml-1" />
           </button>
           <AnimatePresence>
             {isDropdownOpen && (
@@ -128,11 +128,11 @@ export default function Nav() {
           </AnimatePresence>
         </div>
 
-        <Link href="/onama" className="text-white text-lg hover:text-[#da26ff]">
-          O nama
+        <Link href="/about-us" className="text-white text-lg hover:text-[#da26ff]">
+          About Us
         </Link>
         <Link href="#contactSection" className="text-white text-lg hover:text-[#da26ff]">
-          Kontaktirajte nas
+          Contact Us
         </Link>
       </div>
 
@@ -147,10 +147,10 @@ export default function Nav() {
             className="absolute top-16 left-0 w-full bg-black text-neutral-300 p-4 flex flex-col space-y-4 md:hidden"
           >
             {[
-              { href: "/", text: "Početna" },
+              { href: "/", text: "Home" },
               ...navItems,
-              { href: "/onama", text: "O nama" },
-              { href: "#contactSection", text: "Kontaktirajte nas" },
+              { href: "/about-us", text: "About Us" },
+              { href: "#contactSection", text: "Contact Us" },
             ].map((link, index) => (
               <motion.div
                 key={link.href}

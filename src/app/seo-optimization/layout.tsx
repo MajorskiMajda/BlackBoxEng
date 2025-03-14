@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: "Povećajte vidljivost vašeg sajta u pretraživačima uz naše SEO usluge. Specijalizovani smo za tehničku SEO optimizaciju, optimizaciju sadržaja i dugoročne strategije za povećanje organskog prometa.",
     images: [
       {
-        url: "https://www.black-box-media.com/seoo.svg", 
+        url: "https://www.black-box-media.com/seoo.svg",
         alt: "SEO Optimizacija - Black Box Media",
       },
     ],
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Black Box Media", url: "https://www.black-box-media.com" }],
   robots: "index, follow",
   alternates: {
-    canonical: "https://www.black-box-media.com/seo-optimizacija", 
+    canonical: "https://www.black-box-media.com/seo-optimizacija",
   },
 };
 
@@ -72,7 +72,7 @@ const structuredData = {
   "provider": {
     "@type": "Organization",
     "name": "Black Box Media",
-    "logo": "https://www.black-box-media.com/logo.svg",
+    "logo": "https://www.black-box-media.com/log.svg",
     "url": "https://www.black-box-media.com",
   },
   "areaServed": {

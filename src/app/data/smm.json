@@ -1,72 +1,71 @@
 {
-    "cardContents": [
-      {
-        "title": "Osnovni Paket",
-        "content": "Naš Osnovni Paket uključuje kreiranje i optimizaciju profila po potrebi, 2 objave i 2 storija nedeljno s privlačnim grafičkim dizajnom i kreativnim tekstovima, te brzo i profesionalno odgovaranje na poruke vaših pratilaca.",
-        "price": "200",
-        "bulet": [
-          "Kreiranje i optimizacija profila po potrebi",
-          "2 objave i 2 storija nedeljno",
-          "Privlačan grafički dizajn i kreativni tekstovi",
-          "Odgovaranje na poruke pratilaca",
-          " ",
-          " "
-        ]
-      },
-      {
-        "title": "Standardni Paket",
-        "content": "Naš Standardni Paket uključuje kompletno kreiranje i optimizaciju profila, 3 objave i 3 storija nedeljno uz visokokvalitetan grafički dizajn i copywriting, kao i aktivno upravljanje komunikacijom s vašom publikom.",
-        "price": "400",
-        "bulet": [
-          "Kompletno kreiranje i optimizacija profila",
-          "3 objave i 3 storija nedeljno",
-          "Copywriting i kreativni tekstovi",
-          "Kompletna izrada teme, boja, fonta i grafičkog materijala (slike)",
-          "Brzo odgovaranje na poruke pratilaca",
-          " "
-        ]
-      },
-      {
-        "title": "Premium Paket",
-        "content": "Naš Premium Paket uključuje profesionalno kreiranje i optimizaciju profila, 4 objave i 4 storija nedeljno uz vrhunski grafički dizajn i kreativne tekstove, te brzo i efikasno upravljanje komunikacijom s vašim pratiteljima.",
-        "price": "500",
-        "bulet": [
-          "Profesionalno kreiranje i optimizacija profila",
-          "Podešavanje Business Profile Manager-a sa analitikom",
-          "4 objave i 4 storija nedeljno",
-          "Profesionalni grafički dizajn i kreativni tekstovi",
-          "Kompletna izrada teme, boja, fonta i grafičkog materijala (slike i video)",
-          "Aktivno upravljanje i komunikacijom s publikom"
-        ]
-      }
-    ],
-    "keyContent": [
-      {
-        "title": "Kreiranje i optimizacija profila",
-        "content": "Vaš profil polako postaje kao Vaša digitalna vizit karta, nešto što ostavlja jak prvi utisak i pomaže Vam da privučete ljude sa kojima želite da se povežete."
-      },
-      {
-        "title": "Kreiranje kvalitetnog sadržaja",
-        "content": "Tvoj sadržaj počinje da ostavlja trag i postaje nešto što ce ljudi pamtiti, što ljude tera da reaguju, da se uključe, i polako gradi onu pravu, emocionalnu vezu sa tvojim pratiocima. "
-      },
-      {
-        "title": "Redovna objava i komunikacija",
-        "content": "Vaš sadržaj počinje da ostavlja trag i postaje nešto što će ljudi pamtiti, što ljude tera da reaguju, da se uključe, i polako gradi onu pravu, emocionalnu vezu sa Vašim pratiocima."
-      }
-    ],
-    "whatWeDoList": [
-      "Kreiramo ili osvežavamo Vaše profile da izgledaju profesionalno i privlačno.",
-      "Pravimo objave i storije s upečatljivim dizajnom i tekstovima koji pogađaju pravu emociju.",
-      "Odgovaramo na poruke umesto Vas – ljubazno, brzo i na način koji gradi poverenje.",
-      "Vaši profili postaju živi kanal za privlačenje klijenata, štedite vreme, a dobijate pažnju, angažman i rast."
-    ],
-    "howWeDo": {
-      "title": "Šta je SMM (Upravljanje Društvenim Mrežama)",
-      "description": "SMM, ili upravljanje društvenim mrežama, znači da profesionalno vodimo Vaše naloge kako biste izgradili jak online identitet, podstakli veći angažman i postigli bolje rezultate za svoj brend. Mi se brinemo za sve, od pravljenja sadržaja i objavljivanja, preko ćaskanja s Vašom publikom, pa do praćenja kako stvari napreduju."
+  "cardContents": [
+    {
+      "title": "Basic Package",
+      "content": "Our Basic Package includes profile setup and optimization as needed, 2 posts and 2 stories per week with eye-catching graphic design and creative copywriting, plus fast, professional responses to your followers’ messages.",
+      "price": "200",
+      "bulet": [
+        "Profile setup and optimization as needed",
+        "2 posts and 2 stories per week",
+        "Eye-catching graphic design and creative copy",
+        "Responding to followers’ messages",
+        " ",
+        " "
+      ]
     },
-    "whatWeDo": {
-      "title": "Kako mi vodimo vaše društvene mreže?",
-      "description":"Mi postavljamo temelje Vašeg prisustva na društvenim mrežama. Kreiramo ili osvežavamo Vaše profile kako bi izgledali profesionalno i privlačno, pravimo sadržaj koji se pamti kroz upečatljiv dizajn i tekstove koji pogađaju pravu emociju, objavljujemo dosledno (2, 3 ili 4 puta nedeljno) kako bismo održali ritam i angažman. Brzo i ljubazno odgovaramo na poruke gradeći poverenje, a uz dodatnu uslugu kreiramo Reels video zapise koji organski povećavaju Vaš domet. Sa nama, Vaši profili postaju živi kanal za privlačenje klijenata, štedite vreme, a dobijate pažnju, angažman i rast. Bilo da Vam treba osnovna prisutnost ili puna snaga Reels-a, mi smo tu da Vaš biznis zablista na društvenim mrežama."
+    {
+      "title": "Standard Package",
+      "content": "Our Standard Package offers full profile creation and optimization, 3 posts and 3 stories per week with high-quality graphic design and copywriting, plus active communication management with your audience.",
+      "price": "400",
+      "bulet": [
+        "Full profile creation and optimization",
+        "3 posts and 3 stories per week",
+        "Copywriting and creative content",
+        "Complete theme design (colors, fonts, and graphics)",
+        "Quick responses to followers’ messages",
+        " "
+      ]
+    },
+    {
+      "title": "Premium Package",
+      "content": "Our Premium Package includes expert profile creation and optimization, 4 posts and 4 stories per week with top-tier graphic design and creative copy, plus fast, efficient management of all audience communication.",
+      "price": "500",
+      "bulet": [
+        "Expert profile creation and optimization",
+        "Business Profile Manager setup with analytics",
+        "4 posts and 4 stories per week",
+        "Professional graphic design and creative copy",
+        "Full theme design (colors, fonts, images, and video)",
+        "Active audience communication management"
+      ]
     }
+  ],
+  "keyContent": [
+    {
+      "title": "Profile Creation and Optimization",
+      "content": "Your profile becomes your digital business card—making a strong first impression and drawing in the people you want to connect with."
+    },
+    {
+      "title": "High-Quality Content Creation",
+      "content": "Your content starts leaving a mark—something memorable that sparks reactions, engages followers, and builds a real, emotional connection with your audience."
+    },
+    {
+      "title": "Consistent Posting and Communication",
+      "content": "Regular posts and interaction keep your audience hooked, fostering engagement and strengthening the bond with your followers over time."
+    }
+  ],
+  "whatWeDoList": [
+    "We create or refresh your profiles to look professional and inviting.",
+    "We craft posts and stories with striking designs and copy that hit the right emotional notes.",
+    "We handle your messages—responding quickly and kindly to build trust.",
+    "Your profiles become a lively channel for attracting clients, saving you time while boosting attention, engagement, and growth."
+  ],
+  "howWeDo": {
+    "title": "What is Social Media Management (SMM)?",
+    "description": "SMM, or social media management, means we professionally handle your accounts to build a strong online identity, spark greater engagement, and deliver better results for your brand. We take care of everything—from crafting content and posting to chatting with your audience and tracking progress."
+  },
+  "whatWeDo": {
+    "title": "How We Manage Your Social Media",
+    "description": "We lay the foundation for your social media success. We create or revamp your profiles to look professional and appealing, produce memorable content with standout designs and emotionally resonant copy, and post consistently (2, 3, or 4 times a week) to keep the momentum and engagement alive. We respond to messages quickly and warmly to build trust, and with our optional Reels service, we create videos to organically expand your reach. With us, your profiles transform into a vibrant channel for attracting clients—saving you time while driving attention, engagement, and growth. Whether you need a basic presence or the full power of Reels, we’re here to make your business shine on social media."
   }
-  
+}

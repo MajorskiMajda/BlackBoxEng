@@ -1,29 +1,29 @@
 {
   "marketingCardContents": [
     {
-      "title": "SEO Optimizacija",
-      "content": "Unapredite poziciju Vašeg veb sajta na Google pretrazi. Naša SEO optimizacija obuhvata analizu ključnih reči, tehnička poboljšanja i optimizaciju sadržaja.",
+      "title": "SEO Optimization",
+      "content": "Boost your website’s ranking on Google with expert SEO optimization. Our services include in-depth keyword analysis, technical enhancements, and content optimization to drive organic traffic and grow your business.",
       "iconSrc": "/google.svg",
-      "buttonLink": "/seo-optimizacija",
+      "buttonLink": "/seo-optimization",
       "price": "200"
     },
     {
-      "title": "Google Reklame",
-      "content": "Dostignite Vašu ciljnu publiku uz efikasne Google Ads kampanje. Kreiramo i optimizujemo oglase, analiziramo performanse i maksimizujemo Vaš ROI.",
+      "title": "Google Ads",
+      "content": "Reach your ideal audience with high-performing Google Ads campaigns. We design, manage, and optimize ads to maximize your ROI, delivering measurable results and skyrocketing your business growth.",
       "iconSrc": "/googleads.svg",
-      "buttonLink": "/google-reklame",
+      "buttonLink": "/google-ads",
       "price": "100"
     },
     {
-      "title": "Meta Reklame",
-      "content": "Povećajte vidljivost Vašeg brenda na Facebook-u i Instagram-u. Kreiramo ciljane Meta oglase, dizajniramo vizuale i optimizujemo kampanje za maksimalne konverzije.",
+      "title": "Meta Ads",
+      "content": "Elevate your brand’s visibility on Facebook and Instagram with targeted Meta Ads. Our team creates stunning visuals and optimizes campaigns for maximum conversions, helping you connect with more customers.",
       "iconSrc": "/meta.svg",
-      "buttonLink": "/meta-reklame",
+      "buttonLink": "/meta-ads",
       "price": "100"
     },
     {
       "title": "Email Outreach",
-      "content": "Unapredite komunikaciju sa Vašim klijentima putem email marketing kampanja. Kreiramo personalizovane email-ove, segmentiramo liste i pratimo rezultate.",
+      "content": "Engage your clients like never before with tailored email marketing campaigns. We craft personalized emails, segment your audience, and track performance to boost loyalty and sales.",
       "iconSrc": "/gmail.svg",
       "buttonLink": "/email-marketing",
       "price": "150"
@@ -31,31 +31,31 @@
   ],
   "brandingCardContents": [
     {
-      "title": "Menadžment Društvenih Mreža",
-      "content": "Prepustite profesionalcima vođenje Vaših društvenih mreža. Kreiramo atraktivan sadržaj, odgovaramo na komentare i poruke, i snimamo Reels-e za veći angažman.",
+      "title": "Social Media Management",
+      "content": "Let our experts take charge of your social media presence. We create captivating content, respond to comments and messages, and produce Reels to skyrocket engagement and grow your following.",
       "iconSrc": "/instagram.svg",
-      "buttonLink": "/smm",
+      "buttonLink": "/social-media-management",
       "price": "200"
     },
     {
-      "title": "Izrada Reels Reklama",
-      "content": "Snimamo i editujemo dinamične UGC Reels video reklame koji će privući pažnju Vaše publike. Kreiramo originalne koncepte i optimizujemo sadržaj za maksimalan doseg.",
+      "title": "Reels Video Ads",
+      "content": "Capture your audience’s attention with dynamic UGC Reels video ads. We shoot, edit, and optimize original concepts to maximize reach and turn viewers into loyal customers.",
       "iconSrc": "/video.svg",
-      "buttonLink": "/reels",
+      "buttonLink": "/reels-ads",
       "price": "200"
     },
     {
-      "title": "Izrada Veb Sajtova",
-      "content": "Kreiramo veb sajtove koji su prilagođeni Vašim potrebama i ciljevima. Dizajniramo intuitivna korisnička iskustva i optimizujemo sajtove za sve uređaje.",
+      "title": "Website Development",
+      "content": "Get a custom website designed to meet your goals. We build user-friendly, mobile-optimized sites with stunning designs to enhance your online presence and drive conversions.",
       "iconSrc": "/domain.svg",
-      "buttonLink": "/izrada-sajtova",
+      "buttonLink": "/website-development",
       "price": "350"
     },
     {
-      "title": "Grafički Dizajn",
-      "content": "Kreiramo vizuelno upečatljive grafičke elemente koji će ojačati Vaš brend. Dizajniramo logotipe, objave za društvene mreže i materijale za štampu.",
+      "title": "Graphic Design",
+      "content": "Strengthen your brand with eye-catching graphic design. From logos to social media posts and print materials, we create visuals that leave a lasting impression and attract customers.",
       "iconSrc": "/pen-tool.svg",
-      "buttonLink": "/graficki-dizajn",
+      "buttonLink": "/graphic-design",
       "price": "50"
     }
   ]

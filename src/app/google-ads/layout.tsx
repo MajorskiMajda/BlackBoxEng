@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Black Box Media", url: "https://www.black-box-media.com" }],
   robots: "index, follow",
   alternates: {
-    canonical: "https://www.black-box-media.com/google-reklame", 
+    canonical: "https://www.black-box-media.com/google-reklame",
   },
 };
 
@@ -55,7 +55,7 @@ const structuredData = {
   "provider": {
     "@type": "Organization",
     "name": "Black Box Media",
-    "logo": "https://www.black-box-media.com/logo.svg",
+    "logo": "https://www.black-box-media.com/log.svg",
     "url": "https://www.black-box-media.com",
   },
   "areaServed": {

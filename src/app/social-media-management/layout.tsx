@@ -70,7 +70,7 @@ const structuredData = {
   "provider": {
     "@type": "Organization",
     "name": "Black Box Media",
-    "logo": "https://www.black-box-media.com/logo.svg", 
+    "logo": "https://www.black-box-media.com/log.svg",
     "url": "https://www.black-box-media.com",
   },
   "areaServed": {
