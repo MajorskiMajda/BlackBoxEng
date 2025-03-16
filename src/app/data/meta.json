@@ -2,7 +2,7 @@
   "cardContents": [
     {
       "title": "Basic Package",
-      "content": "This package offers 3 campaigns with fully personalized ads—whether images or videos—perfect for small businesses or those new to digital marketing. Test different strategies, explore various audience demographics, and discover your ideal customers with ease.",
+      "content": "This package offers 3 campaigns with fully personalized ads,whether images or videos,perfect for small businesses or those new to digital marketing. Test different strategies, explore various audience demographics, and discover your ideal customers with ease.",
       "price": "200",
       "bulet": [
         "3 campaigns with personalized ads (images)",
@@ -56,7 +56,7 @@
     "We design visually stunning ads with messages that resonate, steering clear of generic content.",
     "We analyze your audience, segmenting by interests, behavior, and location for maximum reach.",
     "We launch automated campaigns and test formats to uncover what delivers the best results.",
-    "We track everything—clicks, engagement, conversions—and send weekly reports with improvement ideas."
+    "We track everything,clicks, engagement, conversions,and send weekly reports with improvement ideas."
   ],
   "howWeDo": {
     "title": "What Are Meta Ads?",

@@ -35,11 +35,11 @@ const HorizontalScrollSection: React.FC<HorizontalScrollSectionProps> = ({ headi
 
   return (
     <div
-      className={`z-0 w-full overflow: hidden h-fit ${
+      className={`z-0 w-full overflow:hidden h-fit ${
         sectionType === "prices" ? "lg:max-w-7xl mx-auto lg:py-20 py-0" : "lg:py-12 lg:pb-20 pb-0 mx-auto py-0 gg"
       }`}
     >
-      <section className="panel overflow: hidden w-full h-full flex-shrink-0 flex">
+      <section className="panel overflow:hidden w-full h-full flex-shrink-0 flex">
         <div className="flex items-center justify-center w-full h-full flex-col">
           <div
             className={`flex justify-center items-center flex-row gap-0 ${
@@ -47,7 +47,7 @@ const HorizontalScrollSection: React.FC<HorizontalScrollSectionProps> = ({ headi
             } w-full text-left lg:pb-12 pb-8`}
           >
             <div
-              className={`lg:w-2/5 w-full lg:py-0 leading-[1.3] overflow: hidden lg:mt-0 mt-10 font-semibold ${
+              className={`lg:w-2/5 w-full lg:py-0 leading-[1.3] overflow:hidden lg:mt-0 mt-10 font-semibold ${
                 sectionType === "prices"
                   ? "xl:text-5xl text-[#da26ff] lg:text-4xl text-4xl"
                   : "xl:text-5xl lg:text-4xl text-4xl"
@@ -60,9 +60,9 @@ const HorizontalScrollSection: React.FC<HorizontalScrollSectionProps> = ({ headi
             </div>
           </div>
           <div
-            className={`grid overflow: hidden w-full ${
+            className={`grid overflow:hidden w-full ${
               sectionType === "features" ? "card-grid lg:pl-16 lg:pr-16 px-8 py-10" : "card-grid-prices"
-            } text-white items-start justify-evenly gap-6 lg:gap-12 overflow-x-auto`}
+            } text-white items-start justify-evenly gap-6 lg:gap-12 overflow-x-auto overflow-y-hidden`}
             style={{ willChange: "transform", transform: "translateZ(0)" }} // Force hardware acceleration
           >
             {cardContents.map((card, index) => (

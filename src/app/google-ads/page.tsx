@@ -24,8 +24,8 @@ export default function MainPage() {
                 hideImageOnMobile={false}
                 textSizeClass="lg:text-6xl text-5xl"
                 opis=""
-                subH="Pametne i optimizovane kampanje koje dopiru do pravih kupaca, smanjuju troškove i značajno povećavaju vaš profit"
-                text="Google Reklame"
+                subH="Reach the Right Customers – Smart Google Ads That Slash Costs and Boost Your Profits Fast!"
+                text="Maximize ROI with Google Ads"
                 className="lg:order-first md:order-first"
             />
             <Info

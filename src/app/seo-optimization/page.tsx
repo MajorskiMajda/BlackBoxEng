@@ -25,8 +25,8 @@ export default function MainPage() {
                 hideImageOnMobile={false}
                 textSizeClass="lg:text-6xl text-5xl "
                 opis=""
-                subH="Sa SEO-om, Vaš brend postaje vidljiv tamo gde Vas ljudi traže, privlači posetioce koji žele upravo ono što nudite i pretvara ih u verne kupce zahvaljujući optimizaciji koja radi za Vas."
-                text="SEO Optimizacija"
+                subH="Get Found Where It Matters – SEO That Drives Targeted Traffic and Turns Clicks into Loyal Customers!"
+                text="Skyrocket Rankings with SEO"
                 className="lg:order-first md:order-first"
             />
              <Info

@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 const reviews = [
   {
     id: 1,
-    name: "Radoš S.",
+    name: "James W.",
     image: "/man.png",
     title: "PR Manager",
     review:
@@ -18,15 +18,15 @@ const reviews = [
   },
   {
     id: 2,
-    name: "Jovan G.",
+    name: "Ryan S.",
     image: "/m2.jpg",
-    title: "Creative Director",
+    title: "CEO",
     review:
       "Great people, awesome team to work with. Very easy and quick to agree on terms. Highly recommended! 👍 👍",
   },
   {
     id: 3,
-    name: "Teodora Č.",
+    name: "	Sophie Q.",
     image: "/ww2.jpg",
     title: "Management Director",
     review:
@@ -34,7 +34,7 @@ const reviews = [
   },
   {
     id: 4,
-    name: "Marina T.",
+    name: "Samantha S.",
     image: "/ww3.jpg",
     title: "Project Manager",
     review:
@@ -42,11 +42,11 @@ const reviews = [
   },
   {
     id: 5,
-    name: "Aleksandar K.",
+    name: "Martin O.",
     image: "/m3.png",
     title: "Executive Director",
     review:
-      "I started my accounting agency and didn’t know where to begin with branding. I heard about BBM from a friend and sent them an email. The team was very kind and explained everything to me. After that, we started working together—they helped me with social media materials, a logo, and a website. Big thanks to the amazing team! ❤️",
+      "I started my accounting agency and didn’t know where to begin with branding. I heard about BBM from a friend and sent them an email. The team was very kind and explained everything to me. After that, we started working together,they helped me with social media materials, a logo, and a website. Big thanks to the amazing team! ❤️",
   },
 ];
 
@@ -94,9 +94,8 @@ export default function CustomerReviews() {
           return (
             <SwiperSlide key={id} className="mb-10 md:mb-16 lg:mb-20 flex">
               <div
-                className={`bg-[#242424] border border-[#da26ff] shadow-xl p-8 md:p-8 text-white rounded-lg flex flex-col justify-between w-full min-h-[18rem] md:min-h-[20rem] lg:min-h-[22rem] transition-all duration-300 ${
-                  isExpanded ? "max-h-fit" : "h-full"
-                }`}
+                className={`bg-[#242424] border border-[#da26ff] shadow-xl p-8 md:p-8 text-white rounded-lg flex flex-col justify-between w-full min-h-[18rem] md:min-h-[20rem] lg:min-h-[22rem] transition-all duration-300 ${isExpanded ? "max-h-fit" : "h-full"
+                  }`}
                 style={{ overflow: "hidden" }}
               >
                 <div className="flex flex-col flex-grow">

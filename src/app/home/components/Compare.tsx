@@ -56,7 +56,7 @@ const ServiceComparison: React.FC<ServiceComparisonProps> = ({ heading, services
           {heading}
         </h2>
         {/* Placeholder table to match structure */}
-        <div className="overflow-x-auto w-full pt-12">
+        <div className="overflow-x-hidden overflow-y-hidden w-full pt-12">
           <table className="w-full border-collapse text-left">
             <thead>
               <tr>
@@ -83,7 +83,7 @@ const ServiceComparison: React.FC<ServiceComparisonProps> = ({ heading, services
       <h2 className="lg:text-5xl text-[#da26ff] text-3xl font-bold text-left lg:b-8 lg:pt-0 md:pt-0 pt-8">
         {heading}
       </h2>
-      <div className="overflow-x-auto w-full pt-12">
+      <div className="overflow-x-auto overflow-y-hidden w-full pt-12">
         <table className="w-full border-collapse text-left">
           <thead>
             <tr>

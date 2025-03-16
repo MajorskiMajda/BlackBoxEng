@@ -25,8 +25,8 @@ export default function MainPage() {
                 hideImageOnMobile={false}
                 textSizeClass="lg:text-6xl text-5xl"
                 opis=""
-                subH=""
-                text="Izrada Web Sajtova"
+                subH="Need a Website That Sells? Get a Stunning, Conversion-Focused Site Built to Win Customers!"
+                text="Launch Your Perfect Website Now"
                 className="lg:order-first md:order-first"
             />
             <Info

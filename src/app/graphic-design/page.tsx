@@ -25,11 +25,11 @@ export default function MainPage() {
                 hideImageOnMobile={false}
                 textSizeClass="lg:text-6xl text-5xl "
                 opis=""
-                subH="Kroz kreativne ideje, strateški pristup i pažljivo osmišljene vizuelne elemente, Vaš brend će postati prepoznatljiv, upečatljiv i uspešan. Jer znamo da grafički dizajn nije samo umetnost, to je investicija u Vašu digitalnu budućnost."
-                text="Grafički Dizajn"
+                subH="Stand Out and Succeed – Stunning Designs That Make Your Brand Unforgettable and Drive Growth!"
+                text="Elevate Your Brand with Graphic Design"
                 className="lg:order-first md:order-first"
             />
-             <Info
+            <Info
                 cardContents={cardContents}
                 howWeDoTitle={howWeDo.title}
                 howWeDoDescription={howWeDo.description}

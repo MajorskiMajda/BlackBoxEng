@@ -2,7 +2,7 @@
   "cardContents": [
     {
       "title": "Basic Package",
-      "content": "Up to 3 pages (e.g., Home, Services/Products, Contact). Unique design—no templates—with graphic content tailored for your site. Basic optimization ensures it’s fast and mobile-friendly. Includes a contact form for easy customer outreach, plus hosting setup—we handle it all for you.",
+      "content": "Up to 3 pages (e.g., Home, Services/Products, Contact). Unique design,no templates,with graphic content tailored for your site. Basic optimization ensures it’s fast and mobile-friendly. Includes a contact form for easy customer outreach, plus hosting setup,we handle it all for you.",
       "price": "300",
       "bulet": [
         "Up to 3 pages (Home, Services/Products, Contact)",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Standard Package",
-      "content": "Up to 5 pages (e.g., Home, About Us, Services/Products, Gallery, Contact). Basic SEO and social media integration—links to your profiles and share buttons. Unique design fully customized to your brand with graphic content. Includes an image gallery, Google Maps integration, hosting setup, and basic training to update text or images yourself if desired.",
+      "content": "Up to 5 pages (e.g., Home, About Us, Services/Products, Gallery, Contact). Basic SEO and social media integration,links to your profiles and share buttons. Unique design fully customized to your brand with graphic content. Includes an image gallery, Google Maps integration, hosting setup, and basic training to update text or images yourself if desired.",
       "price": "600",
       "bulet": [
         "Up to 5 pages (Home, About Us, Services/Products, Gallery, Contact)",
@@ -57,7 +57,7 @@
     },
     {
       "title": "Ahead of the Competition",
-      "content": "If your competitor has a site and you don’t, guess where people go? We create a website that puts you one step ahead—like having a storefront on the busiest street in town."
+      "content": "If your competitor has a site and you don’t, guess where people go? We create a website that puts you one step ahead,like having a storefront on the busiest street in town."
     }
   ],
   "whatWeDoList": [
@@ -69,10 +69,10 @@
   ],
   "howWeDo": {
     "title": "Why You Need a Website",
-    "description": "Imagine you sell homemade cakes or fix bikes. Today, when people need anything—from food to repairs—they hit Google or ask: ‘Know someone reliable for this?’ Without a website, you’re invisible. That’s where we come in. We build sites that showcase your business 24/7—even while you’re asleep or grabbing coffee with friends. Your site becomes the place where customers see who you are, what you offer, and why they should pick you. Want your business to be seen and shine in the best light? We create a website that’s like your best buddy—always there, always talking you up to your customers."
+    "description": "Imagine you sell homemade cakes or fix bikes. Today, when people need anything,from food to repairs,they hit Google or ask: ‘Know someone reliable for this?’ Without a website, you’re invisible. That’s where we come in. We build sites that showcase your business 24/7,even while you’re asleep or grabbing coffee with friends. Your site becomes the place where customers see who you are, what you offer, and why they should pick you. Want your business to be seen and shine in the best light? We create a website that’s like your best buddy,always there, always talking you up to your customers."
   },
   "whatWeDo": {
     "title": "Our Approach",
-    "description": "No need to chase down different people for design, coding, or copy—we deliver a complete package to make your site a success, exactly how you need it. What does that mean? We craft custom-coded websites from scratch, just for you—no cookie-cutter templates you see all over the web. Ever visit a site and think: ‘I’ve seen this before’? Not with us. Your site will be one-of-a-kind, like a fingerprint, standing out from the crowd. That gives you instant recognition—people will know: ‘Oh, this is that brand, this is their vibe.’"
+    "description": "No need to chase down different people for design, coding, or copy,we deliver a complete package to make your site a success, exactly how you need it. What does that mean? We craft custom-coded websites from scratch, just for you,no cookie-cutter templates you see all over the web. Ever visit a site and think: ‘I’ve seen this before’? Not with us. Your site will be one-of-a-kind, like a fingerprint, standing out from the crowd. That gives you instant recognition,people will know: ‘Oh, this is that brand, this is their vibe.’"
   }
 }

@@ -24,8 +24,8 @@ export default function MainPage() {
                 hideImageOnMobile={false}
                 textSizeClass="lg:text-6xl text-5xl"
                 opis=""
-                subH=""
-                text="Izrada Reels (UGC) Video Reklama"
+                subH="Turn viewers into customers with authentic, scroll-stopping Reels ads crafted by our expert team."
+                text="Supercharge Sales with Reels Ads"
                 className="lg:order-first md:order-first"
             />
              <Info
