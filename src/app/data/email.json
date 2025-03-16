@@ -3,7 +3,7 @@
     {
       "title": "Basic Package",
       "content": "With this package, you get 2,500 email addresses, unique and compelling email designs, and one campaign launch. Plus, we provide a weekly performance analysis to track your results.",
-      "price": "100",
+      "price": "250",
       "bulet": [
         "2,500 email addresses",
         "Custom email creation with unique content",
@@ -15,7 +15,7 @@
     {
       "title": "Standard Package",
       "content": "Unlock 5,000 email addresses with eye-catching, custom-designed emails. We launch two strategically crafted campaigns that hit the right note, analyze the results, and suggest ways to further optimize your customer outreach.",
-      "price": "150",
+      "price": "350",
       "bulet": [
         "5,000 email addresses",
         "Custom email creation with unique content",
@@ -27,7 +27,7 @@
     {
       "title": "Premium Package",
       "content": "Gain access to 7,500 email addresses with standout email designs. We run three interconnected, targeted campaigns, then deliver in-depth analysis to show what works best and how to strengthen your audience connection.",
-      "price": "200",
+      "price": "450",
       "bulet": [
         "7,500 email addresses",
         "Graphic design for emails",

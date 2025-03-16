@@ -3,7 +3,7 @@
     {
       "title": "Basic Package",
       "content": "Up to 3 pages (e.g., Home, Services/Products, Contact). Unique design,no templates,with graphic content tailored for your site. Basic optimization ensures it’s fast and mobile-friendly. Includes a contact form for easy customer outreach, plus hosting setup,we handle it all for you.",
-      "price": "300",
+      "price": "500",
       "bulet": [
         "Up to 3 pages (Home, Services/Products, Contact)",
         "Design with custom graphic content",
@@ -18,7 +18,7 @@
     {
       "title": "Standard Package",
       "content": "Up to 5 pages (e.g., Home, About Us, Services/Products, Gallery, Contact). Basic SEO and social media integration,links to your profiles and share buttons. Unique design fully customized to your brand with graphic content. Includes an image gallery, Google Maps integration, hosting setup, and basic training to update text or images yourself if desired.",
-      "price": "600",
+      "price": "1000",
       "bulet": [
         "Up to 5 pages (Home, About Us, Services/Products, Gallery, Contact)",
         "Unique design tailored to your brand",
@@ -33,7 +33,7 @@
     {
       "title": "Premium Package",
       "content": "Unlimited pages (within reason, of course!). Advanced SEO and custom graphic design from scratch with animations, illustrations, or anything to make you stand out. Advanced features like an online store, booking system, blog, or personalized options you need. Includes Google Analytics, newsletter signup, social media integration, and detailed training for managing your site independently.",
-      "price": "1000",
+      "price": "2000",
       "bulet": [
         "Unlimited pages (within reasonable limits)",
         "Advanced design with animations and illustrations",

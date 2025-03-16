@@ -3,7 +3,7 @@
     {
       "title": "Basic Package",
       "content": "Perfect for getting started with Google Ads, this package includes 1-2 campaigns and 3-5 carefully crafted ads. With up to 50 keywords tailored to your business, you’ll have a solid foundation to attract your target audience.",
-      "price": "100-200",
+      "price": "250",
       "bulet": [
         "1-2 campaigns",
         "3-5 carefully crafted ads",
@@ -15,7 +15,7 @@
     {
       "title": "Standard Package",
       "content": "Designed for businesses aiming to expand their reach, this package offers 3-5 campaigns and 5-10 ads, giving more room for creativity and connecting with the right customers. With over 100 keywords, we’ll get you to your target audience faster and more precisely.",
-      "price": "400-500",
+      "price": "500",
       "bulet": [
         "3-5 campaigns",
         "5-10 carefully crafted ads",
@@ -27,7 +27,7 @@
     {
       "title": "Premium Package",
       "content": "Built for businesses seeking maximum impact, this package includes 6-10 campaigns and 10-20 ads, ensuring top-tier visibility on Google Search. With over 300 keywords, you’ll dominate the market and attract a wide range of potential clients.",
-      "price": "600",
+      "price": "750",
       "bulet": [
         "6-10 campaigns",
         "10-20 carefully crafted ads",

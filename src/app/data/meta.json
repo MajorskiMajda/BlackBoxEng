@@ -3,7 +3,7 @@
     {
       "title": "Basic Package",
       "content": "This package offers 3 campaigns with fully personalized ads,whether images or videos,perfect for small businesses or those new to digital marketing. Test different strategies, explore various audience demographics, and discover your ideal customers with ease.",
-      "price": "200",
+      "price": "300",
       "bulet": [
         "3 campaigns with personalized ads (images)",
         "Ideal for beginners and small businesses",
@@ -15,7 +15,7 @@
     {
       "title": "Standard Package",
       "content": "Get 6 campaigns with more freedom and opportunities to reach your perfect customers. Ideal for businesses looking to boost their online presence and secure consistent results, this package lets you try multiple ideas, see what works best, and adjust your strategy based on top-performing campaigns.",
-      "price": "400",
+      "price": "600",
       "bulet": [
         "6 campaigns with personalized ads (images or video)",
         "Strategy adjustments based on top results",
@@ -27,7 +27,7 @@
     {
       "title": "Premium Package",
       "content": "With 9 campaigns, this is the ultimate choice for businesses serious about leveraging digital marketing. Enjoy advanced campaign optimization for each target group, pinpoint-accurate demographic targeting, and long-term strategic planning for the best possible ROAS (return on ad spend).",
-      "price": "600",
+      "price": "900",
       "bulet": [
         "9 campaigns with advanced optimization",
         "Highly personalized ads (images or video)",
