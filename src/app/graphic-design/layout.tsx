@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: "We create visually impressive logos, banners, Instagram posts, business cards, and newsletters for your brand. Increase your brand recognition with our graphic design services.",
     images: [
       {
-        url: "https://www.black-box-media.com/graphic.svg",
+        url: "https://www.black-box-media.com/pen-tool.svg",
         alt: "Graphic Design Services - Black Box Media",
       },
     ],
@@ -55,29 +55,11 @@ const structuredData = {
     "url": "https://www.black-box-media.com",
   },
   "areaServed": {
-    "@type": "Country",
-    "name": ["Serbia", "Croatia", "Bosnia and Herzegovina"],
-  },
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Graphic Design Service Packages",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "name": "Basic Package",
-        "description": "Logo design, Instagram posts, and basic visual elements for your brand.",
-        "price": "199",
-        "priceCurrency": "USD",
-      },
-      {
-        "@type": "Offer",
-        "name": "Premium Package",
-        "description": "Complete branding package including logo, banners, Instagram posts, business cards, and newsletters.",
-        "price": "499",
-        "priceCurrency": "USD",
-      },
-    ],
+    "@context": "https://schema.org",
+    "@type": "Continent",
+    "name": ["Europe", "North America", "South America"]
   }
+
 };
 
 export default function GraphicDesignLayout({ children }: { children: React.ReactNode }) {

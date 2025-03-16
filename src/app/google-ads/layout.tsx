@@ -58,28 +58,9 @@ const structuredData = {
     "url": "https://www.black-box-media.com",
   },
   "areaServed": {
-    "@type": "Country",
-    "name": ["Serbia", "Croatia", "Bosnia and Herzegovina"],
-  },
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Google Ads Service Packages",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "name": "Basic Package",
-        "description": "Targeted ads on Google to improve visibility and increase CTR.",
-        "price": "199",
-        "priceCurrency": "USD",
-      },
-      {
-        "@type": "Offer",
-        "name": "Premium Package",
-        "description": "Complete Google Ads campaign optimization with targeting, analytics, and strategy to improve results.",
-        "price": "499",
-        "priceCurrency": "USD",
-      },
-    ],
+    "@context": "https://schema.org",
+    "@type": "Continent",
+    "name": ["Europe", "North America", "South America"]
   }
 };
 

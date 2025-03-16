@@ -12,21 +12,21 @@
       "content": "Reach your ideal audience with high-performing Google Ads campaigns. We design, manage, and optimize ads to maximize your ROI, delivering measurable results and skyrocketing your business growth.",
       "iconSrc": "/googleads.svg",
       "buttonLink": "/google-ads",
-      "price": "100"
+      "price": "250"
     },
     {
       "title": "Meta Ads",
       "content": "Elevate your brand’s visibility on Facebook and Instagram with targeted Meta Ads. Our team creates stunning visuals and optimizes campaigns for maximum conversions, helping you connect with more customers.",
       "iconSrc": "/meta.svg",
       "buttonLink": "/meta-ads",
-      "price": "100"
+      "price": "300"
     },
     {
       "title": "Email Outreach",
       "content": "Engage your clients like never before with tailored email marketing campaigns. We craft personalized emails, segment your audience, and track performance to boost loyalty and sales.",
       "iconSrc": "/gmail.svg",
       "buttonLink": "/email-marketing",
-      "price": "150"
+      "price": "250"
     }
   ],
   "brandingCardContents": [
@@ -35,21 +35,21 @@
       "content": "Let our experts take charge of your social media presence. We create captivating content, respond to comments and messages, and produce Reels to skyrocket engagement and grow your following.",
       "iconSrc": "/instagram.svg",
       "buttonLink": "/social-media-management",
-      "price": "200"
+      "price": "300"
     },
     {
       "title": "Reels Video Ads",
       "content": "Capture your audience’s attention with dynamic UGC Reels video ads. We shoot, edit, and optimize original concepts to maximize reach and turn viewers into loyal customers.",
       "iconSrc": "/video.svg",
       "buttonLink": "/reels-ads",
-      "price": "200"
+      "price": "250"
     },
     {
       "title": "Website Development",
       "content": "Get a custom website designed to meet your goals. We build user-friendly, mobile-optimized sites with stunning designs to enhance your online presence and drive conversions.",
       "iconSrc": "/domain.svg",
       "buttonLink": "/website-development",
-      "price": "350"
+      "price": "500"
     },
     {
       "title": "Graphic Design",

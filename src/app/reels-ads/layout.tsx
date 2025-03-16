@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: "We create engaging and captivating Reels video ads for your brand. We specialize in producing UGC (User-Generated Content) Reels content that boosts sales and engagement.",
     images: [
       {
-        url: "https://www.black-box-media.com/reels.svg",
+        url: "https://www.black-box-media.com/video.svg",
         alt: "Reels UGC Ads - Black Box Media",
       },
     ],
@@ -72,36 +72,11 @@ const structuredData = {
     "url": "https://www.black-box-media.com",
   },
   "areaServed": {
-    "@type": "Country",
-    "name": ["Serbia", "Croatia", "Bosnia and Herzegovina"],
-  },
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Reels Ad Production Service Packages",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "name": "Single Reels Ad",
-        "description": "We create one attention-grabbing Reels ad that drives increased sales for your product or service.",
-        "price": "150",
-        "priceCurrency": "USD",
-      },
-      {
-        "@type": "Offer",
-        "name": "Basic Package",
-        "description": "Filming, editing, and production of high-quality Reels video ads for your brand.",
-        "price": "300",
-        "priceCurrency": "USD",
-      },
-      {
-        "@type": "Offer",
-        "name": "Premium Package",
-        "description": "Advanced Reels content production with editing, effects, and strategy for maximum engagement.",
-        "price": "600",
-        "priceCurrency": "USD",
-      },
-    ],
+    "@context": "https://schema.org",
+    "@type": "Continent",
+    "name": ["Europe", "North America", "South America"]
   }
+
 };
 
 export default function ReelsProductionLayout({ children }: { children: React.ReactNode }) {

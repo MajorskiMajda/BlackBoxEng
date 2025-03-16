@@ -1,16 +1,16 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "O nama | Black Box Media - Marketing stručnjaci u Srbiji",
-  description: "Upoznajte Black Box Media, vodeću marketing agenciju za digitalne kampanje, brending i rast poslovanja. Kontaktirajte nas za uspeh vašeg brenda!",
+  title: "About Us | Black Box Media - Marketing Experts in Serbia",
+  description: "Get to know Black Box Media, a leading marketing agency for digital campaigns, branding, and business growth. Contact us for your brand’s success!",
   metadataBase: new URL("https://www.black-box-media.com"), 
   openGraph: {
-    title: "O nama | Black Box Media - Vaš partner za marketing",
-    description: "Saznajte više o Black Box Media i kako pomažemo klijentima da ostvare svoje poslovne ciljeve kroz kreativan i efektan marketing.",
-    url: "https://www.black-box-medial/onama",
+    title: "About Us | Black Box Media - Your Marketing Partner",
+    description: "Learn more about Black Box Media and how we help clients achieve their business goals through creative and effective marketing.",
+    url: "https://www.black-box-media.com/about",
     type: "website",
   },
-  keywords: "marketing agencija, digitalni marketing, brending, oglašavanje, Srbija, marketing agencija, digitalni marketing, brending, oglašavanje, Srbija, marketinška strategija, marketing konsultacije, kreativna agencija, full-service marketing, SEO optimizacija, lokalni SEO, tehnički SEO, SEO strategija, SEO analiza, optimizacija sajta, ključne reči, backlinking, on-page SEO, off-page SEO, social media marketing, menadžment društvenih mreža, povećanje engagementa, Instagram strategija ", 
+  keywords: "marketing agency, digital marketing, branding, advertising, Serbia, marketing agency, digital marketing, branding, advertising, Serbia, marketing strategy, marketing consulting, creative agency, full-service marketing, SEO optimization, local SEO, technical SEO, SEO strategy, SEO analysis, website optimization, keywords, backlinking, on-page SEO, off-page SEO, social media marketing, social media management, increasing engagement, Instagram strategy", 
   authors: [{ name: "Black Box Media" }],
   robots: "index, follow",
 };

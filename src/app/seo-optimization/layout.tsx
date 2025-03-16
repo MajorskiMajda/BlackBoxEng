@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: "Increase your website's visibility in search engines with our SEO services. We specialize in technical SEO optimization, content optimization, and long-term strategies to increase organic traffic.",
     images: [
       {
-        url: "https://www.black-box-media.com/seoo.svg",
+        url: "https://www.black-box-media.com/google.svg",
         alt: "SEO Optimization - Black Box Media",
       },
     ],
@@ -76,35 +76,9 @@ const structuredData = {
     "url": "https://www.black-box-media.com",
   },
   "areaServed": {
-    "@type": "Country",
-    "name": ["Serbia", "Croatia", "Bosnia and Herzegovina"],
-  },
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "SEO Optimization Service Packages",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "name": "Basic SEO Package",
-        "description": "Website optimization for keywords, basic meta tags, and technical SEO elements.",
-        "price": "150",
-        "priceCurrency": "USD",
-      },
-      {
-        "@type": "Offer",
-        "name": "Premium SEO Package",
-        "description": "Complete SEO optimization with advanced strategies, analytics, link building, and content optimization.",
-        "price": "300",
-        "priceCurrency": "USD",
-      },
-      {
-        "@type": "Offer",
-        "name": "E-commerce SEO Package",
-        "description": "Specialized SEO optimization for online stores with a focus on increasing conversions and organic traffic.",
-        "price": "500",
-        "priceCurrency": "USD",
-      },
-    ],
+    "@context": "https://schema.org",
+    "@type": "Continent",
+    "name": ["Europe", "North America", "South America"]
   }
 };
 

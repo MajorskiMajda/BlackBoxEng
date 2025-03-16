@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: "Increase your brand's sales and engagement with our email marketing services. We specialize in creating personalized email campaigns, automated sequences, and analytics.",
     images: [
       {
-        url: "https://www.black-box-media.com/emailm.svg",
+        url: "https://www.black-box-media.com/gmail.svg",
         alt: "Email Marketing Services - Black Box Media",
       },
     ],
@@ -71,36 +71,10 @@ const structuredData = {
     "url": "https://www.black-box-media.com",
   },
   "areaServed": {
-    "@type": "Country",
-    "name": ["Serbia", "Croatia", "Bosnia and Herzegovina"],
-  },
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Email Marketing Service Packages",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "name": "Basic Email Marketing Package",
-        "description": "Creation and sending of basic email campaigns with database segmentation and basic analytics.",
-        "price": "200",
-        "priceCurrency": "USD",
-      },
-      {
-        "@type": "Offer",
-        "name": "Advanced Email Marketing Package",
-        "description": "Creation of personalized email campaigns, automated sequences, and advanced analytics.",
-        "price": "400",
-        "priceCurrency": "USD",
-      },
-      {
-        "@type": "Offer",
-        "name": "Premium Email Marketing Package",
-        "description": "Complete email marketing strategy with A/B testing, CRM integration, and detailed analytics.",
-        "price": "600",
-        "priceCurrency": "USD",
-      },
-    ],
-  },
+    "@context": "https://schema.org",
+    "@type": "Continent",
+    "name": ["Europe", "North America", "South America"]
+  }
 };
 
 export default function EmailMarketingLayout({ children }: { children: React.ReactNode }) {

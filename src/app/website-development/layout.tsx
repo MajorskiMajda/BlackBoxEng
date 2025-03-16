@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Website Development",
     description: "Professional creation of modern and functional custom websites tailored to your brand and needs. We create responsive and optimized sites that enhance your online presence with Black Box Media.",
-    images: "https://www.black-box-media.com/webdev.svg",
+    images: "https://www.black-box-media.com/domain.svg",
     url: "https://www.black-box-media.com/izrada-sajtova",
     type: "website",
   },
@@ -31,36 +31,11 @@ const structuredData = {
     "logo": "https://www.black-box-media.com/log.svg"
   },
   "areaServed": {
-    "@type": "Country",
-    "name": ["Serbia", "Croatia", "Bosnia and Herzegovina"]
-  },
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Website Development Service Packages",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "name": "Basic Website",
-        "description": "Creation of a simple website with up to 3 pages, mobile-friendly and search optimized.",
-        "price": "300",
-        "priceCurrency": "USD"
-      },
-      {
-        "@type": "Offer",
-        "name": "Advanced Website",
-        "description": "Creation of a custom website with additional functionalities and SEO optimization.",
-        "price": "500",
-        "priceCurrency": "USD"
-      },
-      {
-        "@type": "Offer",
-        "name": "Online Store Website",
-        "description": "Development of a professional online store with payment integration and advanced features.",
-        "price": "2000",
-        "priceCurrency": "USD"
-      },
-    ]
+    "@context": "https://schema.org",
+    "@type": "Continent",
+    "name": ["Europe", "North America", "South America"]
   }
+  
 };
 
 export default function WebsiteDevelopmentLayout({ children }: { children: React.ReactNode }) {

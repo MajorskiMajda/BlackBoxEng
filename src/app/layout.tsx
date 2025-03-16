@@ -160,11 +160,10 @@ const structuredData = {
   "logo": "https://www.black-box-media.com/log.svg",
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+381-60-130-5588",
     "contactType": "customer service",
     "email": "info@black-box-media.com",
-    "areaServed": ["RS", "HR", "BA"],
-    "availableLanguage": ["sr", "en"]
+   "areaServed": ["Europe", "North America", "South America"],
+  "availableLanguage": ["en"]
   },
   "sameAs": [
     "https://www.facebook.com/yourpage",
