@@ -1,5 +1,5 @@
 module.exports = {
-    siteUrl: 'https://www.black-box-media.com',
+    siteUrl: 'https://www.eng.black-box-media.com',
     generateRobotsTxt: true, 
   }
   

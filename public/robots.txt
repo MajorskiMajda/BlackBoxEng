@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.black-box-media.com
+Host: https://www.eng.black-box-media.com
 
 # Sitemaps
-Sitemap: https://www.black-box-media.com/sitemap.xml
+Sitemap: https://www.eng.black-box-media.com/sitemap.xml
