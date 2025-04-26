@@ -34,6 +34,16 @@ const Footer = () => {
                 Contact Us
               </Link>
             </li>
+            <li>
+              <Link href="/termsandcondition" className="text-neutral-400 text-lg hover:text-[#da26ff]">
+                Terms and Conditions
+              </Link>
+            </li>
+            <li>
+              <Link href="/privacypolicy" className="text-neutral-400 text-lg hover:text-[#da26ff]">
+                Privacy Policy
+              </Link>
+            </li>
           </ul>
         </div>
 
@@ -57,7 +67,7 @@ const Footer = () => {
       {/* Bottom Section */}
       <div className="mt-12 border-t border-gray-700 pt-6 text-center">
         <p className="text-neutral-300">
-          © {new Date().getFullYear()} Black Box Media. All rights reserved.
+          © {new Date().getFullYear()} Vendora Group LLC. 30 N Gould St Ste R, Sheridan, WY 82801, USA. All rights reserved.
         </p>
       </div>
     </footer>
