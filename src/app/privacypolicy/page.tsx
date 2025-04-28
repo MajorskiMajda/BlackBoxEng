@@ -121,7 +121,7 @@ export default function PrivacyPolicyPage() {
             If there are any questions regarding this privacy policy, you may contact us at:<br />
             <strong>Vendora Group LLC</strong><br />
             30 N Gould St Ste R, Sheridan, WY 82801, USA<br />
-            Email: info@vendoragroup.com<br />
+            Email: info@black-box-media.com<br />
             Website: https://eng.black-box-media.com
           </p>
         </section>
